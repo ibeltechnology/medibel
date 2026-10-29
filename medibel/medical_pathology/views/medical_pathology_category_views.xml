@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <record id="medical_pathology_category_form_view" model="ir.ui.view">
+            <field name="name">medical.pathology.category.form.view</field>
+            <field name="model">medical.pathology.category</field>
+            <field name="arch" type="xml">
+                <form string="Disease categories">
+                    <sheet>
+                        <div class="oe_button_box" name="button_box">
+                            <button class="oe_stat_button" type="object" name="action_pathology"  icon="fa-bug">
+                                <field string="Pathology" name="pathology_ids_count" widget="statinfo"/>
+                            </button>
+                        </div>  
+                        <group>
+                            <group>
+                                <field name="name" />
+                                <field name="parent_id" />
+                             </group>
+                            <group>
+                                <field name="active" />
+                             </group>
+                        </group>
+                    </sheet>        
+                </form>
+            </field>
+        </record>
+
+        <record id="medical_pathology_category_tree_view" model="ir.ui.view">
+            <field name="name">medical.pathology.category.tree.view</field>
+            <field name="model">medical.pathology.category</field>
+            <field name="arch" type="xml">
+                <list string="Disease Categories">
+                    <field name="display_name" string="Pathology Category"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="action_medical_pathology_category_tree"
+            model="ir.actions.act_window">
+            <field name="name">Disease categories Structure</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">medical.pathology.category</field>
+            <field name="binding_view_types">tree</field>
+            <field name="view_mode">list,form</field>
+        </record>
+        <record model="ir.ui.view" id="medical_pathology_category_search_view">
+            <field name="name">medical.pathology.category.search.view</field>
+            <field name="model">medical.pathology.category</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name"/>
+                    <filter name="by_parent_catégory" string="Catégorie parent" context="{'group_by': 'parent_id'}"/>
+                </search>
+            </field>
+        </record>
+        <record id="medical_pathology_category_action"
+            model="ir.actions.act_window">
+            <field name="name">Pathology categories</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">medical.pathology.category</field>
+            <field name="binding_view_types">form</field>
+            <field name="view_mode">list,form,search</field>
+        </record>
+        
+</odoo>

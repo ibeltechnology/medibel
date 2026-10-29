@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_medicaments" model="ir.actions.act_window">
+        <field name="name">Medicaments</field>
+        <field name="path">medicaments</field>
+        <field name="res_model">product.template</field>
+        <field name="view_mode">kanban,list,form</field>
+        <field name="view_id" ref="product.product_template_kanban_view"/>
+        <field name="search_view_id" ref="product.product_template_search_view"/>
+        <field name="context">{'default_is_medicament': True}</field>
+        <field name="domain">[('is_medicament','=', True)]</field>
+        <field name="help" type="html">
+          <p class="o_view_nocontent_smiling_face">
+            Create a medicine
+          </p><p>
+            Odoo helps you track all activities related to your medicaments.
+          </p>
+        </field>
+    </record>
+    <record id="action_medicaments_view_kanban" model="ir.actions.act_window.view">
+        <field name="sequence" eval="0"/>
+        <field name="view_mode">kanban</field>
+        <field name="view_id" ref="product.product_template_kanban_view"/>
+        <field name="act_window_id" ref="action_medicaments"/>
+    </record>
+    <record id="action_medicaments_view_tree" model="ir.actions.act_window.view">
+        <field name="sequence" eval="1"/>
+        <field name="view_mode">list</field>
+        <field name="view_id" ref="account.product_template_list_view_sellable_inherit"/>
+        <field name="act_window_id" ref="action_medicaments"/>
+    </record>
+    <record id="action_medicaments_view_form" model="ir.actions.act_window.view">
+        <field name="sequence" eval="2"/>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="product.product_template_only_form_view"/>
+        <field name="act_window_id" ref="action_medicaments"/>
+    </record>
+</odoo>

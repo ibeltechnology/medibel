@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <record id="patient_registration_sequence" model="ir.sequence">
+            <field name="name">Patient Seq</field>
+            <field name="code">res.partner</field>
+            <field name="prefix">Pa</field>
+            <field name="padding">6</field>
+        </record>
+</odoo>

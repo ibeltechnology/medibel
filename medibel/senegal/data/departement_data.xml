@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data noupdate="0">
+        <record model="departement.departement" id="dep01">
+            <field name="name">Dakar</field>
+            <field name="code">SN-DK-dk</field>
+            <field name="region_id" ref="sn01"></field>
+        </record>
+        <record model="departement.departement" id="dep02">
+            <field name="name">Guédiawaye</field>
+            <field name="code">SN-DK_GW</field>
+            <field name="region_id" ref="sn01"></field>
+        </record>
+        <record model="departement.departement" id="dep03">
+            <field name="name">Pikine</field>
+            <field name="code">SN-DK-PK</field>
+            <field name="region_id" ref="sn01"></field>
+        </record>
+        <record model="departement.departement" id="dep04">
+            <field name="name">Rufisque</field>
+            <field name="code">SN-DK-RU</field>
+            <field name="region_id" ref="sn01"></field>
+        </record>
+        <record model="departement.departement" id="dep05">
+            <field name="name">Keur Massar</field>
+            <field name="code">SN-DK_KM</field>
+            <field name="region_id" ref="sn01"></field>
+        </record>
+        <record model="departement.departement" id="dep06">
+            <field name="name">Bignogna</field>
+            <field name="code">SN-ZG-BG</field>
+            <field name="region_id" ref="sn02"></field>
+        </record>
+        <record model="departement.departement" id="dep07">
+            <field name="name">Oussouye</field>
+            <field name="code">SN-ZG-OU</field>
+            <field name="region_id" ref="sn02"></field>
+        </record>
+        <record model="departement.departement" id="dep08">
+            <field name="name">Ziguinchor</field>
+            <field name="code">SN-ZG-ZG</field>
+            <field name="region_id" ref="sn02"></field>
+        </record>
+        <record model="departement.departement" id="dep09">
+            <field name="name">Diourbel</field>
+            <field name="code">SN-DL-DL</field>
+            <field name="region_id" ref="sn03"></field>
+        </record>
+        <record model="departement.departement" id="dep10">
+            <field name="name">Mbacké</field>
+            <field name="code">SN-DL-MB</field>
+            <field name="region_id" ref="sn03"></field>
+        </record>
+        <record model="departement.departement" id="dep11">
+            <field name="name">Bambey</field>
+            <field name="code">SN-DL-BM</field>
+            <field name="region_id" ref="sn03"></field>
+        </record>
+        <record model="departement.departement" id="dep12">
+            <field name="name">Saint Louis</field>
+            <field name="code">SN-SL-SL</field>
+            <field name="region_id" ref="sn04"></field>
+        </record>
+        <record model="departement.departement" id="dep13">
+            <field name="name">Podor</field>
+            <field name="code">SN-SL-PD</field>
+            <field name="region_id" ref="sn04"></field>
+        </record>
+        <record model="departement.departement" id="dep14">
+            <field name="name">Dagana</field>
+            <field name="code">SN-SL-DG</field>
+            <field name="region_id" ref="sn04"></field>
+        </record>
+        <record model="departement.departement" id="dep15">
+            <field name="name">Tambacounda</field>
+            <field name="code">SN-TC-TC</field>
+            <field name="region_id" ref="sn05"></field>
+        </record>
+        <record model="departement.departement" id="dep16">
+            <field name="name">Bakel</field>
+            <field name="code">SN-TC-BK</field>
+            <field name="region_id" ref="sn05"></field>
+        </record>
+        <record model="departement.departement" id="dep17">
+            <field name="name">Koumpentoum</field>
+            <field name="code">SN-TC-KP</field>
+            <field name="region_id" ref="sn05"></field>
+        </record>
+        <record model="departement.departement" id="dep18">
+            <field name="name">Goudiry</field>
+            <field name="code">SN-TC-GD</field>
+            <field name="region_id" ref="sn05"></field>
+        </record>
+        <record model="departement.departement" id="dep19">
+            <field name="name">Kaolack</field>
+            <field name="code">SN-KL-KL</field>
+            <field name="region_id" ref="sn06"></field>
+        </record>
+        <record model="departement.departement" id="dep20">
+            <field name="name">Nioro du Rip</field>
+            <field name="code">SN-KL-NR</field>
+            <field name="region_id" ref="sn06"></field>
+        </record>
+        <record model="departement.departement" id="dep21">
+            <field name="name">Guinguinéo</field>
+            <field name="code">SN-KL-GEO</field>
+            <field name="region_id" ref="sn06"></field>
+        </record>
+        <record model="departement.departement" id="dep22">
+            <field name="name">Thies</field>
+            <field name="code">SN-TH-TH</field>
+            <field name="region_id" ref="sn07"></field>
+        </record>
+        <record model="departement.departement" id="dep23">
+            <field name="name">Mbour</field>
+            <field name="code">SN-TH-MB</field>
+            <field name="region_id" ref="sn07"></field>
+        </record>
+        <record model="departement.departement" id="dep24">
+            <field name="name">Tivaouane</field>
+            <field name="code">SN-TH-TV</field>
+            <field name="region_id" ref="sn07"></field>
+        </record>
+        <record model="departement.departement" id="dep25">
+            <field name="name">Kébémer</field>
+            <field name="code">SN-LG-KB</field>
+            <field name="region_id" ref="sn08"></field>
+        </record>
+        <record model="departement.departement" id="dep26">
+            <field name="name">Liguère</field>
+            <field name="code">SN-LG-LI</field>
+            <field name="region_id" ref="sn08"></field>
+        </record>
+        <record model="departement.departement" id="dep27">
+            <field name="name">Louga</field>
+            <field name="code">SN-LG-LG</field>
+            <field name="region_id" ref="sn08"></field>
+        </record>
+        <record model="departement.departement" id="dep28">
+            <field name="name">Fatick</field>
+            <field name="code">SN-FK-FK</field>
+            <field name="region_id" ref="sn09"></field>
+        </record>
+        <record model="departement.departement" id="dep29">
+            <field name="name">Foundiougne</field>
+            <field name="code">SN-FK-FOU</field>
+            <field name="region_id" ref="sn09"></field>
+        </record>
+        <record model="departement.departement" id="dep30">
+            <field name="name">Gossas</field>
+            <field name="code">SN-FK-GO</field>
+            <field name="region_id" ref="sn09"></field>
+        </record>
+        <record model="departement.departement" id="dep31">
+            <field name="name">Kolda</field>
+            <field name="code">SN-KD-KD</field>
+            <field name="region_id" ref="sn10"></field>
+        </record>
+        <record model="departement.departement" id="dep32">
+            <field name="name">Vélingara</field>
+            <field name="code">SN-KD-VL</field>
+            <field name="region_id" ref="sn10"></field>
+        </record>
+        <record model="departement.departement" id="dep33">
+            <field name="name">Médina Yoro Foulah</field>
+            <field name="code">SN-KD-MYF</field>
+            <field name="region_id" ref="sn10"></field>
+        </record>
+        <record model="departement.departement" id="dep34">
+            <field name="name">Matam</field>
+            <field name="code">SN-MT-MT</field>
+            <field name="region_id" ref="sn11"></field>
+        </record>
+        <record model="departement.departement" id="dep35">
+            <field name="name">Kanel</field>
+            <field name="code">SN-MT-KA</field>
+            <field name="region_id" ref="sn11"></field>
+        </record>
+        <record model="departement.departement" id="dep36">
+            <field name="name">Ranérou</field>
+            <field name="code">SN-MT-RA</field>
+            <field name="region_id" ref="sn11"></field>
+        </record>
+        <record model="departement.departement" id="dep37">
+            <field name="name">Kafrine</field>
+            <field name="code">SN-KA-KA</field>
+            <field name="region_id" ref="sn12"></field>
+        </record>
+        <record model="departement.departement" id="dep38">
+            <field name="name">Birkilane</field>
+            <field name="code">SN-KA-BI</field>
+            <field name="region_id" ref="sn12"></field>
+        </record>
+        <record model="departement.departement" id="dep39">
+            <field name="name">Malem-Hodar</field>
+            <field name="code">SN-KA-MH</field>
+            <field name="region_id" ref="sn12"></field>
+        </record>
+        <record model="departement.departement" id="dep40">
+            <field name="name">Kounghel</field>
+            <field name="code">SN-KA-KG</field>
+            <field name="region_id" ref="sn12"></field>
+        </record>
+        <record model="departement.departement" id="dep41">
+            <field name="name">Salemata</field>
+            <field name="code">SN-KE-SL</field>
+            <field name="region_id" ref="sn13"></field>
+        </record>
+        <record model="departement.departement" id="dep42">
+            <field name="name">Kedougou</field>
+            <field name="code">SN-KE-KE</field>
+            <field name="region_id" ref="sn13"></field>
+        </record>
+        <record model="departement.departement" id="dep43">
+            <field name="name">Saraya</field>
+            <field name="code">SN-KE-SA</field>
+            <field name="region_id" ref="sn13"></field>
+        </record>
+        <record model="departement.departement" id="dep44">
+            <field name="name">Sedhiou</field>
+            <field name="code">SN-SE-SE</field>
+            <field name="region_id" ref="sn14"></field>
+        </record>
+        <record model="departement.departement" id="dep45">
+            <field name="name">Bounkiling</field>
+            <field name="code">SN-SE-BO</field>
+            <field name="region_id" ref="sn14"></field>
+        </record>
+        <record model="departement.departement" id="dep46">
+            <field name="name">Goudomp</field>
+            <field name="code">SN-SE-GD</field>
+            <field name="region_id" ref="sn14"></field>
+        </record>
+    </data>
+</openerp>

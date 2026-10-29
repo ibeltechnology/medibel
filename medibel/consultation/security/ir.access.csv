@@ -1,0 +1,3 @@
+id,name,model_id,group_id:id,operation,domain
+access_consultation_evaluation_group_user,access_consultation_evaluation_group_user,consultation.evaluation,group_user,crud,
+access_consultation_evaluation_group_manager,access_consultation_evaluation_group_manager,consultation.evaluation,group_manager,crud,

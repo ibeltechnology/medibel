@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_patients" model="ir.actions.act_window">
+        <field name="name">Patients</field>
+        <field name="path">patients</field>
+        <field name="res_model">res.partner</field>
+        <field name="view_mode">kanban,list,form,activity</field>
+        <field name="view_id" ref="base.res_partner_kanban_view"/>
+        <field name="search_view_id" ref="base.view_res_partner_filter"/>
+        <field name="context">{'default_is_company': False, 'default_is_patient': True}</field>
+        <field name="domain">[('is_patient','=', True)]</field>
+        <field name="help" type="html">
+          <p class="o_view_nocontent_smiling_face">
+            Create a Patient in your address book
+          </p><p>
+            Odoo helps you track all activities related to your patients.
+          </p>
+        </field>
+    </record>
+    <record id="action_patients_view_kanban" model="ir.actions.act_window.view">
+        <field name="sequence" eval="1"/>
+        <field name="view_mode">kanban</field>
+        <field name="view_id" ref="base.res_partner_kanban_view"/>
+        <field name="act_window_id" ref="action_patients"/>
+    </record>
+    <record id="action_patients_view_tree" model="ir.actions.act_window.view">
+        <field name="sequence" eval="0"/>
+        <field name="view_mode">list</field>
+        <field name="view_id" ref="base.view_partner_tree"/>
+        <field name="act_window_id" ref="action_patients"/>
+    </record>
+    <record id="action_patients_view_form" model="ir.actions.act_window.view">
+        <field name="sequence" eval="2"/>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="base.view_partner_form"/>
+        <field name="act_window_id" ref="action_patients"/>
+    </record>
+    <record id="res_partner_search_groupby_region" model="ir.ui.view">
+        <field name="name">res.partner.search.groupby.region</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_res_partner_filter"/>
+        <field name="arch" type="xml">
+            <xpath expr="//search" position="inside">
+                <filter name="group_by_region_fallback" string="Region" context="{'group_by': 'region_id'}"/>
+            </xpath>
+        </field>
+    </record>
+    <record id="res_partner_search_groupby_department" model="ir.ui.view">
+        <field name="name">res.partner.search.groupby.department</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_res_partner_filter"/>
+        <field name="arch" type="xml">
+            <xpath expr="//search" position="inside">
+                <filter name="group_by_department_fallback" string="Department" context="{'group_by': 'departement_id'}"/>
+            </xpath>
+        </field>
+    </record>
+    <record id="res_partner_search_groupby_arrondissement" model="ir.ui.view">
+        <field name="name">res.partner.search.groupby.arrondissement</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_res_partner_filter"/>
+        <field name="arch" type="xml">
+            <xpath expr="//search" position="inside">
+                <filter name="group_by_arrondissement_fallback" string="Arrondissememnt" context="{'group_by': 'arrondissement_id'}"/>
+            </xpath>
+        </field>
+    </record>
+    <record id="res_partner_search_groupby_commune" model="ir.ui.view">
+        <field name="name">res.partner.search.groupby.commune</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_res_partner_filter"/>
+        <field name="arch" type="xml">
+            <xpath expr="//search" position="inside">
+                <filter name="group_by_commune_fallback" string="Commune" context="{'group_by': 'commune_id'}"/>
+            </xpath>
+        </field>
+    </record>
+    <record id="view_patient_groupbyregion_graph" model="ir.ui.view">
+        <field name="name">res.parrtner.patients.groupby.region</field>
+        <field name="model">res.partner</field>
+        <field name="arch" type="xml">
+            <graph type="bar">
+                <field name="region_id" type="row"/>
+            </graph>
+        </field>
+    </record>
+    <record id="action_patients_graph" model="ir.actions.act_window">
+        <field name="name">Patients by region</field>
+        <field name="res_model">res.partner</field>
+        <field name="view_mode">graph</field>
+        <field name="domain">[('is_patient','=', True)]</field>
+    </record>
+
+    <menuitem name="Patients" id="menu_patients" sequence="20" web_icon="patients,static/description/icon.png" groups="patients.group_user,patients.group_manager"/>
+
+    <menuitem id="res_partner_menu_patients" name="Patients" action="action_patients" parent="menu_patients" sequence="1"/>
+    <menuitem id="res_partner_menu_patients_report" name="Reports" parent="menu_patients" sequence="2"/>
+    <menuitem id="res_partner_menu_patients_graph_by_region" name="Patients by region" action="action_patients_graph" parent="res_partner_menu_patients_report" sequence="2"/>
+        
+    <menuitem id="patients_top_menu_settings" name="Configuration" parent="menu_patients" groups="patients.group_manager" sequence="3"/>
+    <menuitem id="patients_pathology_menu" name="Pathologies" parent="patients_top_menu_settings" sequence="1"/>
+    <menuitem id="patients_pathology_category_menu_action" name="Pathology Categories" parent="patients_pathology_menu" sequence="1" action="medical_pathology.medical_pathology_category_action"/>
+    <menuitem id="patients_pathology_group_menu_action" name="Pathology Groups" parent="patients_pathology_menu" sequence="2" action="medical_pathology.action_medical_pathology_group"/>
+    <menuitem id="patients_pathology_menu_action" name="Pathologies" parent="patients_pathology_menu" sequence="3" action="medical_pathology.patient_pathology_action"/>   
+    <menuitem id="patients_specialty_menu" name="Specialties" parent="patients_top_menu_settings" sequence="2"/>
+    <menuitem id="patients_specialty_menu_action" name="Specialties" parent="patients_specialty_menu" sequence="1" action="medical_specialty.specialty_specialty_action"/>
+    <menuitem id="patient_range_menu_action" action="partner_personal_profile.patient_range_action" name="Age Range" parent="patients_top_menu_settings" sequence="3"/>
+    <menuitem id="patients_subdivision_menu" name="Administratifs Subdivision " parent="patients_top_menu_settings" sequence="4"/>
+    <menuitem id="patients_subdivision_menu_actionregion" action="ibel_location.action_region" name="Regions" parent="patients_subdivision_menu" sequence="1"/>
+    <menuitem id="patients_subdivision_menu_action_departement" action="ibel_location.action_departement" name="Departments" parent="patients_subdivision_menu" sequence="2"/>
+    <menuitem id="patients_subdivision_menu_action_arrondissement" action="ibel_location.action_arrondissement" name="Arrondissements" parent="patients_subdivision_menu" sequence="3"/>
+    <menuitem id="patients_subdivision_menu_action_commune" action="ibel_location.action_commune" name="Communes" parent="patients_subdivision_menu" sequence="4"/>
+    <menuitem id="ibel_gender_medical_gender_menu_action" action="ibel_gender.ibel_gender_medical_gender_action" name="Genders" parent="patients_top_menu_settings" sequence="10"/>
+</odoo>

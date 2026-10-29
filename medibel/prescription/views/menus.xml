@@ -1,0 +1,11 @@
+<odoo>
+    <data>
+        <menuitem id="prescription_main_menu" name="Prescription" web_icon="prescription,static/description/icon.png"/>
+        <menuitem id="prescription_top_menu_prescription" name="Prescription" parent="prescription_main_menu" sequence="0"/>
+        <menuitem id="prescription_top_menu_analyses" name="Analyses" parent="prescription_main_menu" sequence="1"/>
+        <menuitem id="prescription_top_menu_settings" name="Configuration" parent="prescription_main_menu" groups="group_manager" sequence="20"/>
+        <menuitem id="prescription_action_medicament" name="Medicaments" parent="prescription_top_menu_settings" groups="group_manager" sequence="4" action="medicaments_sn.action_medicaments"/>
+        <menuitem id="prescription_action_medicament_category" name="Medicament categories" parent="prescription_top_menu_settings" groups="group_manager" sequence="2" action="product.product_category_action_form"/>
+        <menuitem id="prescription_action_medicament_dci" name="Medicament DCI" parent="prescription_top_menu_settings" groups="group_manager" sequence="3" action="medicaments_sn.medicament_dci_action"/>
+    </data>
+</odoo>

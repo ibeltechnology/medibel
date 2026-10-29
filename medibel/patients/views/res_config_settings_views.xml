@@ -1,0 +1,34 @@
+<odoo>
+    <data>
+        <record id="res_config_settings_view_form" model="ir.ui.view">
+            <field name="name">res.config.settings.view.form.inherit.patients</field>
+            <field name="model">res.config.settings</field>
+            <field name="priority" eval="90"/>
+            <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//form" position="inside">
+                    <app data-string="Patients" string="Patients" name="patients" groups="patients.group_manager">
+                        <block title="Patients record">
+                            <setting string="ICD 11 " help="International Classification of Diseases 11th Revision.">
+                                <field name="module_icd11"/>
+                            </setting>
+                        </block>
+                    </app>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="patients_config_settings_action" model="ir.actions.act_window">
+            <field name="name">Settings</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.config.settings</field>
+            <field name="view_mode">form</field>
+            <field name="context">{'module' : 'patients', 'bin_size': False}</field>
+        </record>
+
+        <menuitem id="patients_config_settings_menu" name="Settings"
+            parent="patients.patients_top_menu_settings" sequence="0" action="patients_config_settings_action"
+            groups="base.group_system"/>
+
+    </data>
+</odoo>

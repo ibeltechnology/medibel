@@ -1,0 +1,866 @@
+
+<odoo>
+    <data noupdate="0">
+        <record model="arrondissement.arrondissement" id="arr001">
+            <field name="name">Dakar Plateau</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr002">
+            <field name="name">Parcelles Assainies</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr003">
+            <field name="name">Almadies</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr004">
+            <field name="name">Grand Dakar</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="dakar_ha">
+            <field name="name">Dakar Hors Arrondissement</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr005">
+            <field name="name">Sam Notaire</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep02"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr006">
+            <field name="name">Wakhinane Nimzatt</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep02"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="guediawaye_ha">
+            <field name="name"> Guédiawaye Hors Arrondissement</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep02"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr007">
+            <field name="name">Pikine Dagoudane</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep03"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr008">
+            <field name="name">Thiaroye</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep03"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="pikine_ha">
+            <field name="name">Pikine Hors Arrondissement</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep03"></field>
+        </record> 
+        <record model="arrondissement.arrondissement" id="arr010">
+            <field name="name">Rufisque EST</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep04"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr011">
+            <field name="name">Sangalkam</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep04"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr012">
+            <field name="name">Diamniadio</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep04"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="rufisque_ha">
+            <field name="name">Rufisque Hors Arrondissement</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep04"></field>
+        </record>  
+        <record model="arrondissement.arrondissement" id="arr014">
+            <field name="name">Yeumbeul</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep05"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr015">
+            <field name="name">Malika</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep05"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr016">
+            <field name="name">Jaxaay</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep05"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr017">
+            <field name="name">Tenghori</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr018">
+            <field name="name">Tendouck</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr019">
+            <field name="name">Sindian</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr020">
+            <field name="name">Kataba 1</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="bignona_ha">
+            <field name="name">Bignona Hors Arrondissement</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr021">
+            <field name="name">Loudia Ouolof</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep07"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr022">
+            <field name="name">Cabrousse</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep07"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="oussouye_ha">
+            <field name="name">Oussouye Hors Arrondissement</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep07"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr023">
+            <field name="name">Niaguis</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep08"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr024">
+            <field name="name">Nyassia</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep08"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="ziguinchor_ha">
+            <field name="name">Zinguichor Hors Arrondissement</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep08"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr025">
+            <field name="name">Ndindy</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep09"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr026">
+            <field name="name">Ndoulo</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep09"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="diourbel_ha">
+            <field name="name">Diourbel Hors Arrondissement</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep09"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr027">
+            <field name="name">Taïf</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep10"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr028">
+            <field name="name">Kael</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep10"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr029">
+            <field name="name">Ndame</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep10"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="mbacke_ha">
+            <field name="name">Mbacké Hors Arrondissement</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep10"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr030">
+            <field name="name">Ngoye</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep11"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr031">
+            <field name="name">Baba Garage</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep11"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr032">
+            <field name="name">Lambaye</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep11"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="bambey_ha">
+            <field name="name">Bambey Hors Arrondissement</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep11"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr033">
+            <field name="name">Rao</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep12"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="saintlouis_ha">
+            <field name="name">Saint Louis Hors Arrondissement</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep12"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr034">
+            <field name="name">Cas Cas</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr035">
+            <field name="name">Gamadji Saré</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr036">
+            <field name="name">Saldé</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr037">
+            <field name="name">Thile Boubacar</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="podor_ha">
+            <field name="name">Podor Hors Arrondissement</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr038">
+            <field name="name">Mbane</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep14"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr039">
+            <field name="name">NDIAYE</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep14"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="dagana_ha">
+            <field name="name">Dagana Hors Arrondissement</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep14"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr040">
+            <field name="name">Missirah</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep15"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr041">
+            <field name="name">Makakolibantang</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep15"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr042">
+            <field name="name">Koussanar</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep15"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="tambacounda_ha">
+            <field name="name">Tambacounda Hors Arrondissement</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep15"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr043">
+            <field name="name">Moudery</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep16"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr044">
+            <field name="name">Bélé</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep16"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr045">
+            <field name="name">Kéniéba</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep16"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="bakel_ha">
+            <field name="name">Kéniéba</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep16"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr046">
+            <field name="name">Kouthiaba Ouolof</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep17"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr047">
+            <field name="name">Bamba Thialène</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep17"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="koupentoum_ha">
+            <field name="name">Koupentoum Hors arrondissement</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep17"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr048">
+            <field name="name">Bala</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep18"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr049">
+            <field name="name">Boynguel Bamba</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep18"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr050">
+            <field name="name">Dianké Makha</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep18"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr051">
+            <field name="name">Koulor</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep18"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="goudiry_ha">
+            <field name="name">Goudiry Hors Arrondissement</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep18"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr052">
+            <field name="name">Koumbal</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep19"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr053">
+            <field name="name">Ndiédieng</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep19"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr054">
+            <field name="name">Ngothie</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep19"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="kaolack_ha">
+            <field name="name">Kaolack Hors Arrondissement</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep19"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr055">
+            <field name="name">Paos Koto</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep20"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr056">
+            <field name="name">Wack Ngouna</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep20"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr057">
+            <field name="name">Médina Sabakh</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep20"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="nioro_ha">
+            <field name="name">Nioro Hors Arrondissement</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep20"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr058">
+            <field name="name">Nguélou</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep21"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr059">
+            <field name="name">Mbadakhoune</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep21"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="guinguineo_ha">
+            <field name="name">Guinguinéo Hors arrondissement</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep21"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr060">
+            <field name="name">Thiès NORD</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep22"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr061">
+            <field name="name">Thiès SUD</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep22"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr062">
+            <field name="name">Notto</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep22"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr063">
+            <field name="name">Keur Moussa</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep22"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr064">
+            <field name="name">Thiénaba</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep22"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="thies_ha">
+            <field name="name">Thies Hors Arrondissement</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep22"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr065">
+            <field name="name">Sindia</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep23"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr066">
+            <field name="name">Fissel</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep23"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr067">
+            <field name="name">Sessène</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep23"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="mbour_ha">
+            <field name="name">Mbour Hors Arrondissement</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep23"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr068">
+            <field name="name">Niakhène</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep24"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr069">
+            <field name="name">Mérina Dakhar</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep24"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr070">
+            <field name="name">Pambal</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep24"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr071">
+            <field name="name">Méouane</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep24"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="tivaoune_ha">
+            <field name="name">Tivaoune Hors Arrondissement</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep24"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr072">
+            <field name="name">Darou Mousty</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep25"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr073">
+            <field name="name">Ndandé</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep25"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr073bis">
+            <field name="name">Sagatta Gueth</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep25"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="kebemer_ha">
+            <field name="name">Kébémer Hors Arrondissement</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep25"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr074">
+            <field name="name">Sagatta Djoloff</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr075">
+            <field name="name">Barkédji</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr076">
+            <field name="name">Dodji</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr077">
+            <field name="name">Yang Yang</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="linguere_ha">
+            <field name="name">Linguère Hors Arrondissement</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr078">
+            <field name="name">Coki</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep27"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr079">
+            <field name="name">Keur Momar SARR</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep27"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr080">
+            <field name="name">Mbédiène</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep27"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr081">
+            <field name="name">Sakal</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep27"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="louga_ha">
+            <field name="name">Louga Hors Arrondissement</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep27"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr082">
+            <field name="name">Niakhar</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep28"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr083">
+            <field name="name">Ndiob</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep28"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr084">
+            <field name="name">Tattaguine</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep28"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr085">
+            <field name="name">Fimela</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep28"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="fatick_ha">
+            <field name="name">Fatick Hors Arrondissemeent</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep28"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr086">
+            <field name="name">Niodior</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep29"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr087">
+            <field name="name">Toubacouta</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep29"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr088">
+            <field name="name">Djilor</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep29"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="foudiougne_ha">
+            <field name="name">Foudiougne Hors Arrondissement</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep29"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr089">
+            <field name="name">Ouadiour</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep30"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr090">
+            <field name="name">Colobane</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep30"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="gossas_ha">
+            <field name="name">Gossas Hors Arrondissement</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep30"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr091">
+            <field name="name">Dioulacolon</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep31"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr092">
+            <field name="name">Mampatim</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep31"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr093">
+            <field name="name">Saré Bidji</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep31"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="kolda_ha">
+            <field name="name">Kolda Hors Arrondissement</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep31"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr094">
+            <field name="name">Bonconto</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep32"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr095">
+            <field name="name">Pakour</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep32"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr096">
+            <field name="name">Saré Coly Sallé</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep32"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="velinguara_ha">
+            <field name="name">Vélinguara Hors Arrondissement</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep32"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr097">
+            <field name="name">Niaming</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep33"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr098">
+            <field name="name">Fafacourou</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep33"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr099">
+            <field name="name">Ndorna</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep33"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="medinayorofoula_ha">
+            <field name="name">Médina Yoro Foula hors Arrondissement</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep33"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr100">
+            <field name="name">Ogo</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep34"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr101">
+            <field name="name">Agnam Civol</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep34"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="matam_ha">
+            <field name="name">Matam Hors Arrondissement</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep34"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr102">
+            <field name="name">Wouro Sidy</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep35"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr103">
+            <field name="name">Orkadiéré</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep35"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="kanel_ha">
+            <field name="name">Kanel Hors Arrondissement</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep35"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr104">
+            <field name="name">Vélingara</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep36"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="ranerou_ha">
+            <field name="name">Ranérou Hors Arrondissement</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep36"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr105">
+            <field name="name">Gniby</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep37"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr106">
+            <field name="name">Katakel</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep37"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="kaffrine_ha">
+            <field name="name">Kaffrine hors Arrondissement</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep37"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr107">
+            <field name="name">Keur Mbouki</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep38"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr108">
+            <field name="name">Mabo</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep38"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="birkilane_ha">
+            <field name="name">Birkilane Hors Arrondissement</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep38"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr109">
+            <field name="name">Sagna</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep39"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr110">
+            <field name="name">Darou Miname 2</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep39"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="malemhoddar_ha">
+            <field name="name">Malem Hoddar Hors Arrondissement</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep39"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr111">
+            <field name="name">Missira Wadène</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep40"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr112">
+            <field name="name">Ida Mouride</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep40"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr113">
+            <field name="name">Lour Escale</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep40"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="koungheul_ha">
+            <field name="name">Koungheul Hors Arrondissement</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep40"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr114">
+            <field name="name">Dar Salam</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep41"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr115">
+            <field name="name">Dakatéli</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep41"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="salemata_ha">
+            <field name="name">Salémata Hors Arrondisement</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep41"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr116">
+            <field name="name">Fongolimbi</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep42"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr117">
+            <field name="name">Bandafassi</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep42"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="kedougou_ha">
+            <field name="name">Kédougou Hors Arrondissement</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep42"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr118">
+            <field name="name">Bembou</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep43"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr119">
+            <field name="name">Sabodala</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep43"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="saraya_ha">
+            <field name="name">Saraya Hors arrondissement</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep43"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr120">
+            <field name="name">Diéndé</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep44"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr121">
+            <field name="name">Djibabouya</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep44"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr122">
+            <field name="name">Djirédji</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep44"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="sedhiou_ha">
+            <field name="name">Sédhiou Hors Arrondissement</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep44"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr123">
+            <field name="name">Boghal</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep45"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr124">
+            <field name="name">Diaroume</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep45"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr125">
+            <field name="name">Bona</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep45"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="bounkiling_ha">
+            <field name="name">Bounkiling Hors Arrondissement</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep45"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr126">
+            <field name="name">Karantaba</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep46"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr127">
+            <field name="name">Djibanar</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep46"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="arr128">
+            <field name="name">Simbandi Brassou</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep46"></field>
+        </record>
+        <record model="arrondissement.arrondissement" id="goudomp_ha">
+            <field name="name">Goudomp Hors Arrondissement</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep46"></field>
+        </record>
+     </data>
+</odoo>

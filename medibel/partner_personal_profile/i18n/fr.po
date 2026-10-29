@@ -1,0 +1,238 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* partner_personal_profile
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-25 16:52+0000\n"
+"PO-Revision-Date: 2025-09-25 16:52+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields.selection,name:partner_personal_profile.selection__res_partner__age_bracket__adolescent
+msgid "Adolescent (13–17 y)"
+msgstr "Adolescent"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields.selection,name:partner_personal_profile.selection__res_partner__age_bracket__adult
+msgid "Adult (18–64 y)"
+msgstr "Adulte"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_partner__age_display
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_users__age_display
+msgid "Age (display)"
+msgstr "Âge"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_partner__age_years
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_users__age_years
+msgid "Age (years)"
+msgstr "Âge (années)"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_partner__age_bracket
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_users__age_bracket
+msgid "Age Bracket"
+msgstr "Tranche d'âge"
+
+#. module: partner_personal_profile
+#: model_terms:ir.ui.view,arch_db:partner_personal_profile.view_partner_form_personal_profile
+msgid "Birth"
+msgstr "Naissance"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_partner__birth_city
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_users__birth_city
+msgid "Birth City"
+msgstr "Ville de naissance"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_partner__birth_country_id
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_users__birth_country_id
+msgid "Birth Country"
+msgstr "Pays de naissance"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_partner__birth_state_id
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_users__birth_state_id
+msgid "Birth State/Region"
+msgstr "Région/État de naissance"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields.selection,name:partner_personal_profile.selection__res_partner__age_bracket__child
+msgid "Child (4–12 y)"
+msgstr "Enfant (4–12 ans)"
+
+#. module: partner_personal_profile
+#: model:ir.model,name:partner_personal_profile.model_res_partner
+msgid "Contact"
+msgstr "Contact"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_partner__date_of_birth
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_users__date_of_birth
+msgid "Date of Birth"
+msgstr "Date de naissance"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Nom d'affichage"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields.selection,name:partner_personal_profile.selection__res_partner__marital_status__divorced
+msgid "Divorced"
+msgstr "Divorcé(e)"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields.selection,name:partner_personal_profile.selection__res_partner__id_type__permit
+msgid "Driver's License"
+msgstr "Permis de conduire"
+
+#. module: partner_personal_profile
+#: model_terms:ir.ui.view,arch_db:partner_personal_profile.view_partner_form_personal_profile
+msgid "Emergency"
+msgstr "Urgence"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_partner__emergency_contact_id
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_users__emergency_contact_id
+msgid "Emergency Contact"
+msgstr "Contact d'urgence"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_partner__emergency_phone
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_users__emergency_phone
+msgid "Emergency Phone"
+msgstr "Téléphone (urgence)"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_partner__id_expiry_date
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_users__id_expiry_date
+msgid "Expiry Date"
+msgstr "Date d'expiration"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields.selection,name:partner_personal_profile.selection__res_partner__gender__female
+msgid "Female"
+msgstr "Femme"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_partner__gender
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_users__gender
+msgid "Gender"
+msgstr "Sexe"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_partner__id_number
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_users__id_number
+msgid "ID Number"
+msgstr "Numéro de pièce"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_partner__id_type
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_users__id_type
+msgid "ID Type"
+msgstr "Type de pièce d'identité"
+
+#. module: partner_personal_profile
+#: model_terms:ir.ui.view,arch_db:partner_personal_profile.view_partner_form_personal_profile
+msgid "Identity"
+msgstr "Identité"
+
+#. module: partner_personal_profile
+#: model_terms:ir.ui.view,arch_db:partner_personal_profile.view_partner_form_personal_profile
+msgid "Identity Document"
+msgstr "Pièce d'identité"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields.selection,name:partner_personal_profile.selection__res_partner__age_bracket__infant
+msgid "Infant (1–12 mo)"
+msgstr "Nourrisson (1–12 mois)"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_partner__id_issue_date
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_users__id_issue_date
+msgid "Issue Date"
+msgstr "Date de délivrance"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields.selection,name:partner_personal_profile.selection__res_partner__gender__male
+msgid "Male"
+msgstr "Homme"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_partner__marital_status
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_users__marital_status
+msgid "Marital Status"
+msgstr "Statut matrimonial"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields.selection,name:partner_personal_profile.selection__res_partner__marital_status__married
+msgid "Married"
+msgstr "Marié(e)"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields.selection,name:partner_personal_profile.selection__res_partner__id_type__nid
+msgid "National ID"
+msgstr "CNI"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_partner__nationality_id
+#: model:ir.model.fields,field_description:partner_personal_profile.field_res_users__nationality_id
+msgid "Nationality"
+msgstr "Nationalité"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields.selection,name:partner_personal_profile.selection__res_partner__age_bracket__newborn
+msgid "Newborn (0–28 d)"
+msgstr "Nouveau-né (0–28 j)"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields.selection,name:partner_personal_profile.selection__res_partner__gender__other
+#: model:ir.model.fields.selection,name:partner_personal_profile.selection__res_partner__id_type__other
+msgid "Other"
+msgstr "Autre"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields.selection,name:partner_personal_profile.selection__res_partner__id_type__passport
+msgid "Passport"
+msgstr "Passeport"
+
+#. module: partner_personal_profile
+#: model_terms:ir.ui.view,arch_db:partner_personal_profile.view_partner_form_personal_profile
+msgid "Personal Profile"
+msgstr "Profil personnel"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields.selection,name:partner_personal_profile.selection__res_partner__age_bracket__senior
+msgid "Senior (65+ y)"
+msgstr "Senior (65+ ans)"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields.selection,name:partner_personal_profile.selection__res_partner__marital_status__single
+msgid "Single"
+msgstr "Célibataire"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields.selection,name:partner_personal_profile.selection__res_partner__age_bracket__toddler
+msgid "Toddler (1–3 y)"
+msgstr "Tout-petit (1–3 ans)"
+
+#. module: partner_personal_profile
+#: model:ir.model.fields.selection,name:partner_personal_profile.selection__res_partner__marital_status__widowed
+msgid "Widowed"
+msgstr "Veuf/Veuve"

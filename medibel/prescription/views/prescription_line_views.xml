@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>   
+    <data>
+        <record model="ir.ui.view" id="prescription_prescription_line_form_view">
+            <field name="name">prescription.line.form</field>
+            <field name="model">prescription.line</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                             <field name="active" invisible="1"/>
+                             <field name="prescription_id" invisible="1"/>
+                             <field name="medicament_id"/>
+                             <field name="frequency_id"/>
+                             <field name="start_date"/>
+                             <field name="duration"/>     
+                             <field name="end_date"/>
+                             <field name="short_comment"/>
+                        </group>
+                        <notebook>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record model="ir.actions.act_window" id="prescription_prescription_line_action">
+            <field name="name">Prescription Line</field>
+            <field name="res_model">prescription.line</field>
+            <field name="view_mode">form</field>
+            <field name="domain">[]</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">Create the first
+                </p>
+            </field>
+        </record>
+    </data>
+</odoo>

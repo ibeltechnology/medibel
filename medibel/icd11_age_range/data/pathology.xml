@@ -1,0 +1,8 @@
+<odoo>
+    <data noupdate="0">
+        <record model="medical.pathology" id="icd11.1A00">
+	          <field name="age_range_ids" eval="[Command.link(ref('partner_personal_profile.age_range_newborn')),Command.link(ref('partner_personal_profile.age_range_infant'))]"/>
+	          <field name="is_genetic">True</field>
+        </record>
+    </data>
+</odoo>

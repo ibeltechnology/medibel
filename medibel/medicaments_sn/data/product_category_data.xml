@@ -1,0 +1,558 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo noupdate="1">
+  <!-- Source : senegal-lnmpe-2025.pdf, 19 pages. Catégories uniquement. -->
+  <!-- Hiérarchie du document conservée ; accents et coquilles typographiques normalisés. -->
+  <!-- La dernière rubrique est numérotée XXIII dans le PDF ; elle est repérée XXXIII ici pour éviter la confusion avec les anticancéreux. -->
+  <!-- I -->
+  <record id="product_category_anti_infectieux" model="product.category">
+    <field name="name">ANTI-INFECTIEUX</field>
+  </record>
+  <!-- I-1 -->
+  <record id="product_category_anti_bacteriens" model="product.category">
+    <field name="parent_id" ref="product_category_anti_infectieux"/>
+    <field name="name">Anti-bactériens</field>
+  </record>
+  <!-- I-2 -->
+  <record id="product_category_antituberculeux" model="product.category">
+    <field name="parent_id" ref="product_category_anti_infectieux"/>
+    <field name="name">Antituberculeux</field>
+  </record>
+  <!-- I-2-1 -->
+  <record id="product_category_medicament_antituberculeux_de_premiere_ligne_formulation_adulte" model="product.category">
+    <field name="parent_id" ref="product_category_antituberculeux"/>
+    <field name="name">Médicament antituberculeux de première ligne (formulation adulte)</field>
+  </record>
+  <!-- I-2-2 -->
+  <record id="product_category_medicament_antituberculeux_de_premiere_ligne_formulation_pediatrique" model="product.category">
+    <field name="parent_id" ref="product_category_antituberculeux"/>
+    <field name="name">Médicament antituberculeux de première ligne (formulation pédiatrique)</field>
+  </record>
+  <!-- I-2-3 -->
+  <record id="product_category_medicament_antituberculeux_de_seconde_ligne_formulation_adulte" model="product.category">
+    <field name="parent_id" ref="product_category_antituberculeux"/>
+    <field name="name">Médicament antituberculeux de seconde ligne (formulation adulte)</field>
+  </record>
+  <!-- I-2-4 -->
+  <record id="product_category_medicament_antituberculeux_de_seconde_ligne_formulation_pediatrique" model="product.category">
+    <field name="parent_id" ref="product_category_antituberculeux"/>
+    <field name="name">Médicament antituberculeux de seconde ligne (formulation pédiatrique)</field>
+  </record>
+  <!-- I-3 -->
+  <record id="product_category_antilepreux" model="product.category">
+    <field name="parent_id" ref="product_category_anti_infectieux"/>
+    <field name="name">Antilépreux</field>
+  </record>
+  <!-- I-4 -->
+  <record id="product_category_antiprotozoaires" model="product.category">
+    <field name="parent_id" ref="product_category_anti_infectieux"/>
+    <field name="name">Antiprotozoaires</field>
+  </record>
+  <!-- I-4-1 -->
+  <record id="product_category_antipaludiques" model="product.category">
+    <field name="parent_id" ref="product_category_antiprotozoaires"/>
+    <field name="name">Antipaludiques</field>
+  </record>
+  <!-- I-4-2 -->
+  <record id="product_category_antiamibiens" model="product.category">
+    <field name="parent_id" ref="product_category_antiprotozoaires"/>
+    <field name="name">Antiamibiens</field>
+  </record>
+  <!-- I-5 -->
+  <record id="product_category_antifongiques" model="product.category">
+    <field name="parent_id" ref="product_category_anti_infectieux"/>
+    <field name="name">Antifongiques</field>
+  </record>
+  <!-- I-6 -->
+  <record id="product_category_antihelminthiques" model="product.category">
+    <field name="parent_id" ref="product_category_anti_infectieux"/>
+    <field name="name">Antihelminthiques</field>
+  </record>
+  <!-- I-6-1 -->
+  <record id="product_category_contre_les_helminthes_intestinaux" model="product.category">
+    <field name="parent_id" ref="product_category_antihelminthiques"/>
+    <field name="name">Contre les helminthes intestinaux</field>
+  </record>
+  <!-- I-6-2 -->
+  <record id="product_category_contre_les_filaires_et_autres_filarioses" model="product.category">
+    <field name="parent_id" ref="product_category_antihelminthiques"/>
+    <field name="name">Contre les filaires et autres filarioses</field>
+  </record>
+  <!-- I-6-3 -->
+  <record id="product_category_contre_les_schistosomes" model="product.category">
+    <field name="parent_id" ref="product_category_antihelminthiques"/>
+    <field name="name">Contre les schistosomes</field>
+  </record>
+  <!-- I-7 -->
+  <record id="product_category_antiviraux" model="product.category">
+    <field name="parent_id" ref="product_category_anti_infectieux"/>
+    <field name="name">Antiviraux</field>
+  </record>
+  <!-- I-7-1 -->
+  <record id="product_category_antiherpetiques" model="product.category">
+    <field name="parent_id" ref="product_category_antiviraux"/>
+    <field name="name">Antiherpétiques</field>
+  </record>
+  <!-- I-7-2 -->
+  <record id="product_category_antiviraux_utilises_dans_le_traitement_des_hepatites_virales" model="product.category">
+    <field name="parent_id" ref="product_category_antiviraux"/>
+    <field name="name">Antiviraux utilisés dans le traitement des hépatites virales</field>
+  </record>
+  <!-- I-7-3 -->
+  <record id="product_category_antiretroviraux" model="product.category">
+    <field name="parent_id" ref="product_category_antiviraux"/>
+    <field name="name">Antirétroviraux</field>
+  </record>
+  <!-- I-7-3-a -->
+  <record id="product_category_combinaisons_dinti_a_doses_fixes" model="product.category">
+    <field name="parent_id" ref="product_category_antiretroviraux"/>
+    <field name="name">Combinaisons d’INTI à doses fixes</field>
+  </record>
+  <!-- I-7-3-b -->
+  <record id="product_category_inhibiteurs_non_nucleosidiques_de_la_transcriptase_inverse_innti" model="product.category">
+    <field name="parent_id" ref="product_category_antiretroviraux"/>
+    <field name="name">Inhibiteurs non nucléosidiques de la transcriptase inverse : INNTI</field>
+  </record>
+  <!-- I-7-3-c -->
+  <record id="product_category_inhibiteurs_de_la_protease_ip" model="product.category">
+    <field name="parent_id" ref="product_category_antiretroviraux"/>
+    <field name="name">Inhibiteurs de la protéase : IP</field>
+  </record>
+  <!-- I-7-3-d -->
+  <record id="product_category_combinaisons_dinti_innti_a_doses_fixes" model="product.category">
+    <field name="parent_id" ref="product_category_antiretroviraux"/>
+    <field name="name">Combinaisons d’INTI + INNTI à doses fixes</field>
+  </record>
+  <!-- I-7-3-e -->
+  <record id="product_category_inhibiteurs_dintegrases" model="product.category">
+    <field name="parent_id" ref="product_category_antiretroviraux"/>
+    <field name="name">Inhibiteurs d’intégrases</field>
+  </record>
+  <!-- I-7-3-f -->
+  <record id="product_category_inhibiteurs_dintegrases_innti" model="product.category">
+    <field name="parent_id" ref="product_category_antiretroviraux"/>
+    <field name="name">Inhibiteurs d’intégrases + INNTI</field>
+  </record>
+  <!-- II -->
+  <record id="product_category_anesthesiques" model="product.category">
+    <field name="name">ANESTHÉSIQUES</field>
+  </record>
+  <!-- II-1 -->
+  <record id="product_category_gaz_medicaux" model="product.category">
+    <field name="parent_id" ref="product_category_anesthesiques"/>
+    <field name="name">Gaz médicaux</field>
+  </record>
+  <!-- II-2 -->
+  <record id="product_category_anesthesiques_generaux" model="product.category">
+    <field name="parent_id" ref="product_category_anesthesiques"/>
+    <field name="name">Anesthésiques généraux</field>
+  </record>
+  <!-- II-3 -->
+  <record id="product_category_hypnotiques_anesthesiques_generaux" model="product.category">
+    <field name="parent_id" ref="product_category_anesthesiques"/>
+    <field name="name">Hypnotiques / Anesthésiques généraux</field>
+  </record>
+  <!-- II-4 -->
+  <record id="product_category_anesthesiques_locaux" model="product.category">
+    <field name="parent_id" ref="product_category_anesthesiques"/>
+    <field name="name">Anesthésiques locaux</field>
+  </record>
+  <!-- II-5 -->
+  <record id="product_category_premedication_anesthesique" model="product.category">
+    <field name="parent_id" ref="product_category_anesthesiques"/>
+    <field name="name">Prémédication anesthésique</field>
+  </record>
+  <!-- II-6 -->
+  <record id="product_category_curares_et_antagonistes" model="product.category">
+    <field name="parent_id" ref="product_category_anesthesiques"/>
+    <field name="name">Curares et antagonistes</field>
+  </record>
+  <!-- III -->
+  <record id="product_category_analgesiques_antipyretiques_anti_inflammatoires" model="product.category">
+    <field name="name">ANALGÉSIQUES, ANTIPYRÉTIQUES, ANTI-INFLAMMATOIRES</field>
+  </record>
+  <!-- III-1 -->
+  <record id="product_category_antalgiques_non_opioides_antipyretiques_anti_inflammatoires" model="product.category">
+    <field name="parent_id" ref="product_category_analgesiques_antipyretiques_anti_inflammatoires"/>
+    <field name="name">Antalgiques non opioïdes / Antipyrétiques / Anti-inflammatoires</field>
+  </record>
+  <!-- III-2 -->
+  <record id="product_category_opioides" model="product.category">
+    <field name="parent_id" ref="product_category_analgesiques_antipyretiques_anti_inflammatoires"/>
+    <field name="name">Opioïdes</field>
+  </record>
+  <!-- IV -->
+  <record id="product_category_anti_allergiques_et_medicaments_utilises_pour_le_traitement_de_lanaphylaxie" model="product.category">
+    <field name="name">ANTI-ALLERGIQUES ET MÉDICAMENTS UTILISÉS POUR LE TRAITEMENT DE L’ANAPHYLAXIE</field>
+  </record>
+  <!-- V -->
+  <record id="product_category_antidotes" model="product.category">
+    <field name="name">ANTIDOTES</field>
+  </record>
+  <!-- V-1 -->
+  <record id="product_category_adsorbants" model="product.category">
+    <field name="parent_id" ref="product_category_antidotes"/>
+    <field name="name">Adsorbants</field>
+  </record>
+  <!-- V-2 -->
+  <record id="product_category_antidotes_specifiques" model="product.category">
+    <field name="parent_id" ref="product_category_antidotes"/>
+    <field name="name">Antidotes spécifiques</field>
+  </record>
+  <!-- VI -->
+  <record id="product_category_psychotropes_anticonvulsivants_antidepresseurs_anxiolytiques" model="product.category">
+    <field name="name">PSYCHOTROPES / ANTICONVULSIVANTS / ANTIDÉPRESSEURS / ANXIOLYTIQUES</field>
+  </record>
+  <!-- VII -->
+  <record id="product_category_medicaments_agissant_sur_le_sang" model="product.category">
+    <field name="name">MÉDICAMENTS AGISSANT SUR LE SANG</field>
+  </record>
+  <!-- VII-1 -->
+  <record id="product_category_anti_anemiques" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_agissant_sur_le_sang"/>
+    <field name="name">Anti-anémiques</field>
+  </record>
+  <!-- VII-2 -->
+  <record id="product_category_anti_hemorragiques_hemostatiques" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_agissant_sur_le_sang"/>
+    <field name="name">Anti-hémorragiques Hémostatiques</field>
+  </record>
+  <!-- VII-3 -->
+  <record id="product_category_anticoagulants_antiagregants_plaquettaires_et_thrombolytiques" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_agissant_sur_le_sang"/>
+    <field name="name">Anticoagulants antiagrégants plaquettaires et thrombolytiques</field>
+  </record>
+  <!-- VII-4 -->
+  <record id="product_category_anti_goutteux_traitement_adjuvant_et_symptomatique" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_agissant_sur_le_sang"/>
+    <field name="name">Anti-goutteux (traitement adjuvant et symptomatique)</field>
+  </record>
+  <!-- VIII -->
+  <record id="product_category_derives_succedanes_du_sang_facteurs_antihemophiliques_et_anti_allo_immunisation" model="product.category">
+    <field name="name">DÉRIVÉS SUCCÉDANÉS DU SANG (facteurs antihémophiliques et anti allo-immunisation)</field>
+  </record>
+  <!-- IX -->
+  <record id="product_category_medicaments_de_lappareil_cardiovasculaire" model="product.category">
+    <field name="name">MÉDICAMENTS DE L’APPAREIL CARDIOVASCULAIRE</field>
+  </record>
+  <!-- IX-1 -->
+  <record id="product_category_anti_angoreux" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_de_lappareil_cardiovasculaire"/>
+    <field name="name">Anti-angoreux</field>
+  </record>
+  <!-- IX-2 -->
+  <record id="product_category_antihypertenseurs_et_diuretiques" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_de_lappareil_cardiovasculaire"/>
+    <field name="name">Antihypertenseurs et Diurétiques</field>
+  </record>
+  <!-- IX-3 -->
+  <record id="product_category_glucosides_cardiotoniques_et_antiarythmiques" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_de_lappareil_cardiovasculaire"/>
+    <field name="name">Glucosides cardiotoniques et antiarythmiques</field>
+  </record>
+  <!-- IX-4 -->
+  <record id="product_category_medicaments_contre_le_choc_anaphylactique_et_hypovolemique" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_de_lappareil_cardiovasculaire"/>
+    <field name="name">Médicaments contre le choc anaphylactique et hypovolémique</field>
+  </record>
+  <!-- IX-5 -->
+  <record id="product_category_antihypotenseurs" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_de_lappareil_cardiovasculaire"/>
+    <field name="name">Antihypotenseurs</field>
+  </record>
+  <!-- IX-6 -->
+  <record id="product_category_autres_produits_cardiovasculaires" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_de_lappareil_cardiovasculaire"/>
+    <field name="name">Autres produits cardiovasculaires</field>
+  </record>
+  <!-- IX-7 -->
+  <record id="product_category_statines_et_hypolipemiants" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_de_lappareil_cardiovasculaire"/>
+    <field name="name">Statines et Hypolipémiants</field>
+  </record>
+  <!-- X -->
+  <record id="product_category_medicaments_dermatologiques" model="product.category">
+    <field name="name">MÉDICAMENTS DERMATOLOGIQUES</field>
+  </record>
+  <!-- X-1 -->
+  <record id="product_category_x_1_antifongiques" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_dermatologiques"/>
+    <field name="name">Antifongiques</field>
+  </record>
+  <!-- X-2 -->
+  <record id="product_category_dermocorticoides" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_dermatologiques"/>
+    <field name="name">Dermocorticoïdes</field>
+  </record>
+  <!-- X-3 -->
+  <record id="product_category_antiseptiques" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_dermatologiques"/>
+    <field name="name">Antiseptiques</field>
+  </record>
+  <!-- X-4 -->
+  <record id="product_category_protection_de_la_peau" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_dermatologiques"/>
+    <field name="name">Protection de la peau</field>
+  </record>
+  <!-- X-5 -->
+  <record id="product_category_scabicides_et_pediculicides" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_dermatologiques"/>
+    <field name="name">Scabicides et pédiculicides</field>
+  </record>
+  <!-- X-6 -->
+  <record id="product_category_keratolytiques_et_keratoplastiques" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_dermatologiques"/>
+    <field name="name">Kératolytiques et kératoplastiques</field>
+  </record>
+  <!-- XI -->
+  <record id="product_category_myorelaxants" model="product.category">
+    <field name="name">MYORELAXANTS</field>
+  </record>
+  <!-- XII -->
+  <record id="product_category_ocytociques_tocolytiques" model="product.category">
+    <field name="name">OCYTOCIQUES / TOCOLYTIQUES</field>
+  </record>
+  <!-- XIII -->
+  <record id="product_category_medicaments_du_tube_digestif" model="product.category">
+    <field name="name">MÉDICAMENTS DU TUBE DIGESTIF</field>
+  </record>
+  <!-- XIII-1 -->
+  <record id="product_category_anti_acides_et_autres_anti_ulcereux" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_du_tube_digestif"/>
+    <field name="name">Anti-acides et autres anti-ulcéreux</field>
+  </record>
+  <!-- XIII-2 -->
+  <record id="product_category_anti_emetiques" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_du_tube_digestif"/>
+    <field name="name">Anti-émétiques</field>
+  </record>
+  <!-- XIII-3 -->
+  <record id="product_category_anti_hemorroidaires" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_du_tube_digestif"/>
+    <field name="name">Anti-hémorroïdaires</field>
+  </record>
+  <!-- XIII-4 -->
+  <record id="product_category_anti_spasmodiques" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_du_tube_digestif"/>
+    <field name="name">Anti-spasmodiques</field>
+  </record>
+  <!-- XIII-5 -->
+  <record id="product_category_modificateurs_du_transit_intestinal" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_du_tube_digestif"/>
+    <field name="name">Modificateurs du transit intestinal</field>
+  </record>
+  <!-- XIII-6 -->
+  <record id="product_category_sels_de_rehydratation" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_du_tube_digestif"/>
+    <field name="name">Sels de réhydratation</field>
+  </record>
+  <!-- XIV -->
+  <record id="product_category_medicaments_de_lappareil_respiratoire" model="product.category">
+    <field name="name">MÉDICAMENTS DE L’APPAREIL RESPIRATOIRE</field>
+  </record>
+  <!-- XIV-1 -->
+  <record id="product_category_antitussifs_et_fluidifiants" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_de_lappareil_respiratoire"/>
+    <field name="name">Antitussifs et Fluidifiants</field>
+  </record>
+  <!-- XIV-2 -->
+  <record id="product_category_anti_asthmatiques" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_de_lappareil_respiratoire"/>
+    <field name="name">Anti-asthmatiques</field>
+  </record>
+  <!-- XIV-3 -->
+  <record id="product_category_anti_apneiques" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_de_lappareil_respiratoire"/>
+    <field name="name">Anti-apnéiques</field>
+  </record>
+  <!-- XV -->
+  <record id="product_category_medicaments_et_produits_bucco_dentaires" model="product.category">
+    <field name="name">MÉDICAMENTS ET PRODUITS BUCCO-DENTAIRES</field>
+  </record>
+  <!-- XVI -->
+  <record id="product_category_preparations_immunologiques" model="product.category">
+    <field name="name">PRÉPARATIONS IMMUNOLOGIQUES</field>
+  </record>
+  <!-- XVI-1 -->
+  <record id="product_category_serums" model="product.category">
+    <field name="parent_id" ref="product_category_preparations_immunologiques"/>
+    <field name="name">Sérums</field>
+  </record>
+  <!-- XVI-2 -->
+  <record id="product_category_vaccins" model="product.category">
+    <field name="parent_id" ref="product_category_preparations_immunologiques"/>
+    <field name="name">Vaccins</field>
+  </record>
+  <!-- XVII -->
+  <record id="product_category_correction_des_perturbations_de_lequilibre_hydrique_electrolytique_et_acido_basique" model="product.category">
+    <field name="name">CORRECTION DES PERTURBATIONS DE L’ÉQUILIBRE HYDRIQUE, ÉLECTROLYTIQUE ET ACIDO-BASIQUE</field>
+  </record>
+  <!-- XVIII -->
+  <record id="product_category_preparations_utilisees_en_ophtalmologie" model="product.category">
+    <field name="name">PRÉPARATIONS UTILISÉES EN OPHTALMOLOGIE</field>
+  </record>
+  <!-- XVIII-1 -->
+  <record id="product_category_xviii_1_anti_infectieux" model="product.category">
+    <field name="parent_id" ref="product_category_preparations_utilisees_en_ophtalmologie"/>
+    <field name="name">Anti-infectieux</field>
+  </record>
+  <!-- XVIII-2 -->
+  <record id="product_category_anti_inflammatoires" model="product.category">
+    <field name="parent_id" ref="product_category_preparations_utilisees_en_ophtalmologie"/>
+    <field name="name">Anti-inflammatoires</field>
+  </record>
+  <!-- XVIII-3 -->
+  <record id="product_category_xviii_3_anesthesiques_locaux" model="product.category">
+    <field name="parent_id" ref="product_category_preparations_utilisees_en_ophtalmologie"/>
+    <field name="name">Anesthésiques locaux</field>
+  </record>
+  <!-- XVIII-4 -->
+  <record id="product_category_antiglaucomateux" model="product.category">
+    <field name="parent_id" ref="product_category_preparations_utilisees_en_ophtalmologie"/>
+    <field name="name">Antiglaucomateux</field>
+  </record>
+  <!-- XVIII-5 -->
+  <record id="product_category_mydriatiques" model="product.category">
+    <field name="parent_id" ref="product_category_preparations_utilisees_en_ophtalmologie"/>
+    <field name="name">Mydriatiques</field>
+  </record>
+  <!-- XVIII-6 -->
+  <record id="product_category_xviii_6_antiseptiques" model="product.category">
+    <field name="parent_id" ref="product_category_preparations_utilisees_en_ophtalmologie"/>
+    <field name="name">Antiseptiques</field>
+  </record>
+  <!-- XVIII-7 -->
+  <record id="product_category_produits_de_diagnostic" model="product.category">
+    <field name="parent_id" ref="product_category_preparations_utilisees_en_ophtalmologie"/>
+    <field name="name">Produits de diagnostic</field>
+  </record>
+  <!-- XVIII-8 -->
+  <record id="product_category_degenerescence_maculaire_liee_a_lage_perte_de_vision_due_a_ldeme_maculaire_ou_a_la_neovascularisation_choroidienne" model="product.category">
+    <field name="parent_id" ref="product_category_preparations_utilisees_en_ophtalmologie"/>
+    <field name="name">Dégénérescence maculaire liée à l’âge/perte de vision due à l’œdème maculaire ou à la néovascularisation choroïdienne</field>
+  </record>
+  <!-- XVIII-9 -->
+  <record id="product_category_produits_du_programme_national_de_promotion_de_la_sante_oculaire" model="product.category">
+    <field name="parent_id" ref="product_category_preparations_utilisees_en_ophtalmologie"/>
+    <field name="name">Produits du Programme National de Promotion de la Santé Oculaire</field>
+  </record>
+  <!-- XIX -->
+  <record id="product_category_vitamines_et_sels_mineraux" model="product.category">
+    <field name="name">VITAMINES ET SELS MINÉRAUX</field>
+  </record>
+  <!-- XX -->
+  <record id="product_category_solvant" model="product.category">
+    <field name="name">SOLVANT</field>
+  </record>
+  <!-- XXI -->
+  <record id="product_category_insulines_et_autres_antidiabetiques" model="product.category">
+    <field name="name">INSULINES ET AUTRES ANTIDIABÉTIQUES</field>
+  </record>
+  <!-- XXII -->
+  <record id="product_category_autres_hormones_et_succedanes_synthetiques" model="product.category">
+    <field name="name">AUTRES HORMONES ET SUCCÉDANÉS SYNTHÉTIQUES</field>
+  </record>
+  <!-- XXIII -->
+  <record id="product_category_anticancereux" model="product.category">
+    <field name="name">ANTICANCÉREUX</field>
+  </record>
+  <!-- XXIV -->
+  <record id="product_category_alimentation_parenterale_et_enterale" model="product.category">
+    <field name="name">ALIMENTATION PARENTÉRALE ET ENTÉRALE</field>
+  </record>
+  <!-- XXV -->
+  <record id="product_category_orl" model="product.category">
+    <field name="name">ORL</field>
+  </record>
+  <!-- XXVI -->
+  <record id="product_category_hormones_autres_medicaments_endocriniens_et_contraceptifs" model="product.category">
+    <field name="name">HORMONES, AUTRES MÉDICAMENTS ENDOCRINIENS ET CONTRACEPTIFS</field>
+  </record>
+  <!-- XXVI-1 -->
+  <record id="product_category_contraceptifs_mecaniques_et_chimiques" model="product.category">
+    <field name="parent_id" ref="product_category_hormones_autres_medicaments_endocriniens_et_contraceptifs"/>
+    <field name="name">Contraceptifs mécaniques et chimiques</field>
+  </record>
+  <!-- XXVI-2 -->
+  <record id="product_category_methode_naturelle" model="product.category">
+    <field name="parent_id" ref="product_category_hormones_autres_medicaments_endocriniens_et_contraceptifs"/>
+    <field name="name">Méthode naturelle</field>
+  </record>
+  <!-- XXVI-3 -->
+  <record id="product_category_contraceptifs_hormonaux_combines" model="product.category">
+    <field name="parent_id" ref="product_category_hormones_autres_medicaments_endocriniens_et_contraceptifs"/>
+    <field name="name">Contraceptifs hormonaux combinés</field>
+  </record>
+  <!-- XXVI-4 -->
+  <record id="product_category_contraceptifs_hormonaux_simples" model="product.category">
+    <field name="parent_id" ref="product_category_hormones_autres_medicaments_endocriniens_et_contraceptifs"/>
+    <field name="name">Contraceptifs hormonaux simples</field>
+  </record>
+  <!-- XXVII -->
+  <record id="product_category_produits_phytosanitaires" model="product.category">
+    <field name="name">PRODUITS PHYTOSANITAIRES</field>
+  </record>
+  <!-- XXVIII -->
+  <record id="product_category_produits_de_laboratoire" model="product.category">
+    <field name="name">PRODUITS DE LABORATOIRE</field>
+  </record>
+  <!-- XXIX -->
+  <record id="product_category_medicaments_utilises_en_nephrologie_dialyse_et_transplantation_dorganes_et_de_tissus" model="product.category">
+    <field name="name">MÉDICAMENTS UTILISÉS EN NÉPHROLOGIE, DIALYSE ET TRANSPLANTATION D’ORGANES ET DE TISSUS</field>
+  </record>
+  <!-- XXIX-1 -->
+  <record id="product_category_nephrologie" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_utilises_en_nephrologie_dialyse_et_transplantation_dorganes_et_de_tissus"/>
+    <field name="name">Néphrologie</field>
+  </record>
+  <!-- XXIX-2 -->
+  <record id="product_category_transplantation_dorganes_et_tissus" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_utilises_en_nephrologie_dialyse_et_transplantation_dorganes_et_de_tissus"/>
+    <field name="name">Transplantation d’organes et tissus</field>
+  </record>
+  <!-- XXIX-3 -->
+  <record id="product_category_hemodialyse" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_utilises_en_nephrologie_dialyse_et_transplantation_dorganes_et_de_tissus"/>
+    <field name="name">Hémodialyse</field>
+  </record>
+  <!-- XXIX-4 -->
+  <record id="product_category_dialyse_peritoneale" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_utilises_en_nephrologie_dialyse_et_transplantation_dorganes_et_de_tissus"/>
+    <field name="name">Dialyse péritonéale</field>
+  </record>
+  <!-- XXX -->
+  <record id="product_category_medicaments_geriatriques" model="product.category">
+    <field name="name">MÉDICAMENTS GÉRIATRIQUES</field>
+  </record>
+  <!-- XXX-1 -->
+  <record id="product_category_medicaments_de_lhypertrophie_de_la_prostate" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_geriatriques"/>
+    <field name="name">Médicaments de l’hypertrophie de la prostate</field>
+  </record>
+  <!-- XXX-2 -->
+  <record id="product_category_antiparkinsonien" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_geriatriques"/>
+    <field name="name">Antiparkinsonien</field>
+  </record>
+  <!-- XXX-3 -->
+  <record id="product_category_anticholinesterasiques_traitement_de_la_demence" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_geriatriques"/>
+    <field name="name">Anticholinestérasiques / Traitement de la démence</field>
+  </record>
+  <!-- XXX-4 -->
+  <record id="product_category_neurologie" model="product.category">
+    <field name="parent_id" ref="product_category_medicaments_geriatriques"/>
+    <field name="name">Neurologie</field>
+  </record>
+  <!-- XXXI -->
+  <record id="product_category_produits_de_sevrage_du_tabac_substituts_nicotiniques" model="product.category">
+    <field name="name">PRODUITS DE SEVRAGE DU TABAC : SUBSTITUTS NICOTINIQUES</field>
+  </record>
+  <!-- XXXII -->
+  <record id="product_category_produits_de_contraste" model="product.category">
+    <field name="name">PRODUITS DE CONTRASTE</field>
+  </record>
+  <!-- XXXIII -->
+  <record id="product_category_autres_produits_de_sante" model="product.category">
+    <field name="name">AUTRES PRODUITS DE SANTÉ</field>
+  </record>
+</odoo>

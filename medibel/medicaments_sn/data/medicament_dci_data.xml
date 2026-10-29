@@ -1,0 +1,2920 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo noupdate="1">
+    <!-- Source : senegal-lnmpe-2025.pdf, colonne DCI, pages 1 à 19. -->
+    <!-- Modèle medicament.dci ; champ name ; aucun lien aux catégories. -->
+    <!-- Doublons supprimés ; associations conservées ensemble ; accents, espaces et séparateurs harmonisés. -->
+    <!-- Les noms commerciaux, vaccins, réactifs et dispositifs figurant dans la colonne DCI sont conservés. Ce fichier ne constitue pas une normalisation pharmacologique des libellés du document. -->
+    <!-- Les variantes LP, Lidocaïne 2%/3% et Lidocaïne adrénalinée sont regroupées avec leur dénomination correspondante. Les caractéristiques distinctives du matériel sont conservées. -->
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_amikacine" model="medicament.dci">
+        <field name="name">Amikacine</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_amoxicilline" model="medicament.dci">
+        <field name="name">Amoxicilline</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_amoxicilline_acide_clavulanique" model="medicament.dci">
+        <field name="name">Amoxicilline + Acide clavulanique</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_ampicilline" model="medicament.dci">
+        <field name="name">Ampicilline</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_azithromycine" model="medicament.dci">
+        <field name="name">Azithromycine</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_benzathine_benzylpenicilline" model="medicament.dci">
+        <field name="name">Benzathine-benzylpénicilline</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_benzylpenicilline" model="medicament.dci">
+        <field name="name">Benzylpénicilline</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_cefazoline" model="medicament.dci">
+        <field name="name">Céfazoline</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_cefixime" model="medicament.dci">
+        <field name="name">Céfixime</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_cefotaxime" model="medicament.dci">
+        <field name="name">Céfotaxime</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_ceftriaxone" model="medicament.dci">
+        <field name="name">Ceftriaxone</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_cefuroxime" model="medicament.dci">
+        <field name="name">Céfuroxime</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_ciprofloxacine" model="medicament.dci">
+        <field name="name">Ciprofloxacine</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_doxycycline" model="medicament.dci">
+        <field name="name">Doxycycline</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_erythromycine" model="medicament.dci">
+        <field name="name">Erythromycine</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_flucloxacilline" model="medicament.dci">
+        <field name="name">Flucloxacilline</field>
+    </record>
+    <!-- Source : pages 1, 10 -->
+    <record id="medicament_dci_gentamicine" model="medicament.dci">
+        <field name="name">Gentamicine</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_imipeneme_cilastatine" model="medicament.dci">
+        <field name="name">Imipénème + Cilastatine</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_phenoxymethylpenicilline" model="medicament.dci">
+        <field name="name">Phénoxyméthylpénicilline</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_sulfamethoxazole_trimethoprime" model="medicament.dci">
+        <field name="name">Sulfaméthoxazole + Triméthoprime</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_thiamphenicol" model="medicament.dci">
+        <field name="name">Thiamphénicol</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_vancomycine" model="medicament.dci">
+        <field name="name">Vancomycine</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_isoniazide" model="medicament.dci">
+        <field name="name">Isoniazide</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_rifampicine_isoniazide" model="medicament.dci">
+        <field name="name">Rifampicine + Isoniazide</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_rifampicine_isoniazide_pyrazinamide_ethambutol" model="medicament.dci">
+        <field name="name">Rifampicine + Isoniazide + Pyrazinamide + Ethambutol</field>
+    </record>
+    <!-- Source : page 1 -->
+    <record id="medicament_dci_rifapentine_isoniazide" model="medicament.dci">
+        <field name="name">Rifapentine + Isoniazide</field>
+    </record>
+    <!-- Source : pages 1, 2 -->
+    <record id="medicament_dci_ethambutol" model="medicament.dci">
+        <field name="name">Ethambutol</field>
+    </record>
+    <!-- Source : page 2 -->
+    <record id="medicament_dci_rifampicine_isoniazide_pyrazinamide" model="medicament.dci">
+        <field name="name">Rifampicine + Isoniazide + Pyrazinamide</field>
+    </record>
+    <!-- Source : page 2 -->
+    <record id="medicament_dci_bedaquiline" model="medicament.dci">
+        <field name="name">Bédaquiline</field>
+    </record>
+    <!-- Source : page 2 -->
+    <record id="medicament_dci_clofazimine" model="medicament.dci">
+        <field name="name">Clofazimine</field>
+    </record>
+    <!-- Source : page 2 -->
+    <record id="medicament_dci_cycloserine" model="medicament.dci">
+        <field name="name">Cyclosérine</field>
+    </record>
+    <!-- Source : page 2 -->
+    <record id="medicament_dci_ethionamide" model="medicament.dci">
+        <field name="name">Ethionamide</field>
+    </record>
+    <!-- Source : page 2 -->
+    <record id="medicament_dci_levofloxacine" model="medicament.dci">
+        <field name="name">Lévofloxacine</field>
+    </record>
+    <!-- Source : page 2 -->
+    <record id="medicament_dci_linezolide" model="medicament.dci">
+        <field name="name">Linézolide</field>
+    </record>
+    <!-- Source : page 2 -->
+    <record id="medicament_dci_pyrazinamide" model="medicament.dci">
+        <field name="name">Pyrazinamide</field>
+    </record>
+    <!-- Source : page 2 -->
+    <record id="medicament_dci_delamanid" model="medicament.dci">
+        <field name="name">Delamanid</field>
+    </record>
+    <!-- Source : page 2 -->
+    <record id="medicament_dci_dapsone" model="medicament.dci">
+        <field name="name">Dapsone</field>
+    </record>
+    <!-- Source : page 2 -->
+    <record id="medicament_dci_rifampicine" model="medicament.dci">
+        <field name="name">Rifampicine</field>
+    </record>
+    <!-- Source : page 2 -->
+    <record id="medicament_dci_artemether" model="medicament.dci">
+        <field name="name">Artéméther</field>
+    </record>
+    <!-- Source : page 2 -->
+    <record id="medicament_dci_artemether_lumefantrine" model="medicament.dci">
+        <field name="name">Artéméther + Luméfantrine</field>
+    </record>
+    <!-- Source : page 2 -->
+    <record id="medicament_dci_artesunate" model="medicament.dci">
+        <field name="name">Artésunate</field>
+    </record>
+    <!-- Source : page 2 -->
+    <record id="medicament_dci_artesunate_amodiaquine" model="medicament.dci">
+        <field name="name">Artésunate + Amodiaquine</field>
+    </record>
+    <!-- Source : page 2 -->
+    <record id="medicament_dci_dihydroartemisinine_piperaquine" model="medicament.dci">
+        <field name="name">Dihydroartémisinine + Pipéraquine</field>
+    </record>
+    <!-- Source : page 2 -->
+    <record id="medicament_dci_primaquine" model="medicament.dci">
+        <field name="name">Primaquine</field>
+    </record>
+    <!-- Source : page 2 -->
+    <record id="medicament_dci_quinine" model="medicament.dci">
+        <field name="name">Quinine</field>
+    </record>
+    <!-- Source : page 2 -->
+    <record id="medicament_dci_sulfadoxine_pyrimethamine" model="medicament.dci">
+        <field name="name">Sulfadoxine + Pyriméthamine</field>
+    </record>
+    <!-- Source : page 2 -->
+    <record id="medicament_dci_sulfadoxine_pyrimethamine_amodiaquine" model="medicament.dci">
+        <field name="name">Sulfadoxine + Pyriméthamine + Amodiaquine</field>
+    </record>
+    <!-- Source : page 2 -->
+    <record id="medicament_dci_metronidazole" model="medicament.dci">
+        <field name="name">Métronidazole</field>
+    </record>
+    <!-- Source : page 2 -->
+    <record id="medicament_dci_fluconazole" model="medicament.dci">
+        <field name="name">Fluconazole</field>
+    </record>
+    <!-- Source : pages 2, 8 -->
+    <record id="medicament_dci_griseofulvine" model="medicament.dci">
+        <field name="name">Griséofulvine</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_ketoconazole" model="medicament.dci">
+        <field name="name">Kétoconazole</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_nystatine" model="medicament.dci">
+        <field name="name">Nystatine</field>
+    </record>
+    <!-- Source : pages 3, 8 -->
+    <record id="medicament_dci_terbinafine" model="medicament.dci">
+        <field name="name">Terbinafine</field>
+    </record>
+    <!-- Source : pages 3, 8 -->
+    <record id="medicament_dci_voriconazole" model="medicament.dci">
+        <field name="name">Voriconazole</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_albendazole" model="medicament.dci">
+        <field name="name">Albendazole</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_mebendazole" model="medicament.dci">
+        <field name="name">Mébendazole</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_ivermectine" model="medicament.dci">
+        <field name="name">Ivermectine</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_praziquantel" model="medicament.dci">
+        <field name="name">Praziquantel</field>
+    </record>
+    <!-- Source : pages 3, 10 -->
+    <record id="medicament_dci_aciclovir" model="medicament.dci">
+        <field name="name">Aciclovir</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_ganciclovir" model="medicament.dci">
+        <field name="name">Ganciclovir</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_valaciclovir" model="medicament.dci">
+        <field name="name">Valaciclovir</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_entecavir" model="medicament.dci">
+        <field name="name">Entecavir</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_tenofovir_alafenamide" model="medicament.dci">
+        <field name="name">Ténofovir alafenamide</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_tenofovir_disoproxil" model="medicament.dci">
+        <field name="name">Ténofovir disoproxil</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_abacavir_lamivudine" model="medicament.dci">
+        <field name="name">Abacavir + Lamivudine</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_abacavir_lamivudine_dolutegravir" model="medicament.dci">
+        <field name="name">Abacavir + Lamivudine + Dolutégravir</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_dolutegravir_lamivudine" model="medicament.dci">
+        <field name="name">Dolutégravir + Lamivudine</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_tenofovir_emtricitabine" model="medicament.dci">
+        <field name="name">Ténofovir + Emtricitabine</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_tenofovir_lamivudine" model="medicament.dci">
+        <field name="name">Ténofovir + Lamivudine</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_zidovudine_lamivudine" model="medicament.dci">
+        <field name="name">Zidovudine + Lamivudine</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_efavirenz" model="medicament.dci">
+        <field name="name">Efavirenz</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_atazanavir_ritonavir" model="medicament.dci">
+        <field name="name">Atazanavir + Ritonavir</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_darunavir" model="medicament.dci">
+        <field name="name">Darunavir</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_darunavir_ritonavir" model="medicament.dci">
+        <field name="name">Darunavir + Ritonavir</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_lopinavir_ritonavir" model="medicament.dci">
+        <field name="name">Lopinavir + Ritonavir</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_ritonavir" model="medicament.dci">
+        <field name="name">Ritonavir</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_tenofovir_emtricitabine_efavirenz" model="medicament.dci">
+        <field name="name">Ténofovir + Emtricitabine + Efavirenz</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_tenofovir_lamivudine_efavirenz" model="medicament.dci">
+        <field name="name">Ténofovir + Lamivudine + Efavirenz</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_dolutegravir" model="medicament.dci">
+        <field name="name">Dolutégravir</field>
+    </record>
+    <!-- Source : page 3 -->
+    <record id="medicament_dci_tenofovir_lamivudine_dolutegravir" model="medicament.dci">
+        <field name="name">Ténofovir + Lamivudine + Dolutégravir</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_tenofovir_alafenamide_emtricitabine" model="medicament.dci">
+        <field name="name">Ténofovir alafenamide + Emtricitabine</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_tenofovir_alafenamide_emtricitabine_dolutegravir" model="medicament.dci">
+        <field name="name">Ténofovir alafenamide + Emtricitabine + Dolutégravir</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_oxygene" model="medicament.dci">
+        <field name="name">Oxygène</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_oxygene_protoxyde_dazote" model="medicament.dci">
+        <field name="name">Oxygène + Protoxyde d’azote</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_isoflurane" model="medicament.dci">
+        <field name="name">Isoflurane</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_sevoflurane" model="medicament.dci">
+        <field name="name">Sévoflurane</field>
+    </record>
+    <!-- Source : pages 4, 5 -->
+    <record id="medicament_dci_diazepam" model="medicament.dci">
+        <field name="name">Diazépam</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_etomidate" model="medicament.dci">
+        <field name="name">Etomidate</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_ketamine" model="medicament.dci">
+        <field name="name">Kétamine</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_midazolam" model="medicament.dci">
+        <field name="name">Midazolam</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_propofol" model="medicament.dci">
+        <field name="name">Propofol</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_thiopental" model="medicament.dci">
+        <field name="name">Thiopental</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_bupivacaine_hyperbare" model="medicament.dci">
+        <field name="name">Bupivacaïne hyperbare</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_bupivacaine_isobare" model="medicament.dci">
+        <field name="name">Bupivacaïne isobare</field>
+    </record>
+    <!-- Source : pages 4, 9, 10 -->
+    <record id="medicament_dci_lidocaine" model="medicament.dci">
+        <field name="name">Lidocaïne</field>
+    </record>
+    <!-- Source : pages 4, 10, 11 -->
+    <record id="medicament_dci_lidocaine_adrenaline" model="medicament.dci">
+        <field name="name">Lidocaïne + Adrénaline</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_mepivacaine" model="medicament.dci">
+        <field name="name">Mépivacaïne</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_ropivacaine" model="medicament.dci">
+        <field name="name">Ropivacaïne</field>
+    </record>
+    <!-- Source : pages 4, 9, 11 -->
+    <record id="medicament_dci_atropine" model="medicament.dci">
+        <field name="name">Atropine</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_cisatracurium" model="medicament.dci">
+        <field name="name">Cisatracurium</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_neostigmine" model="medicament.dci">
+        <field name="name">Néostigmine</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_rocuronium" model="medicament.dci">
+        <field name="name">Rocuronium</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_suxamethonium_succinylcholine" model="medicament.dci">
+        <field name="name">Suxaméthonium (succinylcholine)</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_vecuronium_bromure" model="medicament.dci">
+        <field name="name">Vécuronium bromure</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_acetylsalicylate_de_lysine" model="medicament.dci">
+        <field name="name">Acétylsalicylate de lysine</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_acide_acetylsalicylique" model="medicament.dci">
+        <field name="name">Acide acétylsalicylique</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_acide_mefenamique" model="medicament.dci">
+        <field name="name">Acide méfénamique</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_acide_niflumique" model="medicament.dci">
+        <field name="name">Acide niflumique</field>
+    </record>
+    <!-- Source : pages 4, 11 -->
+    <record id="medicament_dci_diclofenac" model="medicament.dci">
+        <field name="name">Diclofénac</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_ibuprofene" model="medicament.dci">
+        <field name="name">Ibuprofène</field>
+    </record>
+    <!-- Source : pages 4, 11 -->
+    <record id="medicament_dci_indometacine" model="medicament.dci">
+        <field name="name">Indométacine</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_ketoprofene" model="medicament.dci">
+        <field name="name">Kétoprofène</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_nefopam" model="medicament.dci">
+        <field name="name">Néfopam</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_paracetamol" model="medicament.dci">
+        <field name="name">Paracétamol</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_fentanyl" model="medicament.dci">
+        <field name="name">Fentanyl</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_methadone" model="medicament.dci">
+        <field name="name">Méthadone</field>
+    </record>
+    <!-- Source : page 4 -->
+    <record id="medicament_dci_morphine" model="medicament.dci">
+        <field name="name">Morphine</field>
+    </record>
+    <!-- Source : pages 4, 5 -->
+    <record id="medicament_dci_morphine_chlorhydrate" model="medicament.dci">
+        <field name="name">Morphine chlorhydrate</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_nalbuphine" model="medicament.dci">
+        <field name="name">Nalbuphine</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_sufentanil" model="medicament.dci">
+        <field name="name">Sufentanil</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_tramadol" model="medicament.dci">
+        <field name="name">Tramadol</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_cetirizine" model="medicament.dci">
+        <field name="name">Cétirizine</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_desloratadine" model="medicament.dci">
+        <field name="name">Desloratadine</field>
+    </record>
+    <!-- Source : pages 5, 11 -->
+    <record id="medicament_dci_dexamethasone" model="medicament.dci">
+        <field name="name">Dexaméthasone</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_dexchlorpheniramine" model="medicament.dci">
+        <field name="name">Dexchlorphéniramine</field>
+    </record>
+    <!-- Source : pages 5, 7, 8, 11, 12 -->
+    <record id="medicament_dci_hydrocortisone" model="medicament.dci">
+        <field name="name">Hydrocortisone</field>
+    </record>
+    <!-- Source : pages 5, 16 -->
+    <record id="medicament_dci_methylprednisolone" model="medicament.dci">
+        <field name="name">Méthylprednisolone</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_prednisone" model="medicament.dci">
+        <field name="name">Prednisone</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_promethazine" model="medicament.dci">
+        <field name="name">Prométhazine</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_charbon" model="medicament.dci">
+        <field name="name">Charbon</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_charbon_active" model="medicament.dci">
+        <field name="name">Charbon activé</field>
+    </record>
+    <!-- Source : pages 5, 6 -->
+    <record id="medicament_dci_deferoxamine" model="medicament.dci">
+        <field name="name">Déferoxamine</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_disulfurame" model="medicament.dci">
+        <field name="name">Disulfurame</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_edta_disodique_calcique" model="medicament.dci">
+        <field name="name">EDTA disodique calcique</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_flumazenil" model="medicament.dci">
+        <field name="name">Flumazénil</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_glucagon" model="medicament.dci">
+        <field name="name">Glucagon</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_intralipide" model="medicament.dci">
+        <field name="name">Intralipide</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_concentres_de_complexe_prothrombinique_humain" model="medicament.dci">
+        <field name="name">Concentrés de complexe prothrombinique humain</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_n_acetylcysteine" model="medicament.dci">
+        <field name="name">N-acétylcystéine</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_naloxone" model="medicament.dci">
+        <field name="name">Naloxone</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_pralidoxime" model="medicament.dci">
+        <field name="name">Pralidoxime</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_succimer" model="medicament.dci">
+        <field name="name">Succimer</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_sulfate_de_protamine" model="medicament.dci">
+        <field name="name">Sulfate de protamine</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_amitriptyline" model="medicament.dci">
+        <field name="name">Amitriptyline</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_bupropion" model="medicament.dci">
+        <field name="name">Bupropion</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_carbamazepine" model="medicament.dci">
+        <field name="name">Carbamazépine</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_chlorpromazine" model="medicament.dci">
+        <field name="name">Chlorpromazine</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_clonazepam" model="medicament.dci">
+        <field name="name">Clonazépam</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_fluoxetine" model="medicament.dci">
+        <field name="name">Fluoxétine</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_fluphenazine" model="medicament.dci">
+        <field name="name">Fluphénazine</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_haloperidol" model="medicament.dci">
+        <field name="name">Halopéridol</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_levomepromazine" model="medicament.dci">
+        <field name="name">Lévomépromazine</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_phenobarbital" model="medicament.dci">
+        <field name="name">Phénobarbital</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_sulfate_de_magnesium" model="medicament.dci">
+        <field name="name">Sulfate de magnésium</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_trihexyphenidyle" model="medicament.dci">
+        <field name="name">Trihexyphénidyle</field>
+    </record>
+    <!-- Source : page 5 -->
+    <record id="medicament_dci_tropatepine" model="medicament.dci">
+        <field name="name">Tropatépine</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_valproate_de_sodium" model="medicament.dci">
+        <field name="name">Valproate de sodium</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_varenicline" model="medicament.dci">
+        <field name="name">Varénicline</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_acide_folique" model="medicament.dci">
+        <field name="name">Acide folique</field>
+    </record>
+    <!-- Source : pages 6, 12 -->
+    <record id="medicament_dci_cyanocobalamine" model="medicament.dci">
+        <field name="name">Cyanocobalamine</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_erythropoietine" model="medicament.dci">
+        <field name="name">Erythropoïétine</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_erythropoietine_beta" model="medicament.dci">
+        <field name="name">Erythropoïétine bêta</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_fer_acide_folique" model="medicament.dci">
+        <field name="name">Fer + Acide folique</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_sels_ferreux_forme_adulte" model="medicament.dci">
+        <field name="name">Sels ferreux forme adulte</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_sels_ferreux_forme_pediatrique" model="medicament.dci">
+        <field name="name">Sels ferreux forme pédiatrique</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_acide_tranexamique" model="medicament.dci">
+        <field name="name">Acide tranexamique</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_etamsylate" model="medicament.dci">
+        <field name="name">Etamsylate</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_misoprostol" model="medicament.dci">
+        <field name="name">Misoprostol</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_phytomenadione" model="medicament.dci">
+        <field name="name">Phytoménadione</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_acenocoumarol" model="medicament.dci">
+        <field name="name">Acénocoumarol</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_alteplase" model="medicament.dci">
+        <field name="name">Altéplase</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_clopidogrel" model="medicament.dci">
+        <field name="name">Clopidogrel</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_enoxaparine" model="medicament.dci">
+        <field name="name">Enoxaparine</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_fluindione" model="medicament.dci">
+        <field name="name">Fluindione</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_heparinate_de_sodium" model="medicament.dci">
+        <field name="name">Héparinate de sodium</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_heparinate_non_fractionnee" model="medicament.dci">
+        <field name="name">Héparinate non fractionnée</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_prasugrel" model="medicament.dci">
+        <field name="name">Prasugrel</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_rivaroxaban" model="medicament.dci">
+        <field name="name">Rivaroxaban</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_streptokinase" model="medicament.dci">
+        <field name="name">Streptokinase</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_tenecteplase" model="medicament.dci">
+        <field name="name">Tenecteplase</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_ticagrelor" model="medicament.dci">
+        <field name="name">Ticagrelor</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_allupurinol" model="medicament.dci">
+        <field name="name">Allupurinol</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_concentre_de_facteur_ix" model="medicament.dci">
+        <field name="name">Concentré de facteur IX</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_concentre_de_facteur_viii" model="medicament.dci">
+        <field name="name">Concentré de facteur VIII</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_facteurs_antihemophiliques_a_et_b" model="medicament.dci">
+        <field name="name">Facteurs antihémophiliques A et B</field>
+    </record>
+    <!-- Source : page 6 -->
+    <record id="medicament_dci_gelatine_fluide_modifiee" model="medicament.dci">
+        <field name="name">Gélatine fluide modifiée</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_immunoglobuline_anti_d" model="medicament.dci">
+        <field name="name">Immunoglobuline anti-D</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_immunoglobuline_polyvalente" model="medicament.dci">
+        <field name="name">Immunoglobuline polyvalente</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_diltiazem" model="medicament.dci">
+        <field name="name">Diltiazem</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_dinitrate_disosorbide" model="medicament.dci">
+        <field name="name">Dinitrate d’isosorbide</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_molsidomine" model="medicament.dci">
+        <field name="name">Molsidomine</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_nitroglycerine" model="medicament.dci">
+        <field name="name">Nitroglycérine</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_trinitrate_de_glycerine" model="medicament.dci">
+        <field name="name">Trinitrate de glycérine</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_altizide_spironolactone" model="medicament.dci">
+        <field name="name">Altizide + Spironolactone</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_amlodipine" model="medicament.dci">
+        <field name="name">Amlodipine</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_amlodipine_indapamide" model="medicament.dci">
+        <field name="name">Amlodipine + Indapamide</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_amlodipine_indapamide_perindopril" model="medicament.dci">
+        <field name="name">Amlodipine + Indapamide + Perindopril</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_amlodipine_perindopril" model="medicament.dci">
+        <field name="name">Amlodipine + Perindopril</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_amlodipine_valsartan" model="medicament.dci">
+        <field name="name">Amlodipine + Valsartan</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_amlodipine_valsartan_hydrochlorothiazide" model="medicament.dci">
+        <field name="name">Amlodipine + Valsartan + Hydrochlorothiazide</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_bisoprolol" model="medicament.dci">
+        <field name="name">Bisoprolol</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_candesartan" model="medicament.dci">
+        <field name="name">Candésartan</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_carvedilol" model="medicament.dci">
+        <field name="name">Carvédilol</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_chlortalidone" model="medicament.dci">
+        <field name="name">Chlortalidone</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_clonidine" model="medicament.dci">
+        <field name="name">Clonidine</field>
+    </record>
+    <!-- Source : pages 7, 16 -->
+    <record id="medicament_dci_furosemide" model="medicament.dci">
+        <field name="name">Furosémide</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_hydrochlorothiazide" model="medicament.dci">
+        <field name="name">Hydrochlorothiazide</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_indapamide" model="medicament.dci">
+        <field name="name">Indapamide</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_labetalol" model="medicament.dci">
+        <field name="name">Labétalol</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_methyldopa" model="medicament.dci">
+        <field name="name">Méthyldopa</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_nebivolol" model="medicament.dci">
+        <field name="name">Nébivolol</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_nicardipine" model="medicament.dci">
+        <field name="name">Nicardipine</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_nifedipine" model="medicament.dci">
+        <field name="name">Nifédipine</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_perindopril" model="medicament.dci">
+        <field name="name">Perindopril</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_propranolol" model="medicament.dci">
+        <field name="name">Propranolol</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_ramipril_hydrochlorothiazide" model="medicament.dci">
+        <field name="name">Ramipril + Hydrochlorothiazide</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_valsartan" model="medicament.dci">
+        <field name="name">Valsartan</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_valsartan_hydrochlorothiazide" model="medicament.dci">
+        <field name="name">Valsartan + Hydrochlorothiazide</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_amiodarone" model="medicament.dci">
+        <field name="name">Amiodarone</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_digoxine" model="medicament.dci">
+        <field name="name">Digoxine</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_dobutamine" model="medicament.dci">
+        <field name="name">Dobutamine</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_dopamine" model="medicament.dci">
+        <field name="name">Dopamine</field>
+    </record>
+    <!-- Source : pages 7, 11 -->
+    <record id="medicament_dci_epinephrine" model="medicament.dci">
+        <field name="name">Epinéphrine</field>
+    </record>
+    <!-- Source : page 7 -->
+    <record id="medicament_dci_noradrenaline" model="medicament.dci">
+        <field name="name">Noradrénaline</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_ephedrine" model="medicament.dci">
+        <field name="name">Ephédrine</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_phenylephedrine" model="medicament.dci">
+        <field name="name">Phénylephédrine</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_alprostadil" model="medicament.dci">
+        <field name="name">Alprostadil</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_isoprenaline" model="medicament.dci">
+        <field name="name">Isoprénaline</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_verapamil" model="medicament.dci">
+        <field name="name">Vérapamil</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_atorvastatine" model="medicament.dci">
+        <field name="name">Atorvastatine</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_ezetimibe" model="medicament.dci">
+        <field name="name">Ezétimibe</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_rosuvastatine" model="medicament.dci">
+        <field name="name">Rosuvastatine</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_amphotericine_b" model="medicament.dci">
+        <field name="name">Amphotéricine B</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_econazole" model="medicament.dci">
+        <field name="name">Econazole</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_glucantime" model="medicament.dci">
+        <field name="name">Glucantime</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_itraconazole" model="medicament.dci">
+        <field name="name">Itraconazole</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_betamethasone" model="medicament.dci">
+        <field name="name">Bétaméthasone</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_clobetasol" model="medicament.dci">
+        <field name="name">Clobétasol</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_mupirocine" model="medicament.dci">
+        <field name="name">Mupirocine</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_alcool" model="medicament.dci">
+        <field name="name">Alcool</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_alcool_iode" model="medicament.dci">
+        <field name="name">Alcool iodé</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_eau_oxygenee" model="medicament.dci">
+        <field name="name">Eau oxygénée</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_eosine_aqueuse" model="medicament.dci">
+        <field name="name">Eosine aqueuse</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_formaldehyde" model="medicament.dci">
+        <field name="name">Formaldéhyde</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_hypochlorite_de_sodium" model="medicament.dci">
+        <field name="name">Hypochlorite de sodium</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_hypochlorite_de_sodium_permanganate_de_potassium" model="medicament.dci">
+        <field name="name">Hypochlorite de sodium + Permanganate de potassium</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_oxyde_de_zinc" model="medicament.dci">
+        <field name="name">Oxyde de zinc</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_povidone_iodee" model="medicament.dci">
+        <field name="name">Povidone iodée</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_solution_anti_adhesive_ethers_de_glycol" model="medicament.dci">
+        <field name="name">Solution anti-adhésive (éthers de glycol)</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_violet_de_gentiane" model="medicament.dci">
+        <field name="name">Violet de gentiane</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_chlorhexidine" model="medicament.dci">
+        <field name="name">Chlorhexidine</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_creme_solaire" model="medicament.dci">
+        <field name="name">Crème solaire</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_talc" model="medicament.dci">
+        <field name="name">Talc</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_vaseline" model="medicament.dci">
+        <field name="name">Vaseline</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_benzoate_de_benzyle" model="medicament.dci">
+        <field name="name">Benzoate de benzyle</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_vaseline_salicylee" model="medicament.dci">
+        <field name="name">Vaseline salicylée</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_thiocolchicoside" model="medicament.dci">
+        <field name="name">Thiocolchicoside</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_carbetocine" model="medicament.dci">
+        <field name="name">Carbétocine</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_ocytocine" model="medicament.dci">
+        <field name="name">Ocytocine</field>
+    </record>
+    <!-- Source : pages 8, 9 -->
+    <record id="medicament_dci_salbutamol" model="medicament.dci">
+        <field name="name">Salbutamol</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_esomeprazole" model="medicament.dci">
+        <field name="name">Esoméprazole</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_omeprazole" model="medicament.dci">
+        <field name="name">Oméprazole</field>
+    </record>
+    <!-- Source : page 8 -->
+    <record id="medicament_dci_sels_daluminium_et_de_magnesium" model="medicament.dci">
+        <field name="name">Sels d’aluminium et de magnésium</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_granisetron_chlorhydrate" model="medicament.dci">
+        <field name="name">Granisétron chlorhydrate</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_levosulpiride" model="medicament.dci">
+        <field name="name">Lévosulpiride</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_metopimazine" model="medicament.dci">
+        <field name="name">Métopimazine</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_ondasetron" model="medicament.dci">
+        <field name="name">Ondasétron</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_anti_infl_astrigent_anest_local" model="medicament.dci">
+        <field name="name">Anti-infl. + Astrigent + Anest. local</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_diosmines_flavonoides" model="medicament.dci">
+        <field name="name">Diosmines + Flavonoïdes</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_phloroglucinol_trimethylphloroglucinol" model="medicament.dci">
+        <field name="name">Phloroglucinol + Triméthylphloroglucinol</field>
+    </record>
+    <!-- Source : pages 9, 15 -->
+    <record id="medicament_dci_glycerine" model="medicament.dci">
+        <field name="name">Glycérine</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_lactulose" model="medicament.dci">
+        <field name="name">Lactulose</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_kit_sro_zinc" model="medicament.dci">
+        <field name="name">Kit SRO/Zinc</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_resomal" model="medicament.dci">
+        <field name="name">ReSoMal</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_carbocysteine" model="medicament.dci">
+        <field name="name">Carbocystéine</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_dextromethorphane" model="medicament.dci">
+        <field name="name">Dextrométhorphane</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_dextromethorphane_phenylephrine" model="medicament.dci">
+        <field name="name">Dextrométhorphane + Phényléphrine</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_oxomemazine_guaifenesine" model="medicament.dci">
+        <field name="name">Oxomémazine + Guaïfénésine</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_terpine_codeine" model="medicament.dci">
+        <field name="name">Terpine + Codéine</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_bromure_dipratropium" model="medicament.dci">
+        <field name="name">Bromure d’ipratropium</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_budesonide" model="medicament.dci">
+        <field name="name">Budésonide</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_fluticasone_propionate_formaterol_fumarate" model="medicament.dci">
+        <field name="name">Fluticasone propionate + Formaterol fumarate</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_montelukast" model="medicament.dci">
+        <field name="name">Montelukast</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_propionate_fluticasone_salmeterol" model="medicament.dci">
+        <field name="name">Propionate fluticasone + Salmétérol</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_terbutaline" model="medicament.dci">
+        <field name="name">Terbutaline</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_citrate_de_cafeine" model="medicament.dci">
+        <field name="name">Citrate de caféine</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_surfactant" model="medicament.dci">
+        <field name="name">Surfactant</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_carpules_danesthesie_articaine" model="medicament.dci">
+        <field name="name">Carpules d’anesthésie (articaïne)</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_carpules_danesthesie_mepivacaine" model="medicament.dci">
+        <field name="name">Carpules d’anesthésie (mépivacaïne)</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_ciment_verre_ionomere_type_2" model="medicament.dci">
+        <field name="name">Ciment verre ionomère type 2</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_dexamethasone_phenol_gaiacol" model="medicament.dci">
+        <field name="name">Dexaméthasone + Phénol + Gaïacol</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_eugenol" model="medicament.dci">
+        <field name="name">Eugénol</field>
+    </record>
+    <!-- Source : page 9 -->
+    <record id="medicament_dci_hydroxyde_de_calcium" model="medicament.dci">
+        <field name="name">Hydroxyde de calcium</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_lidocaine_eugenol" model="medicament.dci">
+        <field name="name">Lidocaïne + Eugénol</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_oxyde_de_zinc_leger" model="medicament.dci">
+        <field name="name">Oxyde de zinc léger</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_pharmaethyl" model="medicament.dci">
+        <field name="name">Pharmaéthyl</field>
+    </record>
+    <!-- Source : pages 10, 19 -->
+    <record id="medicament_dci_pulperyl" model="medicament.dci">
+        <field name="name">Pulpéryl</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_resine_composite" model="medicament.dci">
+        <field name="name">Résine composite</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_solution_antiseptique_pour_bain_de_bouche" model="medicament.dci">
+        <field name="name">Solution antiseptique pour bain de bouche</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_serum_anti_d" model="medicament.dci">
+        <field name="name">Sérum anti-D</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_serum_antilymphocytaire" model="medicament.dci">
+        <field name="name">Sérum antilymphocytaire</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_serum_antirabique" model="medicament.dci">
+        <field name="name">Sérum antirabique</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_serum_antitetanique" model="medicament.dci">
+        <field name="name">Sérum antitétanique</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_serum_antivenimeux_polyvalent" model="medicament.dci">
+        <field name="name">Sérum antivenimeux polyvalent</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_vaccin_anti_rougeole_rubeole" model="medicament.dci">
+        <field name="name">Vaccin anti rougeole-rubéole</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_vaccin_antiamaril" model="medicament.dci">
+        <field name="name">Vaccin antiamaril</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_vaccin_anticovid" model="medicament.dci">
+        <field name="name">Vaccin anticovid</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_vaccin_antigrippal" model="medicament.dci">
+        <field name="name">Vaccin antigrippal</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_vaccin_antihepatite_b" model="medicament.dci">
+        <field name="name">Vaccin antihépatite B</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_vaccin_antimeningo_a_c_y_w135" model="medicament.dci">
+        <field name="name">Vaccin antiméningo A, C, Y, W135</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_vaccin_antimeningo_w135" model="medicament.dci">
+        <field name="name">Vaccin antiméningo W135</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_vaccin_anti_papillomavirus" model="medicament.dci">
+        <field name="name">Vaccin anti-papillomavirus</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_vaccin_antipneumococcique" model="medicament.dci">
+        <field name="name">Vaccin antipneumococcique</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_vaccin_antipoliomyelitique" model="medicament.dci">
+        <field name="name">Vaccin antipoliomyélitique</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_vaccin_antirabique" model="medicament.dci">
+        <field name="name">Vaccin antirabique</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_vaccin_antirotavirus" model="medicament.dci">
+        <field name="name">Vaccin antirotavirus</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_vaccin_antitetanique" model="medicament.dci">
+        <field name="name">Vaccin antitétanique</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_vaccin_antituberculeux" model="medicament.dci">
+        <field name="name">Vaccin antituberculeux</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_vaccin_hexavalent" model="medicament.dci">
+        <field name="name">Vaccin hexavalent</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_vaccin_ror" model="medicament.dci">
+        <field name="name">Vaccin ROR</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_albumine_humaine" model="medicament.dci">
+        <field name="name">Albumine humaine</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_bicarbonate_de_sodium" model="medicament.dci">
+        <field name="name">Bicarbonate de sodium</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_chlorure_de_calcium" model="medicament.dci">
+        <field name="name">Chlorure de calcium</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_chlorure_de_magnesium" model="medicament.dci">
+        <field name="name">Chlorure de magnésium</field>
+    </record>
+    <!-- Source : pages 10, 16 -->
+    <record id="medicament_dci_chlorure_de_potassium" model="medicament.dci">
+        <field name="name">Chlorure de potassium</field>
+    </record>
+    <!-- Source : pages 10, 16 -->
+    <record id="medicament_dci_chlorure_de_sodium" model="medicament.dci">
+        <field name="name">Chlorure de sodium</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_gluconate_de_calcium" model="medicament.dci">
+        <field name="name">Gluconate de calcium</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_glucose" model="medicament.dci">
+        <field name="name">Glucose</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_mannitol" model="medicament.dci">
+        <field name="name">Mannitol</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_ringer_lactate" model="medicament.dci">
+        <field name="name">Ringer lactate</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_cethexonium" model="medicament.dci">
+        <field name="name">Céthexonium</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_chloramphenicol_dexamethasone" model="medicament.dci">
+        <field name="name">Chloramphénicol + Dexaméthasone</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_chlortetracycline_ou_tetracycline" model="medicament.dci">
+        <field name="name">Chlortétracycline ou Tétracycline</field>
+    </record>
+    <!-- Source : pages 10, 11 -->
+    <record id="medicament_dci_fluoresceine" model="medicament.dci">
+        <field name="name">Fluorescéine</field>
+    </record>
+    <!-- Source : page 10 -->
+    <record id="medicament_dci_neomycine_polymyxine" model="medicament.dci">
+        <field name="name">Néomycine + Polymyxine</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_norfloxacine" model="medicament.dci">
+        <field name="name">Norfloxacine</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_amethocaine_hydrochloride" model="medicament.dci">
+        <field name="name">Amethocaine hydrochloride</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_lidocaine_hcl_plain" model="medicament.dci">
+        <field name="name">Lidocaïne HCl Plain</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_oxybuprocaine" model="medicament.dci">
+        <field name="name">Oxybuprocaïne</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_tetracaine" model="medicament.dci">
+        <field name="name">Tétracaïne</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_acetazolamide" model="medicament.dci">
+        <field name="name">Acétazolamide</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_brinzolamide" model="medicament.dci">
+        <field name="name">Brinzolamide</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_carteolol" model="medicament.dci">
+        <field name="name">Cartéolol</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_latanoprost" model="medicament.dci">
+        <field name="name">Latanoprost</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_latanoprost_timolol" model="medicament.dci">
+        <field name="name">Latanoprost + Timolol</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_pilocarpine" model="medicament.dci">
+        <field name="name">Pilocarpine</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_timolol" model="medicament.dci">
+        <field name="name">Timolol</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_cyclopentolate" model="medicament.dci">
+        <field name="name">Cyclopentolate</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_tropicamide" model="medicament.dci">
+        <field name="name">Tropicamide</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_tropicamide_phenylephrine" model="medicament.dci">
+        <field name="name">Tropicamide + Phényléphrine</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_visqueux_en_seringue_preremplie" model="medicament.dci">
+        <field name="name">Visqueux en seringue préremplie</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_carbomere_980_larmes_artificielles" model="medicament.dci">
+        <field name="name">Carbomère 980 (larmes artificielles)</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_cromoglycate" model="medicament.dci">
+        <field name="name">Cromoglycate</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_levocabastine" model="medicament.dci">
+        <field name="name">Lévocabastine</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_picloxydine" model="medicament.dci">
+        <field name="name">Picloxydine</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_ranibizumab" model="medicament.dci">
+        <field name="name">Ranibizumab</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_canule_a_double_courant" model="medicament.dci">
+        <field name="name">Canule à double courant</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_couteaux_30_et_45" model="medicament.dci">
+        <field name="name">Couteaux 30° et 45°</field>
+    </record>
+    <!-- Source : pages 11, 16 -->
+    <record id="medicament_dci_cyclosporine" model="medicament.dci">
+        <field name="name">Cyclosporine</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_goniosol" model="medicament.dci">
+        <field name="name">Goniosol</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_hyaluronate_de_sodium" model="medicament.dci">
+        <field name="name">Hyaluronate de sodium</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_implant_chambre_posterieure" model="medicament.dci">
+        <field name="name">Implant chambre postérieure</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_microeponge_chirurgicale" model="medicament.dci">
+        <field name="name">Microéponge chirurgicale</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_nandrolone" model="medicament.dci">
+        <field name="name">Nandrolone</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_neosynephrine" model="medicament.dci">
+        <field name="name">Néosynéphrine</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_pince_a_monofilament" model="medicament.dci">
+        <field name="name">Pince à monofilament</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_refractosol" model="medicament.dci">
+        <field name="name">Refractosol</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_snrm_polyamide_noir_serti_30_cm_6_2_mm_3_8_cr_code_87770_usp_10_0" model="medicament.dci">
+        <field name="name">SNRM polyamide noir serti 30 cm 6,2 mm - 3/8 cr - code 87770 - USP=10/0</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_snrm_soie_de_traction_noir_serti_30_cm_6_6_mm_3_8_cr_code_f7752_usp_8_0" model="medicament.dci">
+        <field name="name">SNRM soie de traction noir serti 30 cm 6,6 mm - 3/8 cr - code f7752 - USP=8/0</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_snrm_soie_de_traction_noir_serti_75_cm_16_mm_3_8_cr_code_f2250_usp_3_0" model="medicament.dci">
+        <field name="name">SNRM soie de traction noir serti 75 cm 16 mm - 3/8 cr - code f2250 - USP=3/0</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_srt_polyglactine_910_vicryl_monofil_serti_30_cm_6_6_mm_3_8_cr_code_jv7440_usp_10_0" model="medicament.dci">
+        <field name="name">SRT polyglactine 910 (vicryl monofil) serti 30 cm 6,6 mm - 3/8 cr - code jv7440 - USP=10/0</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_srt_polyglactine_910_vicryl_monofil_serti_45_cm_7_6_mm_3_8_cr_code_jv551_usp_6_0" model="medicament.dci">
+        <field name="name">SRT polyglactine 910 (vicryl monofil) serti 45 cm 7,6 mm - 3/8 cr - code jv551 - USP=6/0</field>
+    </record>
+    <!-- Source : page 11 -->
+    <record id="medicament_dci_substance_viscoelastique_methylcellulose" model="medicament.dci">
+        <field name="name">Substance viscoélastique (méthylcellulose)</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_vitamine_a" model="medicament.dci">
+        <field name="name">Vitamine A</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_acide_ascorbique" model="medicament.dci">
+        <field name="name">Acide ascorbique</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_acide_ascorbique_gluconate_de_calcium" model="medicament.dci">
+        <field name="name">Acide ascorbique + Gluconate de calcium</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_calcium_gluconate" model="medicament.dci">
+        <field name="name">Calcium gluconate</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_calcium_vit_d3" model="medicament.dci">
+        <field name="name">Calcium + Vit D3</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_multivitamines" model="medicament.dci">
+        <field name="name">Multivitamines</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_pyridoxine" model="medicament.dci">
+        <field name="name">Pyridoxine</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_retinol" model="medicament.dci">
+        <field name="name">Rétinol</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_vitamine_d" model="medicament.dci">
+        <field name="name">Vitamine D</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_zinc_sulfate" model="medicament.dci">
+        <field name="name">Zinc (sulfate)</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_eau_pour_preparation_injectable" model="medicament.dci">
+        <field name="name">Eau pour préparation injectable</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_gliclazide" model="medicament.dci">
+        <field name="name">Gliclazide</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_gliclazide_metformine" model="medicament.dci">
+        <field name="name">Gliclazide + Metformine</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_glimepiride" model="medicament.dci">
+        <field name="name">Glimépiride</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_insuline_analogue_pour_injection_a_action_lente" model="medicament.dci">
+        <field name="name">Insuline analogue pour injection à action lente</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_insuline_analogue_pour_injection_a_action_mixte" model="medicament.dci">
+        <field name="name">Insuline analogue pour injection à action mixte</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_insuline_analogue_pour_injection_a_action_rapide" model="medicament.dci">
+        <field name="name">Insuline analogue pour injection à action rapide</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_insuline_lente" model="medicament.dci">
+        <field name="name">Insuline lente</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_insuline_mixte_30" model="medicament.dci">
+        <field name="name">Insuline mixte 30%</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_insuline_rapide" model="medicament.dci">
+        <field name="name">Insuline rapide</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_metformine" model="medicament.dci">
+        <field name="name">Metformine</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_acetate_dabiraterone" model="medicament.dci">
+        <field name="name">Acétate d’abiratérone</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_bicalutamide" model="medicament.dci">
+        <field name="name">Bicalutamide</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_cabergoline" model="medicament.dci">
+        <field name="name">Cabergoline</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_carbimazole" model="medicament.dci">
+        <field name="name">Carbimazole</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_cetrorelix" model="medicament.dci">
+        <field name="name">Cetrorelix</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_cortisone" model="medicament.dci">
+        <field name="name">Cortisone</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_cyproterone" model="medicament.dci">
+        <field name="name">Cyprotérone</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_follitrophine_alpha" model="medicament.dci">
+        <field name="name">Follitrophine alpha</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_gosereline" model="medicament.dci">
+        <field name="name">Goséréline</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_hormone_chorionique_gonadotrophine" model="medicament.dci">
+        <field name="name">Hormone chorionique gonadotrophine</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_hydroxyprogesterone" model="medicament.dci">
+        <field name="name">Hydroxyprogestérone</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_levothyroxine" model="medicament.dci">
+        <field name="name">Lévothyroxine</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_menotropine" model="medicament.dci">
+        <field name="name">Ménotropine</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_oestradiol" model="medicament.dci">
+        <field name="name">Oestradiol</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_progesterone_micronisee" model="medicament.dci">
+        <field name="name">Progestérone micronisée</field>
+    </record>
+    <!-- Source : pages 12, 14 -->
+    <record id="medicament_dci_triptoreline" model="medicament.dci">
+        <field name="name">Triptoréline</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_acide_zoledronique" model="medicament.dci">
+        <field name="name">Acide zolédronique</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_actinomycine_d" model="medicament.dci">
+        <field name="name">Actinomycine D</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_anastrozole" model="medicament.dci">
+        <field name="name">Anastrozole</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_arsenic_trioxyde" model="medicament.dci">
+        <field name="name">Arsénic trioxyde</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_atezolizumab" model="medicament.dci">
+        <field name="name">Atezolizumab</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_azacitidine" model="medicament.dci">
+        <field name="name">Azacitidine</field>
+    </record>
+    <!-- Source : page 12 -->
+    <record id="medicament_dci_bendamustine" model="medicament.dci">
+        <field name="name">Bendamustine</field>
+    </record>
+    <!-- Source : pages 12, 13 -->
+    <record id="medicament_dci_bevacizumab" model="medicament.dci">
+        <field name="name">Bevacizumab</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_bleomycine" model="medicament.dci">
+        <field name="name">Bléomycine</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_bortezomib" model="medicament.dci">
+        <field name="name">Bortézomib</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_brentuximab_vedotin" model="medicament.dci">
+        <field name="name">Brentuximab vedotin</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_busulfan" model="medicament.dci">
+        <field name="name">Busulfan</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_capecitabine" model="medicament.dci">
+        <field name="name">Capecitabine</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_carboplatine" model="medicament.dci">
+        <field name="name">Carboplatine</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_carmustine" model="medicament.dci">
+        <field name="name">Carmustine</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_chloraminophene" model="medicament.dci">
+        <field name="name">Chloraminophène</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_chlormetine" model="medicament.dci">
+        <field name="name">Chlormétine</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_chorambucil" model="medicament.dci">
+        <field name="name">Chorambucil</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_ciclosporine" model="medicament.dci">
+        <field name="name">Ciclosporine</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_cisplatine" model="medicament.dci">
+        <field name="name">Cisplatine</field>
+    </record>
+    <!-- Source : pages 13, 16 -->
+    <record id="medicament_dci_cyclophosphamide" model="medicament.dci">
+        <field name="name">Cyclophosphamide</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_cytarabine" model="medicament.dci">
+        <field name="name">Cytarabine</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_dacarbazine" model="medicament.dci">
+        <field name="name">Dacarbazine</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_daratumumab" model="medicament.dci">
+        <field name="name">Daratumumab</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_dasatinib" model="medicament.dci">
+        <field name="name">Dasatinib</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_daunorubicine" model="medicament.dci">
+        <field name="name">Daunorubicine</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_docetaxel" model="medicament.dci">
+        <field name="name">Docetaxel</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_doxorubicine" model="medicament.dci">
+        <field name="name">Doxorubicine</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_epirubicine" model="medicament.dci">
+        <field name="name">Epirubicine</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_erlotinib" model="medicament.dci">
+        <field name="name">Erlotinib</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_etoposide" model="medicament.dci">
+        <field name="name">Etoposide</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_filgrastim" model="medicament.dci">
+        <field name="name">Filgrastim</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_fludarabine" model="medicament.dci">
+        <field name="name">Fludarabine</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_fluoro_5_uracil" model="medicament.dci">
+        <field name="name">Fluoro-5 uracil</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_folinate_de_calcium" model="medicament.dci">
+        <field name="name">Folinate de calcium</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_fulvestran" model="medicament.dci">
+        <field name="name">Fulvestran</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_gemcitabine" model="medicament.dci">
+        <field name="name">Gemcitabine</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_hydroxycarbamide" model="medicament.dci">
+        <field name="name">Hydroxycarbamide</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_ibandronate" model="medicament.dci">
+        <field name="name">Ibandronate</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_ibritunib" model="medicament.dci">
+        <field name="name">Ibritunib</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_idarubicine" model="medicament.dci">
+        <field name="name">Idarubicine</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_ifosfamide" model="medicament.dci">
+        <field name="name">Ifosfamide</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_imatinib" model="medicament.dci">
+        <field name="name">Imatinib</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_irinotecan" model="medicament.dci">
+        <field name="name">Irinotécan</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_l_asparaginase" model="medicament.dci">
+        <field name="name">L-Asparaginase</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_ledertrexate" model="medicament.dci">
+        <field name="name">Ledertrexate</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_lenalidomide" model="medicament.dci">
+        <field name="name">Lénalidomide</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_letrozole" model="medicament.dci">
+        <field name="name">Letrozole</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_melphalan" model="medicament.dci">
+        <field name="name">Melphalan</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_mercaptopurine" model="medicament.dci">
+        <field name="name">Mercaptopurine</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_mesna" model="medicament.dci">
+        <field name="name">Mesna</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_methotrexate" model="medicament.dci">
+        <field name="name">Méthotrexate</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_mitomycine_c" model="medicament.dci">
+        <field name="name">Mitomycine C</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_nivolumab" model="medicament.dci">
+        <field name="name">Nivolumab</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_olaparib" model="medicament.dci">
+        <field name="name">Olaparib</field>
+    </record>
+    <!-- Source : page 13 -->
+    <record id="medicament_dci_osimertinib" model="medicament.dci">
+        <field name="name">Osimertinib</field>
+    </record>
+    <!-- Source : pages 13, 14 -->
+    <record id="medicament_dci_oxaliplatine" model="medicament.dci">
+        <field name="name">Oxaliplatine</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_paclitaxel" model="medicament.dci">
+        <field name="name">Paclitaxel</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_pegfilgastrim" model="medicament.dci">
+        <field name="name">Pegfilgastrim</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_pembrolizumab" model="medicament.dci">
+        <field name="name">Pembrolizumab</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_pemetrexed" model="medicament.dci">
+        <field name="name">Pemetrexed</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_ponatinib" model="medicament.dci">
+        <field name="name">Ponatinib</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_procarbazine" model="medicament.dci">
+        <field name="name">Procarbazine</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_rituximab" model="medicament.dci">
+        <field name="name">Rituximab</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_sunitinib" model="medicament.dci">
+        <field name="name">Sunitinib</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_tamoxifene" model="medicament.dci">
+        <field name="name">Tamoxifène</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_temozolomide" model="medicament.dci">
+        <field name="name">Témozolomide</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_thalidomide" model="medicament.dci">
+        <field name="name">Thalidomide</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_thioguanine" model="medicament.dci">
+        <field name="name">Thioguanine</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_topotecan" model="medicament.dci">
+        <field name="name">Topotécan</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_trastuzumab" model="medicament.dci">
+        <field name="name">Trastuzumab</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_trastuzumab_deruxtecan" model="medicament.dci">
+        <field name="name">Trastuzumab/Deruxtecan</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_tretinoine" model="medicament.dci">
+        <field name="name">Trétinoïne</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_venetoclax" model="medicament.dci">
+        <field name="name">Venetoclax</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_vinblastine" model="medicament.dci">
+        <field name="name">Vinblastine</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_vincristine" model="medicament.dci">
+        <field name="name">Vincristine</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_vinorelbine" model="medicament.dci">
+        <field name="name">Vinorelbine</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_acides_gras_essentiels" model="medicament.dci">
+        <field name="name">Acides gras essentiels</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_aspe" model="medicament.dci">
+        <field name="name">ASPE</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_atpe" model="medicament.dci">
+        <field name="name">ATPE</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_complexe_vitaminique" model="medicament.dci">
+        <field name="name">Complexe vitaminique</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_f100" model="medicament.dci">
+        <field name="name">F100</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_f75" model="medicament.dci">
+        <field name="name">F75</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_melange_ternaire_protide_glucide_lipide" model="medicament.dci">
+        <field name="name">Mélange ternaire (protide, glucide, lipide)</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_oligo_elements" model="medicament.dci">
+        <field name="name">Oligo-éléments</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_supplement_de_micronutriments_multiples_mms" model="medicament.dci">
+        <field name="name">Supplément de micronutriments multiples (MMS)</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_fenoxazoline" model="medicament.dci">
+        <field name="name">Fénoxazoline</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_phenazone_lidocaine" model="medicament.dci">
+        <field name="name">Phénazone + Lidocaïne</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_xylometazoline" model="medicament.dci">
+        <field name="name">Xylométazoline</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_dispositifs_intra_uterins_cu_375" model="medicament.dci">
+        <field name="name">Dispositifs intra-utérins CU 375</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_dispositifs_intra_uterins_tcu_380_a" model="medicament.dci">
+        <field name="name">Dispositifs intra-utérins TCU 380 A</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_dispositifs_intra_uterins_tcu_380_a_post_partum" model="medicament.dci">
+        <field name="name">Dispositifs intra-utérins TCU 380 A Post partum</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_diu_hormonal" model="medicament.dci">
+        <field name="name">DIU hormonal</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_preservatif_feminin" model="medicament.dci">
+        <field name="name">Préservatif féminin</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_preservatif_masculin" model="medicament.dci">
+        <field name="name">Préservatif masculin</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_collier" model="medicament.dci">
+        <field name="name">Collier</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_ethinylestradiol_levonorgestrel_fumarate_ferreux" model="medicament.dci">
+        <field name="name">Ethinylestradiol + Levonorgestrel + Fumarate ferreux</field>
+    </record>
+    <!-- Source : page 14 -->
+    <record id="medicament_dci_acetate_medroxyprogesterone" model="medicament.dci">
+        <field name="name">Acétate médroxyprogestérone</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_anneau_vaginal_a_progesterone" model="medicament.dci">
+        <field name="name">Anneau vaginal à progestérone</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_etonogestrel" model="medicament.dci">
+        <field name="name">Etonogestrel</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_levonorgestrel" model="medicament.dci">
+        <field name="name">Levonorgestrel</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_chlorpyrimiphos_methyl_ce_et_pp" model="medicament.dci">
+        <field name="name">Chlorpyrimiphos méthyl (CE et PP)</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_chlorure_de_benzalkonium" model="medicament.dci">
+        <field name="name">Chlorure de benzalkonium</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_cresilol" model="medicament.dci">
+        <field name="name">Crésilol</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_deltamethrine" model="medicament.dci">
+        <field name="name">Deltaméthrine</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_flicide" model="medicament.dci">
+        <field name="name">Flicide</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_glutaraldehyde" model="medicament.dci">
+        <field name="name">Glutaraldéhyde</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_moustiquaires_impregnees" model="medicament.dci">
+        <field name="name">Moustiquaires imprégnées</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_permethrine" model="medicament.dci">
+        <field name="name">Perméthrine</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_appareil_et_bandelettes_pour_lecture_hemocue" model="medicament.dci">
+        <field name="name">Appareil et bandelettes pour lecture hémocue</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_auto_test_salivaire_vih" model="medicament.dci">
+        <field name="name">Auto test salivaire VIH</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_bandelettes_detection_hematurie" model="medicament.dci">
+        <field name="name">Bandelettes (détection hématurie)</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_bocaux_pour_le_recueil_des_selles" model="medicament.dci">
+        <field name="name">Bocaux pour le recueil des selles</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_filtres_pour_la_filtration_de_lurine" model="medicament.dci">
+        <field name="name">Filtres pour la filtration de l’urine</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_kato_katz_kits_pour_lexamen_des_selles" model="medicament.dci">
+        <field name="name">Kato Katz kits pour l’examen des selles</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_porte_echantillons" model="medicament.dci">
+        <field name="name">Porte-échantillons</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_porte_filtres" model="medicament.dci">
+        <field name="name">Porte-filtres</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_reactif_de_charge_virale_hepatite_b_c" model="medicament.dci">
+        <field name="name">Réactif de charge virale hépatite B/C</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_reactif_de_charge_virale_vih" model="medicament.dci">
+        <field name="name">Réactif de charge virale VIH</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_tdr_drepano" model="medicament.dci">
+        <field name="name">TDR drépano</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_test_de_controle_du_groupe_sanguin" model="medicament.dci">
+        <field name="name">Test de contrôle du groupe sanguin</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_test_de_diagnostic_rapide_du_paludisme" model="medicament.dci">
+        <field name="name">Test de diagnostic rapide du paludisme</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_test_de_glucose_oxydase" model="medicament.dci">
+        <field name="name">Test de glucose oxydase</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_test_de_proteine_urinaire" model="medicament.dci">
+        <field name="name">Test de protéine urinaire</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_test_de_screening_depistage_rapide_vih_1_et_2" model="medicament.dci">
+        <field name="name">Test de screening dépistage rapide VIH 1 et 2</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_test_de_screening_depistage_rapide_vih_1_et_2_combo" model="medicament.dci">
+        <field name="name">Test de screening dépistage rapide VIH 1 et 2 COMBO</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_test_moleculaire_de_detection_de_ladn_du_bk" model="medicament.dci">
+        <field name="name">Test moléculaire de détection de l’ADN du BK</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_test_moleculaire_de_detection_de_larn_adn_hepatites" model="medicament.dci">
+        <field name="name">Test moléculaire de détection de l’ARN/ADN hépatites</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_test_moleculaire_de_detection_de_larn_sarscov_2" model="medicament.dci">
+        <field name="name">Test moléculaire de détection de l’ARN SARSCOV 2</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_test_moleculaire_de_detection_de_larn_vih" model="medicament.dci">
+        <field name="name">Test moléculaire de détection de l’ARN VIH</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_test_mtbdr_sl_sensibilite_mycobacteries" model="medicament.dci">
+        <field name="name">Test MTBDR SL (sensibilité MycoBactéries)</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_test_rapide_de_depistage_hepatite_c" model="medicament.dci">
+        <field name="name">Test rapide de dépistage hépatite C</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_test_tuberculine" model="medicament.dci">
+        <field name="name">Test tuberculine</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_tests_de_depistage_antigene_hbs" model="medicament.dci">
+        <field name="name">Tests de dépistage antigène HBs</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_tests_gonococciques" model="medicament.dci">
+        <field name="name">Tests gonococciques</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_tests_immunologiques_dosage_cd4" model="medicament.dci">
+        <field name="name">Tests immunologiques dosage CD4</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_tests_rapide_chlamydia" model="medicament.dci">
+        <field name="name">Tests rapide chlamydia</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_tests_rapide_de_confirmation_vih" model="medicament.dci">
+        <field name="name">Tests rapide de confirmation VIH</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_tests_serologiques_syphilis" model="medicament.dci">
+        <field name="name">Tests sérologiques syphilis</field>
+    </record>
+    <!-- Source : page 15 -->
+    <record id="medicament_dci_tests_serologiques_syphilis_hiv" model="medicament.dci">
+        <field name="name">Tests sérologiques syphilis HIV</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_tests_serologiques_syphilis_hiv_combo" model="medicament.dci">
+        <field name="name">Tests sérologiques syphilis HIV COMBO</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_vert_malachite" model="medicament.dci">
+        <field name="name">Vert malachite</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_alphacalcidiol" model="medicament.dci">
+        <field name="name">Alphacalcidiol</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_bicarbonate" model="medicament.dci">
+        <field name="name">Bicarbonate</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_calciferol" model="medicament.dci">
+        <field name="name">Calciférol</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_carbonate_de_calcium" model="medicament.dci">
+        <field name="name">Carbonate de calcium</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_cholecalciferol" model="medicament.dci">
+        <field name="name">Cholécalciférol</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_cinacalcet" model="medicament.dci">
+        <field name="name">Cinacalcet</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_fer_carboxymaltose" model="medicament.dci">
+        <field name="name">Fer carboxymaltose</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_fer_saccharose" model="medicament.dci">
+        <field name="name">Fer saccharose</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_mycophenolate_mofetil" model="medicament.dci">
+        <field name="name">Mycophénolate mofétil</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_polystyrene_sulfonate_de_potassium" model="medicament.dci">
+        <field name="name">Polystyrène sulfonate de potassium</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_prednisolone" model="medicament.dci">
+        <field name="name">Prednisolone</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_sevelamer_chlorhydrate" model="medicament.dci">
+        <field name="name">Sévélamer chlorhydrate</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_azathioprine" model="medicament.dci">
+        <field name="name">Azathioprine</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_basiliximab" model="medicament.dci">
+        <field name="name">Basiliximab</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_immunoglobuline_de_lapin_anti_thymocytes_humain" model="medicament.dci">
+        <field name="name">Immunoglobuline de lapin anti-thymocytes humain</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_interferon_pegyle" model="medicament.dci">
+        <field name="name">Interféron pégylé</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_kit_dechange_plasmatique_et_erythrocytaire" model="medicament.dci">
+        <field name="name">Kit d’échange plasmatique et érythrocytaire</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_solution_de_conservation_dorganes" model="medicament.dci">
+        <field name="name">Solution de conservation d’organes</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_tacrolimus" model="medicament.dci">
+        <field name="name">Tacrolimus</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_thrombopoietine" model="medicament.dci">
+        <field name="name">Thrombopoïétine</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_aiguilles_artere_veine" model="medicament.dci">
+        <field name="name">Aiguilles artère veine</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_catheter_femoral_jugulaire" model="medicament.dci">
+        <field name="name">Cathéter fémoral/jugulaire</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_catheter_jugulaire" model="medicament.dci">
+        <field name="name">Cathéter jugulaire</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_concentre_dacide" model="medicament.dci">
+        <field name="name">Concentré d’acide</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_concentre_de_bicarbonate" model="medicament.dci">
+        <field name="name">Concentré de bicarbonate</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_kit_hemodialyse" model="medicament.dci">
+        <field name="name">Kit hémodialyse</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_lignes_artere_veine" model="medicament.dci">
+        <field name="name">Lignes artère veine</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_reins_artificiels" model="medicament.dci">
+        <field name="name">Reins artificiels</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_set_de_branchement_et_de_debranchement" model="medicament.dci">
+        <field name="name">Set de branchement et de débranchement</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_bouchon_betadine" model="medicament.dci">
+        <field name="name">Bouchon bétadiné</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_bouchon_staysafe" model="medicament.dci">
+        <field name="name">Bouchon staysafe</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_cassettes" model="medicament.dci">
+        <field name="name">Cassettes</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_extraneal_ou_equivalent" model="medicament.dci">
+        <field name="name">Extraneal ou équivalent</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_kit_dialyse_peritoneale" model="medicament.dci">
+        <field name="name">Kit dialyse péritonéale</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_nutrineale" model="medicament.dci">
+        <field name="name">Nutrinéale</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_poche_hypertonique_dpa" model="medicament.dci">
+        <field name="name">Poche hypertonique DPA</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_poche_hypertonique_dpca" model="medicament.dci">
+        <field name="name">Poche hypertonique DPCA</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_poche_intermediaire_dpa" model="medicament.dci">
+        <field name="name">Poche intermédiaire DPA</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_poche_intermediaire_dpca" model="medicament.dci">
+        <field name="name">Poche intermédiaire DPCA</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_poche_isotonique_dpa" model="medicament.dci">
+        <field name="name">Poche isotonique DPA</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_poche_isotonique_dpca" model="medicament.dci">
+        <field name="name">Poche isotonique DPCA</field>
+    </record>
+    <!-- Source : page 16 -->
+    <record id="medicament_dci_alfuzosine" model="medicament.dci">
+        <field name="name">Alfuzosine</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_levodopa_benserazide_chlorhydrate" model="medicament.dci">
+        <field name="name">Levodopa + Benserazide chlorhydrate</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_donepezil_chlorhydrate" model="medicament.dci">
+        <field name="name">Donépézil chlorhydrate</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_piracetam" model="medicament.dci">
+        <field name="name">Piracétam</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_pyridostigmine" model="medicament.dci">
+        <field name="name">Pyridostigmine</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_sumatriptan" model="medicament.dci">
+        <field name="name">Sumatriptan</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_comprime_nicotinique" model="medicament.dci">
+        <field name="name">Comprimé nicotinique</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_gomme_nicotinique" model="medicament.dci">
+        <field name="name">Gomme nicotinique</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_pastille_nicotinique" model="medicament.dci">
+        <field name="name">Pastille nicotinique</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_patch_nicotinique_transdermique_16_h" model="medicament.dci">
+        <field name="name">Patch nicotinique transdermique 16 h</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_patch_nicotinique_transdermique_24_h" model="medicament.dci">
+        <field name="name">Patch nicotinique transdermique 24 h</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_acide_gadoterique" model="medicament.dci">
+        <field name="name">Acide gadotérique</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_amidotrizoate_sodium_et_meglumine" model="medicament.dci">
+        <field name="name">Amidotrizoate sodium et méglumine</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_iobitridol" model="medicament.dci">
+        <field name="name">Iobitridol</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_iohexol" model="medicament.dci">
+        <field name="name">Iohexol</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_iopamidol" model="medicament.dci">
+        <field name="name">Iopamidol</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_abaisse_langue_pediatrique_et_adulte" model="medicament.dci">
+        <field name="name">Abaisse langue pédiatrique et adulte</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_aiguille_de_biopsie_trans_parietale" model="medicament.dci">
+        <field name="name">Aiguille de biopsie trans pariétale</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_aiguille_de_bloc_perinerveuse" model="medicament.dci">
+        <field name="name">Aiguille de bloc périnerveuse</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_aiguille_de_huber" model="medicament.dci">
+        <field name="name">Aiguille de Huber</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_aiguille_de_medullogramme" model="medicament.dci">
+        <field name="name">Aiguille de médullogramme</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_aiguille_dentaire" model="medicament.dci">
+        <field name="name">Aiguille dentaire</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_aiguille_intra_osseuse_de_cook" model="medicament.dci">
+        <field name="name">Aiguille intra osseuse de Cook</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_aiguille_pour_ponction_lombaire" model="medicament.dci">
+        <field name="name">Aiguille pour ponction lombaire</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_aiguilles_intra_septales_dentaires" model="medicament.dci">
+        <field name="name">Aiguilles intra septales dentaires</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_aiguilles_para_apicales_dentaires" model="medicament.dci">
+        <field name="name">Aiguilles para apicales dentaires</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_aiguilles_tronculaires" model="medicament.dci">
+        <field name="name">Aiguilles tronculaires</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_ambu_pediatrique" model="medicament.dci">
+        <field name="name">Ambu pédiatrique</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_anesthesique_dentaire_en_carpule" model="medicament.dci">
+        <field name="name">Anesthésique dentaire en carpule</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_aspirateur_de_mucosites" model="medicament.dci">
+        <field name="name">Aspirateur de mucosités</field>
+    </record>
+    <!-- Source : page 17 -->
+    <record id="medicament_dci_aspirateur_manuel_intra_uterin" model="medicament.dci">
+        <field name="name">Aspirateur manuel intra utérin</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_ballon_de_ventilation_pour_le_nouveau_ne_avec_masque" model="medicament.dci">
+        <field name="name">Ballon de ventilation pour le nouveau-né avec masque</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_bande" model="medicament.dci">
+        <field name="name">Bande</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_bande_platree" model="medicament.dci">
+        <field name="name">Bande plâtrée</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_bandelette_et_lecteur_corps_cetoniques" model="medicament.dci">
+        <field name="name">Bandelette et lecteur corps cétoniques</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_bandelette_test_proteine_glucose" model="medicament.dci">
+        <field name="name">Bandelette test protéine/glucose</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_bandelettes_urinaires_multiparametriques" model="medicament.dci">
+        <field name="name">Bandelettes urinaires multiparamétriques</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_boite_a_instrument" model="medicament.dci">
+        <field name="name">Boîte à instrument</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_boite_de_petris" model="medicament.dci">
+        <field name="name">Boîte de pétris</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_boite_de_securite_seringue" model="medicament.dci">
+        <field name="name">Boîte de sécurité seringue</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_bracelet_pediatrique" model="medicament.dci">
+        <field name="name">Bracelet pédiatrique</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_canule_pour_aspirateur_manuel_intra_uterin_num" model="medicament.dci">
+        <field name="name">Canule pour aspirateur manuel intra utérin num</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_cartouches_de_genexpert" model="medicament.dci">
+        <field name="name">Cartouches de GeneXpert</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_catheter_dhemodialyse_tunnelise" model="medicament.dci">
+        <field name="name">Cathéter d’hémodialyse tunnelisé</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_catheter_voie_centrale" model="medicament.dci">
+        <field name="name">Cathéter voie centrale</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_catheter_voie_centrale_3_fr_4_fr_5_fr_7_fr_mono_et_biluminaire" model="medicament.dci">
+        <field name="name">Cathéter voie centrale 3 fr, 4 fr, 5 fr, 7 fr mono et biluminaire</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_catheters_intranules" model="medicament.dci">
+        <field name="name">Cathéters Intranules</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_chambre_implantable" model="medicament.dci">
+        <field name="name">Chambre implantable</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_chirurgie_trichiasis_trachomateux" model="medicament.dci">
+        <field name="name">Chirurgie trichiasis trachomateux</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_circuit_a_usage_unique_doxygene" model="medicament.dci">
+        <field name="name">Circuit à usage unique d’oxygène</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_circuit_respiratoire_a_usage_unique" model="medicament.dci">
+        <field name="name">Circuit respiratoire à usage unique</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_ciseau" model="medicament.dci">
+        <field name="name">Ciseau</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_clamp_de_barre" model="medicament.dci">
+        <field name="name">Clamp de barre</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_colorant_a_lauramine" model="medicament.dci">
+        <field name="name">Colorant à l’auramine</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_compresse" model="medicament.dci">
+        <field name="name">Compresse</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_coton" model="medicament.dci">
+        <field name="name">Coton</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_crachoirs" model="medicament.dci">
+        <field name="name">Crachoirs</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_detartrine_45_g" model="medicament.dci">
+        <field name="name">Détartrine 45 g</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_dialyseur" model="medicament.dci">
+        <field name="name">Dialyseur</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_dispositif_de_ventilation_a_pression_positive_continue_pediatrique_cpap" model="medicament.dci">
+        <field name="name">Dispositif de ventilation à pression positive continue pédiatrique (CPAP)</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_drains_thoraciques" model="medicament.dci">
+        <field name="name">Drains thoraciques</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_drap_obstetrical_calibre" model="medicament.dci">
+        <field name="name">Drap obstétrical calibré</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_electrodes" model="medicament.dci">
+        <field name="name">Electrodes</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_electrodes_pediatriques" model="medicament.dci">
+        <field name="name">Electrodes pédiatriques</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_eugenol_fl_250_ml" model="medicament.dci">
+        <field name="name">Eugénol fl/250 ml</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_extracteur_doxygene" model="medicament.dci">
+        <field name="name">Extracteur d’oxygène</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_fil_de_suture_resorbable" model="medicament.dci">
+        <field name="name">Fil de suture résorbable</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_films_numerique" model="medicament.dci">
+        <field name="name">Films numérique</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_films_radio" model="medicament.dci">
+        <field name="name">Films radio</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_fils_de_suture_non_resorbable" model="medicament.dci">
+        <field name="name">Fils de suture non résorbable</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_fournitures_renouvelables_kit_pnt" model="medicament.dci">
+        <field name="name">Fournitures renouvelables KIT PNT</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_gant_de_chirurgie" model="medicament.dci">
+        <field name="name">Gant de chirurgie</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_gant_dexamen_latex" model="medicament.dci">
+        <field name="name">Gant d’examen latex</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_garrot" model="medicament.dci">
+        <field name="name">Garrot</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_gaze_piece" model="medicament.dci">
+        <field name="name">Gaze pièce</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_iopamidols" model="medicament.dci">
+        <field name="name">Iopamidols</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_jersey" model="medicament.dci">
+        <field name="name">Jersey</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_kits_chirurgie" model="medicament.dci">
+        <field name="name">Kits chirurgie</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_lame_de_bistouri" model="medicament.dci">
+        <field name="name">Lame de bistouri</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_lamelle_couvre_objet_22x22" model="medicament.dci">
+        <field name="name">Lamelle couvre-objet 22x22</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_laryngoscope_a_fibre_optique" model="medicament.dci">
+        <field name="name">Laryngoscope à fibre optique</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_lunettes_doxygenes" model="medicament.dci">
+        <field name="name">Lunettes d’oxygènes</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_masque_a_haute_concentration" model="medicament.dci">
+        <field name="name">Masque à haute concentration</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_masque_facial_danesthesie_adulte" model="medicament.dci">
+        <field name="name">Masque facial d’anesthésie adulte</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_masque_facial_danesthesie_pediatrique" model="medicament.dci">
+        <field name="name">Masque facial d’anesthésie pédiatrique</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_masque_simple_doxygene" model="medicament.dci">
+        <field name="name">Masque simple d’oxygène</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_materiel_de_base_kit_pnt" model="medicament.dci">
+        <field name="name">Matériel de base kit PNT</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_mercure_tridistille" model="medicament.dci">
+        <field name="name">Mercure tridistillé</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_microperfuseur" model="medicament.dci">
+        <field name="name">Microperfuseur</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_mini_prolongateur" model="medicament.dci">
+        <field name="name">Mini prolongateur</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_nebulisateur" model="medicament.dci">
+        <field name="name">Nébulisateur</field>
+    </record>
+    <!-- Source : page 18 -->
+    <record id="medicament_dci_oxymetre" model="medicament.dci">
+        <field name="name">Oxymètre</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_pantalon_antichoc" model="medicament.dci">
+        <field name="name">Pantalon antichoc</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_pec_medicale_des_lymphoedeme" model="medicament.dci">
+        <field name="name">PEC médicale des lymphoedème</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_perfuseur" model="medicament.dci">
+        <field name="name">Perfuseur</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_pese_personne_pediatrique_et_adulte" model="medicament.dci">
+        <field name="name">Pèse-personne pédiatrique et adulte</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_pharmaethyl_fl_210_g" model="medicament.dci">
+        <field name="name">Pharmaéthyl fl/210 g</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_pince_a_dissequer" model="medicament.dci">
+        <field name="name">Pince à disséquer</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_pince_hemostatique" model="medicament.dci">
+        <field name="name">Pince hémostatique</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_plateau_inox" model="medicament.dci">
+        <field name="name">Plateau inox</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_poche_a_colostomie_vidangeable" model="medicament.dci">
+        <field name="name">Poche à colostomie vidangeable</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_poche_a_sang_double" model="medicament.dci">
+        <field name="name">Poche à sang double</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_poche_a_sang_simple" model="medicament.dci">
+        <field name="name">Poche à sang simple</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_poche_a_sang_triple" model="medicament.dci">
+        <field name="name">Poche à sang triple</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_poche_a_urine_vidangeable" model="medicament.dci">
+        <field name="name">Poche à urine vidangeable</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_poire_pour_aspiration" model="medicament.dci">
+        <field name="name">Poire pour aspiration</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_prolongateur" model="medicament.dci">
+        <field name="name">Prolongateur</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_robinet_a_3_voies" model="medicament.dci">
+        <field name="name">Robinet à 3 voies</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_rockles_solution" model="medicament.dci">
+        <field name="name">Rocklés solution</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_seringue_10_cc" model="medicament.dci">
+        <field name="name">Seringue 10 CC</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_seringue_20_cc" model="medicament.dci">
+        <field name="name">Seringue 20 CC</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_seringue_5_cc" model="medicament.dci">
+        <field name="name">Seringue 5 CC</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_seringue_60_cc" model="medicament.dci">
+        <field name="name">Seringue 60 CC</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_sonde_daspiration_pediatrique_et_adulte" model="medicament.dci">
+        <field name="name">Sonde d’aspiration pédiatrique et adulte</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_sonde_de_gavage" model="medicament.dci">
+        <field name="name">Sonde de gavage</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_sonde_dintubation_de_differents_calibres" model="medicament.dci">
+        <field name="name">Sonde d’intubation de différents calibres</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_sonde_jj" model="medicament.dci">
+        <field name="name">Sonde JJ</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_sonde_nasogastrique_feeding" model="medicament.dci">
+        <field name="name">Sonde nasogastrique « feeding »</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_sonde_pour_autosondage" model="medicament.dci">
+        <field name="name">Sonde pour autosondage</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_sonde_prostatique_silicone_3_voies" model="medicament.dci">
+        <field name="name">Sonde prostatique silicone 3 voies</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_sonde_tracheale_en_silicone" model="medicament.dci">
+        <field name="name">Sonde trachéale en silicone</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_sonde_urinaire_pediatrique_et_adulte" model="medicament.dci">
+        <field name="name">Sonde urinaire pédiatrique et adulte</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_sparadrap" model="medicament.dci">
+        <field name="name">Sparadrap</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_tamponnement_par_ballonnet_uterin_ubt" model="medicament.dci">
+        <field name="name">Tamponnement par ballonnet utérin (UBT)</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_tdr_combo_antigene_anticorps_de_la_dengue" model="medicament.dci">
+        <field name="name">TDR Combo antigène anticorps de la Dengue</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_tensiometre" model="medicament.dci">
+        <field name="name">Tensiomètre</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_test_de_diagnostic_de_la_meningite" model="medicament.dci">
+        <field name="name">Test de diagnostic de la méningite</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_test_de_diagnostic_du_cholera" model="medicament.dci">
+        <field name="name">Test de diagnostic du choléra</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_thermometre" model="medicament.dci">
+        <field name="name">Thermomètre</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_transfuseur" model="medicament.dci">
+        <field name="name">Transfuseur</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_trocart_de_biopsie_osteo_medullaire" model="medicament.dci">
+        <field name="name">Trocart de biopsie ostéo-médullaire</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_tube_pour_prelevement_de_sang" model="medicament.dci">
+        <field name="name">Tube pour prélèvement de sang</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_ultrafiltre" model="medicament.dci">
+        <field name="name">Ultrafiltre</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_valve_de_heimlich" model="medicament.dci">
+        <field name="name">Valve de Heimlich</field>
+    </record>
+    <!-- Source : page 19 -->
+    <record id="medicament_dci_ventouse" model="medicament.dci">
+        <field name="name">Ventouse</field>
+    </record>
+</odoo>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="departement_form_view_herited" model="ir.ui.view">
+        <field name="name">Patients of the department</field>
+        <field name="model">departement.departement</field>
+        <field name="inherit_id" ref="ibel_location.departement_form_view" />
+        <field name="arch" type="xml">
+            <xpath expr="//div[@name='button_box']" position="inside">
+               <button name="get_patient_ids_action" type="object" icon="fa-user" class="oe_stat_button" >
+                   <field name="patient_ids_count" widget="statinfo" string="Patients"/>
+               </button>
+            </xpath>
+        </field>
+    </record>
+</odoo>
+
+
+

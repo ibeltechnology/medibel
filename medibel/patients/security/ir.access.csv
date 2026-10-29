@@ -1,0 +1,6 @@
+id,name,model_id,group_id:id,operation,domain
+access_patient_manager,group.patient.manager,res.partner,group_manager,crud,
+access_patient_user,group.patient.user,res.partner,group_user,cru,"['|', ('user_allowed_id', '=', user.id),('user_allowed_id', '=', False) ]"
+access_patient_global,group.patient.global,res.partner,,crud,"['|', ('company_id', '=', False),('company_id', 'in', company_ids)]"
+access_disease_manager,group.disease.manager,patient.disease,group_manager,crud,
+access_disease_user,group.disease.user,patient.disease,group_user,cru,

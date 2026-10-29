@@ -1,0 +1,34 @@
+<odoo>
+    <data noupdate="0">
+        <record id="age_range_newborn" model="patient.age.range">
+            <field name="name">Newborn</field>
+            <field name="age_from">0</field>
+            <field name="age_to">28</field>
+        </record>
+        <record id="age_range_infant" model="patient.age.range">
+            <field name="name">Infant</field>
+            <field name="age_from">29</field>
+            <field name="age_to">730</field>
+        </record>
+        <record id="age_range_child" model="patient.age.range">
+            <field name="name">Child</field>
+            <field name="age_from">731</field>
+            <field name="age_to">4382</field>
+        </record>
+        <record id="age_range_adolescent" model="patient.age.range">
+            <field name="name">Adolescent</field>
+            <field name="age_from">4383</field>
+            <field name="age_to">6570</field>
+        </record>
+        <record id="age_range_adult" model="patient.age.range">
+            <field name="name">Adult</field>
+            <field name="age_from">6571</field>
+            <field name="age_to">25550</field>
+        </record>
+        <record id="age_range_senior" model="patient.age.range">
+            <field name="name">Senior</field>
+            <field name="age_from">25551</field>
+            <field name="age_to">45000</field>
+        </record>
+    </data>
+</odoo>

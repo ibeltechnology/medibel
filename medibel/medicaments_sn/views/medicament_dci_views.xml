@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>   
+    <data>
+        <record model="ir.ui.view" id="medicament_dci_form_view">
+            <field name="name">medicament.dci.form</field>
+            <field name="model">medicament.dci</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <div class="oe_button_box" name="button_box">
+                        </div>
+                        <div class="oe_title">
+                            <div class="oe_edit_only">
+                                <label for="name"/>
+                            </div>
+                            <h1 class="mb32">
+                                <field name="name" class="mb16"/>
+                            </h1>
+                        </div>
+                        <group>
+                             <field name="active" invisible="1"/>
+                        </group>
+                        <notebook>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="medicament_dci_list_view">
+            <field name="name">medicament.dci.list</field>
+            <field name="model">medicament.dci</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="name"/>
+                </list>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="medicament_dci_search_view">
+            <field name="name">medicament.dci.search</field>
+            <field name="model">medicament.dci</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name"/>
+                </search>
+            </field>
+        </record>
+<!-- Kanban view -->
+        <record model="ir.actions.act_window" id="medicament_dci_action">
+            <field name="name">Mod</field>
+            <field name="res_model">medicament.dci</field>
+            <field name="view_mode">list,form</field>
+            <field name="domain">[]</field>
+            <field name="view_id" ref="medicament_dci_list_view"></field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">Create the first
+                </p>
+            </field>
+        </record>
+    </data>
+</odoo>

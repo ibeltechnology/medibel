@@ -1,0 +1,7 @@
+<odoo>
+    <data>
+        <menuitem id="consultation_main_menu" name="Consultation" web_icon="consultation,static/description/icon.png"/>
+        <menuitem id="consultation_top_menu_consultations" name="Consultations" parent="consultation_main_menu"/>
+        <menuitem id="consultation_top_menu_settings" name="Configuration" parent="consultation_main_menu" groups="group_manager" sequence="20"/>
+    </data>
+</odoo>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>   
+    <data>
+        <record model="ir.ui.view" id="prescription_medication_frequency_form_view">
+            <field name="name">medication.frequency.form</field>
+            <field name="model">medication.frequency</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <div class="oe_button_box" name="button_box">
+                        </div>
+                        <div class="oe_title">
+                            <div class="oe_edit_only">
+                                <label for="name"/>
+                            </div>
+                            <h1 class="mb32">
+                                <field name="name" class="mb16"/>
+                            </h1>
+                        </div>
+                        <group>
+                             <field name="code"/>
+                             <field name="abbreviation"/>
+                             <field name="active" invisible="1"/>
+                        </group>
+                        <notebook>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="prescription_medication_frequency_list_view">
+            <field name="name">medication.frequency.list</field>
+            <field name="model">medication.frequency</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="name"/>
+                    <field name="code"/>
+                    <field name="abbreviation"/>
+                </list>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="prescription_medication_frequency_search_view">
+            <field name="name">medication.frequency.search</field>
+            <field name="model">medication.frequency</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name"/>
+                </search>
+            </field>
+        </record>
+<!-- Kanban view -->
+        <record model="ir.actions.act_window" id="prescription_medication_frequency_action">
+            <field name="name">Mod</field>
+            <field name="res_model">medication.frequency</field>
+            <field name="view_mode">list,form</field>
+            <field name="domain">[]</field>
+            <field name="view_id" ref="prescription_medication_frequency_list_view"></field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">Create the first
+                </p>
+            </field>
+        </record>
+        <menuitem id="prescription_medication_frequency_menu_action" action="prescription_medication_frequency_action" name="Medication frequencies" parent="prescription_top_menu_settings" sequence="6"/>
+    </data>
+</odoo>

@@ -1,0 +1,34 @@
+<odoo>
+
+    <record
+        id="portal_entry_demandes"
+        model="portal.entry">
+
+        <field name="name">
+            Mes prescriptions
+        </field>
+
+        <field name="url">
+            /my/prescriptions
+        </field>
+
+        <field name="image" type="bytes" file="prescription/static/src/img/prescription.svg"/>
+
+        <field name="placeholder_count">prescription_count</field>  
+
+        <field name="description">
+            Consulter et suivre mes prescription
+        </field>
+
+        <field name="sequence">20</field>
+
+        <field name="category">
+            common_category
+        </field>
+
+        <field name="show_in_portal"
+               eval="True"/>
+
+    </record>
+
+</odoo>

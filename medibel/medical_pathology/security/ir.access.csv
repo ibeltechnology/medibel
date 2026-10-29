@@ -1,0 +1,6 @@
+id,name,model_id,group_id:id,operation,domain
+access_medical_pathology_category,group.medical.pathology.category,medical.pathology.category,base.group_user,crud,
+access_medical_pathology,group.medical.pathology,medical.pathology,base.group_user,crud,
+access_medical_pathology_group,group.medical.pathology.group,medical.pathology.group,base.group_user,crud,
+access_medical_pathology_group_member,group.medical.pathology.group.member,medical.pathology.group.member,base.group_user,crud,
+

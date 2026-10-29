@@ -1,0 +1,3347 @@
+
+<odoo>
+    <data noupdate="0">
+    
+        <record model="commune.commune" id="ville_dakar">
+            <field name="name">Ville de Dakar</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+            <field name="arrondissement_id" ref="dakar_ha"></field>
+        </record>
+        <record model="commune.commune" id="ville_guediwaye">
+            <field name="name">Ville de Guédiawaye</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep02"></field>
+            <field name="arrondissement_id" ref="guediawaye_ha"></field>
+        </record>
+        <record model="commune.commune" id="ville_pikine">
+            <field name="name">Ville de Pikine</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep03"></field>
+            <field name="arrondissement_id" ref="pikine_ha"></field>
+        </record>
+        <record model="commune.commune" id="ville_rufisque">
+            <field name="name">Ville de Rufisque</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep04"></field>
+            <field name="arrondissement_id" ref="rufisque_ha"></field>
+        </record>
+        <record model="commune.commune" id="com001">
+            <field name="name">Ngor</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+            <field name="arrondissement_id" ref="arr003"></field>
+        </record>
+        <record model="commune.commune" id="com002">
+            <field name="name">Biscuiterie</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+            <field name="arrondissement_id" ref="arr004"></field>
+        </record>
+        <record model="commune.commune" id="com003">
+            <field name="name">Mermoz / Sacré - Coeur</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+            <field name="arrondissement_id" ref="arr003"></field>
+        </record>
+        <record model="commune.commune" id="com004">
+            <field name="name">Camberène</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+            <field name="arrondissement_id" ref="arr002"></field>
+        </record>
+        <record model="commune.commune" id="com005">
+            <field name="name">Colobane / Fass / Gueule Tapée</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+            <field name="arrondissement_id" ref="arr001"></field>
+        </record>
+        <record model="commune.commune" id="com006">
+            <field name="name">Dieupeul Derklé</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+            <field name="arrondissement_id" ref="arr004"></field>
+        </record>
+        <record model="commune.commune" id="com007">
+            <field name="name">Fann / Point E / Amitié</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+            <field name="arrondissement_id" ref="arr001"></field>
+        </record>
+        <record model="commune.commune" id="com008">
+            <field name="name">Gorée</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+            <field name="arrondissement_id" ref="dakar_ha"></field>
+        </record>
+        <record model="commune.commune" id="com009">
+            <field name="name">Grand Dakar</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+            <field name="arrondissement_id" ref="arr004"></field>
+        </record>
+        <record model="commune.commune" id="com010">
+            <field name="name">Grand Yoff</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+            <field name="arrondissement_id" ref="arr002"></field>
+        </record>
+        <record model="commune.commune" id="com011">
+            <field name="name">Hann / Bel Air</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+            <field name="arrondissement_id" ref="arr004"></field>
+        </record>
+        <record model="commune.commune" id="com012">
+            <field name="name">HLM</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+            <field name="arrondissement_id" ref="arr004"></field>
+        </record>
+        <record model="commune.commune" id="com013">
+            <field name="name">Médina</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+            <field name="arrondissement_id" ref="arr001"></field>
+        </record>
+        <record model="commune.commune" id="com014">
+            <field name="name">Ouakam</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+            <field name="arrondissement_id" ref="arr003"></field>
+        </record>
+        <record model="commune.commune" id="com015">
+            <field name="name">Parcelles Assainies</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+            <field name="arrondissement_id" ref="arr002"></field>
+        </record>
+        <record model="commune.commune" id="com016">
+            <field name="name">Patte d''Oie</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+            <field name="arrondissement_id" ref="arr002"></field>
+        </record>
+        <record model="commune.commune" id="com017">
+            <field name="name">Plateau</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+            <field name="arrondissement_id" ref="arr001"></field>
+        </record>
+        <record model="commune.commune" id="com018">
+            <field name="name">Sicap Liberté</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+            <field name="arrondissement_id" ref="arr004"></field>
+        </record>
+        <record model="commune.commune" id="com019">
+            <field name="name">Yoff</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep01"></field>
+            <field name="arrondissement_id" ref="arr003"></field>
+        </record>
+        <record model="commune.commune" id="com020">
+            <field name="name">Ndiarème Limamoulaye</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep02"></field>
+            <field name="arrondissement_id" ref="arr006"></field>
+        </record>
+        <record model="commune.commune" id="com021">
+            <field name="name">Golf SUD</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep02"></field>
+            <field name="arrondissement_id" ref="arr005"></field>
+        </record>
+        <record model="commune.commune" id="com022">
+            <field name="name">Médina Gounass</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep02"></field>
+            <field name="arrondissement_id" ref="arr006"></field>
+        </record>
+        <record model="commune.commune" id="com023">
+            <field name="name">Sam Notaire</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep02"></field>
+            <field name="arrondissement_id" ref="arr005"></field>
+        </record>
+        <record model="commune.commune" id="com024">
+            <field name="name">Wakhinane Nimzatt</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep02"></field>
+            <field name="arrondissement_id" ref="arr006"></field>
+        </record>
+        <record model="commune.commune" id="com025">
+            <field name="name">Daliford</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep03"></field>
+            <field name="arrondissement_id" ref="arr007"></field>
+        </record>
+        <record model="commune.commune" id="com026">
+            <field name="name">Tivaouane - DiackSao</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep03"></field>
+            <field name="arrondissement_id" ref="arr008"></field>
+        </record>
+        <record model="commune.commune" id="com027">
+            <field name="name">Diamaguène / Sicap Mbao</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep03"></field>
+            <field name="arrondissement_id" ref="arr008"></field>
+        </record>
+        <record model="commune.commune" id="com028">
+            <field name="name">Djidah Thiaroye KAO</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep03"></field>
+            <field name="arrondissement_id" ref="arr007"></field>
+        </record>
+        <record model="commune.commune" id="com029">
+            <field name="name">Guinaw Rail NORD</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep03"></field>
+            <field name="arrondissement_id" ref="arr007"></field>
+        </record>
+        <record model="commune.commune" id="com030">
+            <field name="name">Guinaw Rail SUD</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep03"></field>
+            <field name="arrondissement_id" ref="arr007"></field>
+        </record>
+        <record model="commune.commune" id="com031">
+            <field name="name">Mbao</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep03"></field>
+            <field name="arrondissement_id" ref="arr008"></field>
+        </record>
+        <record model="commune.commune" id="com032">
+            <field name="name">Pikine EST</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep03"></field>
+            <field name="arrondissement_id" ref="arr007"></field>
+        </record>
+        <record model="commune.commune" id="com033">
+            <field name="name">Pikine OUEST</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep03"></field>
+            <field name="arrondissement_id" ref="arr007"></field>
+        </record>
+        <record model="commune.commune" id="com034">
+            <field name="name">Pikine NORD</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep03"></field>
+            <field name="arrondissement_id" ref="arr007"></field>
+        </record>
+        <record model="commune.commune" id="com035">
+            <field name="name">Thiaroye sur Mer</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep03"></field>
+            <field name="arrondissement_id" ref="arr008"></field>
+        </record>
+        <record model="commune.commune" id="com036">
+            <field name="name">Thiaroye GARE</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep03"></field>
+            <field name="arrondissement_id" ref="arr008"></field>
+        </record>
+        <record model="commune.commune" id="com037">
+            <field name="name">Bambilor</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep04"></field>
+            <field name="arrondissement_id" ref="arr011"></field>
+        </record>
+        <record model="commune.commune" id="com038">
+            <field name="name">Bargny</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep04"></field>
+            <field name="arrondissement_id" ref="rufisque_ha"></field>
+        </record>
+        <record model="commune.commune" id="com039">
+            <field name="name">Diamniadio</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep04"></field>
+            <field name="arrondissement_id" ref="arr012"></field>
+        </record>
+        <record model="commune.commune" id="com040">
+            <field name="name">Sangalkam</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep04"></field>
+            <field name="arrondissement_id" ref="arr011"></field>
+        </record>
+        <record model="commune.commune" id="com041">
+            <field name="name">Sébikotane</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep04"></field>
+            <field name="arrondissement_id" ref="arr012"></field>
+        </record>
+        <record model="commune.commune" id="com042">
+            <field name="name">Sendou</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep04"></field>
+            <field name="arrondissement_id" ref="rufisque_ha"></field>
+        </record>
+        <record model="commune.commune" id="com043">
+            <field name="name">Rufisque EST</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep04"></field>
+            <field name="arrondissement_id" ref="arr010"></field>
+        </record>
+        <record model="commune.commune" id="com044">
+            <field name="name">Rufisque NORD (Centre) </field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep04"></field>
+            <field name="arrondissement_id" ref="arr010"></field>
+        </record>
+        <record model="commune.commune" id="com045">
+            <field name="name">Rufisque OUEST</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep04"></field>
+            <field name="arrondissement_id" ref="arr010"></field>
+        </record>
+        <record model="commune.commune" id="com046">
+            <field name="name">Tivaoune Peulh - Niagha</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep04"></field>
+            <field name="arrondissement_id" ref="arr011"></field>
+        </record>
+        <record model="commune.commune" id="com047">
+            <field name="name">Yene</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep04"></field>
+            <field name="arrondissement_id" ref="arr012"></field>
+        </record>
+        <record model="commune.commune" id="com048">
+            <field name="name">Keur Massar NORD</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep05"></field>
+            <field name="arrondissement_id" ref="arr015"></field>
+        </record>
+        <record model="commune.commune" id="com049">
+            <field name="name">Keur Massar SUD</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep05"></field>
+            <field name="arrondissement_id" ref="arr016"></field>
+        </record>
+        <record model="commune.commune" id="com050">
+            <field name="name">Malika</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep05"></field>
+            <field name="arrondissement_id" ref="arr015"></field>
+        </record>
+        <record model="commune.commune" id="com051">
+            <field name="name">Yeumbeul NORD</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep05"></field>
+            <field name="arrondissement_id" ref="arr014"></field>
+        </record>
+        <record model="commune.commune" id="com052">
+            <field name="name">Yeumbeul SUD</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep05"></field>
+            <field name="arrondissement_id" ref="arr014"></field>
+        </record>
+        <record model="commune.commune" id="com053">
+            <field name="name">Jaxaay Parcelles Assainies</field>
+            <field name="region_id" ref="sn01"></field>
+            <field name="departement_id" ref="dep05"></field>
+            <field name="arrondissement_id" ref="arr016"></field>
+        </record>
+        <record model="commune.commune" id="com054">
+            <field name="name">Balingore</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+            <field name="arrondissement_id" ref="arr018"></field>
+        </record>
+        <record model="commune.commune" id="com055">
+            <field name="name">Bignona</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+            <field name="arrondissement_id" ref="bignona_ha"></field>
+        </record>
+        <record model="commune.commune" id="com056">
+            <field name="name">Diouloulou</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+            <field name="arrondissement_id" ref="arr020"></field>
+        </record>
+        <record model="commune.commune" id="com057">
+            <field name="name">Thionk - Essyl</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+            <field name="arrondissement_id" ref="bignona_ha"></field>
+        </record>
+        <record model="commune.commune" id="com058">
+            <field name="name">Coubalan</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+            <field name="arrondissement_id" ref="arr017"></field>
+        </record>
+        <record model="commune.commune" id="com059">
+            <field name="name">Diégoune</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+            <field name="arrondissement_id" ref="arr018"></field>
+        </record>
+        <record model="commune.commune" id="com060">
+            <field name="name">Djibidione</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+            <field name="arrondissement_id" ref="arr019"></field>
+        </record>
+        <record model="commune.commune" id="com061">
+            <field name="name">Djinaky</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+            <field name="arrondissement_id" ref="arr020"></field>
+        </record>
+        <record model="commune.commune" id="com062">
+            <field name="name">Kafountine</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+            <field name="arrondissement_id" ref="arr020"></field>
+        </record>
+        <record model="commune.commune" id="com063">
+            <field name="name">Karthiack</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+            <field name="arrondissement_id" ref="arr018"></field>
+        </record>
+        <record model="commune.commune" id="com064">
+            <field name="name">Kataba I</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+            <field name="arrondissement_id" ref="arr020"></field>
+        </record>
+        <record model="commune.commune" id="com065">
+            <field name="name">Mangagoulack</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+            <field name="arrondissement_id" ref="arr018"></field>
+        </record>
+        <record model="commune.commune" id="com066">
+            <field name="name">Mlomp</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+            <field name="arrondissement_id" ref="arr018"></field>
+        </record>
+        <record model="commune.commune" id="com067">
+            <field name="name">Niamone</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+            <field name="arrondissement_id" ref="arr017"></field>
+        </record>
+        <record model="commune.commune" id="com068">
+            <field name="name">Oulampane</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+            <field name="arrondissement_id" ref="arr019"></field>
+        </record>
+        <record model="commune.commune" id="com069">
+            <field name="name">Ouonck</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+            <field name="arrondissement_id" ref="arr017"></field>
+        </record>
+        <record model="commune.commune" id="com070">
+            <field name="name">Sindian</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+            <field name="arrondissement_id" ref="arr019"></field>
+        </record>
+        <record model="commune.commune" id="com071">
+            <field name="name">Suellé</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+            <field name="arrondissement_id" ref="arr019"></field>
+        </record>
+        <record model="commune.commune" id="com072">
+            <field name="name">Tenghory</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep06"></field>
+            <field name="arrondissement_id" ref="arr017"></field>
+        </record>
+        <record model="commune.commune" id="com073">
+            <field name="name">Oussouye</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep07"></field>
+            <field name="arrondissement_id" ref="oussouye_ha"></field>
+        </record>
+        <record model="commune.commune" id="com074">
+            <field name="name">Djembéring</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep07"></field>
+            <field name="arrondissement_id" ref="arr022"></field>
+        </record>
+        <record model="commune.commune" id="com075">
+            <field name="name">Mlomp</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep07"></field>
+            <field name="arrondissement_id" ref="arr021"></field>
+        </record>
+        <record model="commune.commune" id="com076">
+            <field name="name">Oukout</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep07"></field>
+            <field name="arrondissement_id" ref="arr021"></field>
+        </record>
+        <record model="commune.commune" id="com077">
+            <field name="name">Santhiaba Manjack</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep07"></field>
+            <field name="arrondissement_id" ref="arr022"></field>
+        </record>
+        <record model="commune.commune" id="com078">
+            <field name="name">Adéane</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep08"></field>
+            <field name="arrondissement_id" ref="arr023"></field>
+        </record>
+        <record model="commune.commune" id="com079">
+            <field name="name">Boutoupa Camar</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep08"></field>
+            <field name="arrondissement_id" ref="arr023"></field>
+        </record>
+        <record model="commune.commune" id="com080">
+            <field name="name">Ziguinchor</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep08"></field>
+            <field name="arrondissement_id" ref="ziguinchor_ha"></field>
+        </record>
+        <record model="commune.commune" id="com081">
+            <field name="name">Enampore</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep08"></field>
+            <field name="arrondissement_id" ref="arr024"></field>
+        </record>
+        <record model="commune.commune" id="com082">
+            <field name="name">Niaguis</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep08"></field>
+            <field name="arrondissement_id" ref="arr023"></field>
+        </record>
+        <record model="commune.commune" id="com083">
+            <field name="name">Nyassia</field>
+            <field name="region_id" ref="sn02"></field>
+            <field name="departement_id" ref="dep08"></field>
+            <field name="arrondissement_id" ref="arr024"></field>
+        </record>
+        <record model="commune.commune" id="com084">
+            <field name="name">Diourbel</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep09"></field>
+            <field name="arrondissement_id" ref="diourbel_ha"></field>
+        </record>
+        <record model="commune.commune" id="com085">
+            <field name="name">Ndindy</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep09"></field>
+            <field name="arrondissement_id" ref="arr025"></field>
+        </record>
+        <record model="commune.commune" id="com086">
+            <field name="name">Ndoulo</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep09"></field>
+            <field name="arrondissement_id" ref="arr026"></field>
+        </record>
+        <record model="commune.commune" id="com087">
+            <field name="name">Ngohe</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep09"></field>
+            <field name="arrondissement_id" ref="arr026"></field>
+        </record>        
+        <record model="commune.commune" id="com088">
+            <field name="name">Dankh Sene</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep09"></field>
+            <field name="arrondissement_id" ref="arr025"></field>
+        </record>
+        <record model="commune.commune" id="com089">
+            <field name="name">Gade Escale</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep09"></field>
+            <field name="arrondissement_id" ref="arr025"></field>
+        </record>
+        <record model="commune.commune" id="com090">
+            <field name="name">Keur Ngalgou</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep09"></field>
+            <field name="arrondissement_id" ref="arr025"></field>
+        </record>
+        <record model="commune.commune" id="com091">
+            <field name="name">Patar</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep09"></field>
+            <field name="arrondissement_id" ref="arr026"></field>
+        </record>        
+        <record model="commune.commune" id="com092">
+            <field name="name">Taiba Moutoupha</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep09"></field>
+            <field name="arrondissement_id" ref="arr025"></field>
+        </record>        
+        <record model="commune.commune" id="com093">
+            <field name="name">Tocky Gare</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep09"></field>
+            <field name="arrondissement_id" ref="arr026"></field>
+        </record>
+        <record model="commune.commune" id="com094">
+            <field name="name">Touba Lappe</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep09"></field>
+            <field name="arrondissement_id" ref="arr025"></field>
+        </record>
+        <record model="commune.commune" id="com095">
+            <field name="name">Toure Mbonde</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep09"></field>
+            <field name="arrondissement_id" ref="arr026"></field>
+        </record>
+        <record model="commune.commune" id="com096">
+            <field name="name">Ndioumane</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep10"></field>
+            <field name="arrondissement_id" ref="arr028"></field>
+        </record>
+        <record model="commune.commune" id="com097">
+            <field name="name">Nghaye</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep10"></field>
+            <field name="arrondissement_id" ref="arr029"></field>
+        </record>
+        <record model="commune.commune" id="com098">
+            <field name="name">Mbacke</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep10"></field>
+            <field name="arrondissement_id" ref="mbacke_ha"></field>
+        </record>
+        <record model="commune.commune" id="com099">
+            <field name="name">Dalla Ngabou</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep10"></field>
+            <field name="arrondissement_id" ref="arr029"></field>
+        </record>
+        <record model="commune.commune" id="com100">
+            <field name="name">Darou Nahim</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep10"></field>
+            <field name="arrondissement_id" ref="arr028"></field>
+        </record>
+        <record model="commune.commune" id="com101">
+            <field name="name">Darou Salam Typ</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep10"></field>
+            <field name="arrondissement_id" ref="arr028"></field>
+        </record>
+        <record model="commune.commune" id="com102">
+            <field name="name">Dendeye Gouye Gui</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep10"></field>
+            <field name="arrondissement_id" ref="arr028"></field>
+        </record>
+        <record model="commune.commune" id="com103">
+            <field name="name">Kael</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep10"></field>
+            <field name="arrondissement_id" ref="arr028"></field>
+        </record>
+        <record model="commune.commune" id="com104">
+            <field name="name">Madina</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep10"></field>
+            <field name="arrondissement_id" ref="arr028"></field>
+        </record>
+        <record model="commune.commune" id="com105">
+            <field name="name">Missirah</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep10"></field>
+            <field name="arrondissement_id" ref="arr029"></field>
+        </record>
+        <record model="commune.commune" id="com106">
+            <field name="name">Sadio</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep10"></field>
+            <field name="arrondissement_id" ref="arr027"></field>
+        </record>
+        <record model="commune.commune" id="com107">
+            <field name="name">Taiba Thiékène</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep10"></field>
+            <field name="arrondissement_id" ref="arr028"></field>
+        </record>
+        <record model="commune.commune" id="com108">
+            <field name="name">Taïf</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep10"></field>
+            <field name="arrondissement_id" ref="arr027"></field>
+        </record>
+        <record model="commune.commune" id="com109">
+            <field name="name">Touba Mboul</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep10"></field>
+            <field name="arrondissement_id" ref="arr028"></field>
+        </record>
+        <record model="commune.commune" id="com110">
+            <field name="name">Touba Fall</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep10"></field>
+            <field name="arrondissement_id" ref="arr029"></field>
+        </record>
+        <record model="commune.commune" id="com111">
+            <field name="name">Touba Mosquée</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep10"></field>
+            <field name="arrondissement_id" ref="arr029"></field>
+        </record>
+        <record model="commune.commune" id="com112">
+            <field name="name">Ndondol</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep11"></field>
+            <field name="arrondissement_id" ref="arr030"></field>
+        </record>
+        <record model="commune.commune" id="com113">
+            <field name="name">Ngogom</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep11"></field>
+            <field name="arrondissement_id" ref="arr032"></field>
+        </record>
+        <record model="commune.commune" id="com114">
+            <field name="name">Ngoye</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep11"></field>
+            <field name="arrondissement_id" ref="arr030"></field>
+        </record>
+        <record model="commune.commune" id="com115">
+            <field name="name">Baba Garage</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep11"></field>
+            <field name="arrondissement_id" ref="arr031"></field>
+        </record>
+        <record model="commune.commune" id="com116">
+            <field name="name">Bambey</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep11"></field>
+            <field name="arrondissement_id" ref="bambey_ha"></field>
+        </record>
+        <record model="commune.commune" id="com117">
+            <field name="name">Dangalma</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep11"></field>
+            <field name="arrondissement_id" ref="arr030"></field>
+        </record>
+        <record model="commune.commune" id="com118">
+            <field name="name">Dinguiraye</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep11"></field>
+            <field name="arrondissement_id" ref="arr031"></field>
+        </record>
+        <record model="commune.commune" id="com119">
+            <field name="name">Gawane</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep11"></field>
+            <field name="arrondissement_id" ref="arr032"></field>
+        </record>
+        <record model="commune.commune" id="com120">
+            <field name="name">Keur Samba KANE</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep11"></field>
+            <field name="arrondissement_id" ref="arr031"></field>
+        </record>
+        <record model="commune.commune" id="com121">
+            <field name="name">Lambaye</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep11"></field>
+            <field name="arrondissement_id" ref="arr032"></field>
+        </record>
+        <record model="commune.commune" id="com122">
+            <field name="name">Réfane</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep11"></field>
+            <field name="arrondissement_id" ref="arr032"></field>
+        </record>
+        <record model="commune.commune" id="com123">
+            <field name="name">Thiakar</field>
+            <field name="region_id" ref="sn03"></field>
+            <field name="departement_id" ref="dep11"></field>
+            <field name="arrondissement_id" ref="arr030"></field>
+        </record>
+        <record model="commune.commune" id="com124">
+            <field name="name">Ndiebene Gandiole</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep12"></field>
+            <field name="arrondissement_id" ref="arr033"></field>
+        </record>
+        <record model="commune.commune" id="com125">
+            <field name="name">Mpal</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep12"></field>
+            <field name="arrondissement_id" ref="arr033"></field>
+        </record>
+        <record model="commune.commune" id="com126">
+            <field name="name">Saint Louis</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep12"></field>
+            <field name="arrondissement_id" ref="saintlouis_ha"></field>
+        </record>
+        <record model="commune.commune" id="com127">
+            <field name="name">Fass Ngom</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep12"></field>
+            <field name="arrondissement_id" ref="arr033"></field>
+        </record>
+        <record model="commune.commune" id="com128">
+            <field name="name">Gandon</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep12"></field>
+            <field name="arrondissement_id" ref="arr033"></field>
+        </record>
+        <record model="commune.commune" id="com129">
+            <field name="name">Boké Dialloubé</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+            <field name="arrondissement_id" ref="arr035"></field>
+        </record>
+        <record model="commune.commune" id="com130">
+            <field name="name">Aéré Lao</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+            <field name="arrondissement_id" ref="arr034"></field>
+        </record>
+        <record model="commune.commune" id="com131">
+            <field name="name">Bodé Lao</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+            <field name="arrondissement_id" ref="arr035"></field>
+        </record>
+        <record model="commune.commune" id="com132">
+            <field name="name">Demette</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+            <field name="arrondissement_id" ref="arr035"></field>
+        </record>
+        <record model="commune.commune" id="com133">
+            <field name="name">Galoya Toucouleur</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+            <field name="arrondissement_id" ref="arr036"></field>
+        </record>
+        <record model="commune.commune" id="com134">
+            <field name="name">Gollere</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+            <field name="arrondissement_id" ref="arr034"></field>
+        </record>
+        <record model="commune.commune" id="com135">
+            <field name="name">Guede Chantier</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+            <field name="arrondissement_id" ref="arr035"></field>
+        </record>
+        <record model="commune.commune" id="com136">
+            <field name="name">Mboumba</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+            <field name="arrondissement_id" ref="arr034"></field>
+        </record>
+        <record model="commune.commune" id="com137">
+            <field name="name">Niandane</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+            <field name="arrondissement_id" ref="arr037"></field>
+        </record>
+        <record model="commune.commune" id="com138">
+            <field name="name">Ndioum</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+            <field name="arrondissement_id" ref="podor_ha"></field>
+        </record>
+        <record model="commune.commune" id="com0139">
+            <field name="name">Pete</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+            <field name="arrondissement_id" ref="arr036"></field>
+        </record>
+        <record model="commune.commune" id="com140">
+            <field name="name">Podor</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+            <field name="arrondissement_id" ref="podor_ha"></field>
+        </record>
+        <record model="commune.commune" id="com141">
+            <field name="name">Walalde</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+            <field name="arrondissement_id" ref="arr034"></field>
+        </record>
+        <record model="commune.commune" id="com142">
+            <field name="name">Dodel</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+            <field name="arrondissement_id" ref="arr035"></field>
+        </record>
+        <record model="commune.commune" id="com143">
+            <field name="name">Dounga-Lao</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+            <field name="arrondissement_id" ref="arr034"></field>
+        </record>
+        <record model="commune.commune" id="com144">
+            <field name="name">Fanaye</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+            <field name="arrondissement_id" ref="arr037"></field>
+        </record>
+        <record model="commune.commune" id="com145">
+            <field name="name">Gamadji Sare</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+            <field name="arrondissement_id" ref="arr035"></field>
+        </record>
+        <record model="commune.commune" id="com146">
+            <field name="name">Guede Village</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+            <field name="arrondissement_id" ref="arr035"></field>
+        </record>
+        <record model="commune.commune" id="com147">
+            <field name="name">Mbolo Birane</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+            <field name="arrondissement_id" ref="arr036"></field>
+        </record>
+        <record model="commune.commune" id="com148">
+            <field name="name">Medina Ndiathbe</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+            <field name="arrondissement_id" ref="arr034"></field>
+        </record>
+        <record model="commune.commune" id="com149">
+            <field name="name">Mery</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+            <field name="arrondissement_id" ref="arr034"></field>
+        </record>
+        <record model="commune.commune" id="com150">
+            <field name="name">Ndiayene Peindao</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep13"></field>
+            <field name="arrondissement_id" ref="arr037"></field>
+        </record>
+        <record model="commune.commune" id="com151">
+            <field name="name">Bokhol</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep14"></field>
+            <field name="arrondissement_id" ref="arr038"></field>
+        </record>
+        <record model="commune.commune" id="com152">
+            <field name="name">Dagana</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep14"></field>
+            <field name="arrondissement_id" ref="dagana_ha"></field>
+        </record>
+        <record model="commune.commune" id="com153">
+            <field name="name">Gae</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep14"></field>
+            <field name="arrondissement_id" ref="arr038"></field>
+        </record>
+        <record model="commune.commune" id="com154">
+            <field name="name">Ndombo Sandjiry</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep14"></field>
+            <field name="arrondissement_id" ref="arr038"></field>
+        </record>
+        <record model="commune.commune" id="com155">
+            <field name="name">Richard-Toll</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep14"></field>
+            <field name="arrondissement_id" ref="dagana_ha"></field>
+        </record>
+        <record model="commune.commune" id="com156">
+            <field name="name">Ross-Bethio</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep14"></field>
+            <field name="arrondissement_id" ref="arr039"></field>
+        </record>
+        <record model="commune.commune" id="com156bis">
+            <field name="name">Rosso-Sénégal</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep14"></field>
+            <field name="arrondissement_id" ref="arr033"></field>
+        </record>
+        <record model="commune.commune" id="com157">
+            <field name="name">Diama</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep14"></field>
+            <field name="arrondissement_id" ref="arr039"></field>
+        </record>
+        <record model="commune.commune" id="com158">
+            <field name="name">Mbane</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep14"></field>
+            <field name="arrondissement_id" ref="arr038"></field>
+        </record>
+        <record model="commune.commune" id="com159">
+            <field name="name">Ngnith</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep14"></field>
+            <field name="arrondissement_id" ref="arr039"></field>
+        </record>
+        <record model="commune.commune" id="com160">
+            <field name="name">Ronkh</field>
+            <field name="region_id" ref="sn04"></field>
+            <field name="departement_id" ref="dep14"></field>
+            <field name="arrondissement_id" ref="arr039"></field>
+        </record>
+        <record model="commune.commune" id="com161">
+            <field name="name">Ndoga Babacar</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep15"></field>
+            <field name="arrondissement_id" ref="arr041"></field>
+        </record>
+        <record model="commune.commune" id="com162">
+            <field name="name">Tambacounda</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep15"></field>
+            <field name="arrondissement_id" ref="tambacounda_ha"></field>
+        </record>
+        <record model="commune.commune" id="com163">
+            <field name="name">Dialacoto</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep15"></field>
+            <field name="arrondissement_id" ref="arr040"></field>
+        </record>
+        <record model="commune.commune" id="com164">
+            <field name="name">Koussanar</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep15"></field>
+            <field name="arrondissement_id" ref="arr042"></field>
+        </record>
+        <record model="commune.commune" id="com165">
+            <field name="name">Makacoulibatang</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep15"></field>
+            <field name="arrondissement_id" ref="arr041"></field>
+        </record>
+        <record model="commune.commune" id="com166">
+            <field name="name">Missirah</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep15"></field>
+            <field name="arrondissement_id" ref="arr040"></field>
+        </record>
+        <record model="commune.commune" id="com167">
+            <field name="name">NéttéBoulou</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep15"></field>
+            <field name="arrondissement_id" ref="arr040"></field>
+        </record>
+        <record model="commune.commune" id="com168">
+            <field name="name">Niani Toucouleur</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep15"></field>
+            <field name="arrondissement_id" ref="arr041"></field>
+        </record>
+        <record model="commune.commune" id="com169">
+            <field name="name">Sinthiou Malem</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep15"></field>
+            <field name="arrondissement_id" ref="arr042"></field>
+        </record>
+        <record model="commune.commune" id="com170">
+            <field name="name">Ballou</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep16"></field>
+            <field name="arrondissement_id" ref="arr043"></field>
+        </record>
+        <record model="commune.commune" id="com171">
+            <field name="name">Bele</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep16"></field>
+            <field name="arrondissement_id" ref="arr044"></field>
+        </record>
+        <record model="commune.commune" id="com172">
+            <field name="name">Kidira</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep16"></field>
+            <field name="arrondissement_id" ref="arr044"></field>
+        </record>
+        <record model="commune.commune" id="com173">
+            <field name="name">Bakel</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep16"></field>
+            <field name="arrondissement_id" ref="bakel_ha"></field>
+        </record>
+        <record model="commune.commune" id="com174">
+            <field name="name">Diawara</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep16"></field>
+            <field name="arrondissement_id" ref="arr043"></field>
+        </record>
+        <record model="commune.commune" id="com175">
+            <field name="name">Gabou</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep16"></field>
+            <field name="arrondissement_id" ref="arr043"></field>
+        </record>
+        <record model="commune.commune" id="com176">
+            <field name="name">Gathiary</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep16"></field>
+            <field name="arrondissement_id" ref="arr045"></field>
+        </record>        
+        <record model="commune.commune" id="com177">
+            <field name="name">Madina Foulbe</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep16"></field>
+            <field name="arrondissement_id" ref="arr045"></field>
+        </record>        
+        <record model="commune.commune" id="com178">
+            <field name="name">Moudery</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep16"></field>
+            <field name="arrondissement_id" ref="arr043"></field>
+        </record>        
+        <record model="commune.commune" id="com179">
+            <field name="name">Sadatou</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep16"></field>
+            <field name="arrondissement_id" ref="arr045"></field>
+        </record>       
+        <record model="commune.commune" id="com180">
+            <field name="name">Sinthiou-Fissa</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep16"></field>
+            <field name="arrondissement_id" ref="arr044"></field>
+        </record>
+        <record model="commune.commune" id="com181">
+            <field name="name">Toumboura</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep16"></field>
+            <field name="arrondissement_id" ref="arr045"></field>
+        </record>
+        <record model="commune.commune" id="com182">
+            <field name="name">Ndame</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep17"></field>
+            <field name="arrondissement_id" ref="arr047"></field>
+        </record>
+        <record model="commune.commune" id="com183">
+            <field name="name">Bamba Thialene</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep17"></field>
+            <field name="arrondissement_id" ref="arr047"></field>
+        </record>
+        <record model="commune.commune" id="com185">
+            <field name="name">Koumpentoum</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep17"></field>
+            <field name="arrondissement_id" ref="koupentoum_ha"></field>
+        </record>
+        <record model="commune.commune" id="com186">
+            <field name="name">Malem Niani</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep17"></field>
+            <field name="arrondissement_id" ref="arr046"></field>
+        </record>
+        <record model="commune.commune" id="com187">
+            <field name="name">Kahene</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep17"></field>
+            <field name="arrondissement_id" ref="arr047"></field>
+        </record>
+        <record model="commune.commune" id="com188">
+            <field name="name">Kouthia Gaydi</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep17"></field>
+            <field name="arrondissement_id" ref="arr046"></field>
+        </record>
+        <record model="commune.commune" id="com189">
+            <field name="name">Kouthiaba Wolof</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep17"></field>
+            <field name="arrondissement_id" ref="arr046"></field>
+        </record>
+        <record model="commune.commune" id="com190">
+            <field name="name">Mereto</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep17"></field>
+            <field name="arrondissement_id" ref="arr047"></field>
+        </record>
+        <record model="commune.commune" id="com191">
+            <field name="name">Pass Koto</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep17"></field>
+            <field name="arrondissement_id" ref="arr047"></field>
+        </record>
+        <record model="commune.commune" id="com192">
+            <field name="name">Payar</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep17"></field>
+            <field name="arrondissement_id" ref="arr046"></field>
+        </record>
+        <record model="commune.commune" id="com193">
+            <field name="name">Bala</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep18"></field>
+            <field name="arrondissement_id" ref="arr048"></field>
+        </record>
+        <record model="commune.commune" id="com194">
+            <field name="name">Bani Israel</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep18"></field>
+            <field name="arrondissement_id" ref="arr050"></field>
+        </record>
+        <record model="commune.commune" id="com195">
+            <field name="name">Boutoucou Fara</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep18"></field>
+            <field name="arrondissement_id" ref="arr050"></field>
+        </record>
+        <record model="commune.commune" id="com196">
+            <field name="name">Boynguel Bamba</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep18"></field>
+            <field name="arrondissement_id" ref="arr049"></field>
+        </record>
+        <record model="commune.commune" id="com197">
+            <field name="name">Goudiry</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep18"></field>
+            <field name="arrondissement_id" ref="goudiry_ha"></field>
+        </record>
+        <record model="commune.commune" id="com198">
+            <field name="name">Kothiary</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep18"></field>
+            <field name="arrondissement_id" ref="arr051"></field>
+        </record>
+        <record model="commune.commune" id="com199">
+            <field name="name">Dianke Makha</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep18"></field>
+            <field name="arrondissement_id" ref="arr050"></field>
+        </record>
+        <record model="commune.commune" id="com200">
+            <field name="name">Dougue</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep18"></field>
+            <field name="arrondissement_id" ref="arr049"></field>
+        </record>
+        <record model="commune.commune" id="com201">
+            <field name="name">Goumbayel</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep18"></field>
+            <field name="arrondissement_id" ref="arr048"></field>
+        </record>
+        <record model="commune.commune" id="com202">
+            <field name="name">Koar</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep18"></field>
+            <field name="arrondissement_id" ref="arr048"></field>
+        </record>
+        <record model="commune.commune" id="com203">
+            <field name="name">Komoti</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep18"></field>
+            <field name="arrondissement_id" ref="arr050"></field>
+        </record>
+        <record model="commune.commune" id="com204">
+            <field name="name">Koulor</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep18"></field>
+            <field name="arrondissement_id" ref="arr051"></field>
+        </record>
+        <record model="commune.commune" id="com205">
+            <field name="name">Koussan</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep18"></field>
+            <field name="arrondissement_id" ref="arr049"></field>
+        </record>
+        <record model="commune.commune" id="com206">
+            <field name="name">Sinthiou Bokar Aly</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep18"></field>
+            <field name="arrondissement_id" ref="arr051"></field>
+        </record>
+        <record model="commune.commune" id="com207">
+            <field name="name">Sinthiou Mamadou Boubou</field>
+            <field name="region_id" ref="sn05"></field>
+            <field name="departement_id" ref="dep18"></field>
+            <field name="arrondissement_id" ref="arr049"></field>
+        </record>
+        <record model="commune.commune" id="com208">
+            <field name="name">Gandiaye</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep19"></field>
+            <field name="arrondissement_id" ref="arr054"></field>
+        </record>
+        <record model="commune.commune" id="com209">
+            <field name="name">Kahone</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep19"></field>
+            <field name="arrondissement_id" ref="kaolack_ha"></field>
+        </record>
+        <record model="commune.commune" id="com210">
+            <field name="name">Kaolack</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep19"></field>
+            <field name="arrondissement_id" ref="kaolack_ha"></field>
+        </record>
+        <record model="commune.commune" id="com211">
+            <field name="name">Ndoffane</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep19"></field>
+            <field name="arrondissement_id" ref="arr052"></field>
+        </record>
+        <record model="commune.commune" id="com212">
+            <field name="name">Sibassor</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep19"></field>
+            <field name="arrondissement_id" ref="arr054"></field>
+        </record>
+        <record model="commune.commune" id="com213">
+            <field name="name">Dya</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep19"></field>
+            <field name="arrondissement_id" ref="arr054"></field>
+        </record>
+        <record model="commune.commune" id="com214">
+            <field name="name">Keur Baka</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep19"></field>
+            <field name="arrondissement_id" ref="arr052"></field>
+        </record>
+        <record model="commune.commune" id="com215">
+            <field name="name">Keur Socé</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep19"></field>
+            <field name="arrondissement_id" ref="arr053"></field>
+        </record>
+        <record model="commune.commune" id="com216">
+            <field name="name">Latmingué</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep19"></field>
+            <field name="arrondissement_id" ref="arr052"></field>
+        </record>
+        <record model="commune.commune" id="com217">
+            <field name="name">Ndiaffate</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep19"></field>
+            <field name="arrondissement_id" ref="arr053"></field>
+        </record>
+        <record model="commune.commune" id="com218">
+            <field name="name">Ndiébel</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep19"></field>
+            <field name="arrondissement_id" ref="arr054"></field>
+        </record>
+        <record model="commune.commune" id="com219">
+            <field name="name">Ndiédieng</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep19"></field>
+            <field name="arrondissement_id" ref="arr053"></field>
+        </record>
+        <record model="commune.commune" id="com220">
+            <field name="name">Thiaré</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep19"></field>
+            <field name="arrondissement_id" ref="arr052"></field>
+        </record>
+        <record model="commune.commune" id="com221">
+            <field name="name">Thiomby</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep19"></field>
+            <field name="arrondissement_id" ref="arr054"></field>
+        </record>
+        <record model="commune.commune" id="com222">
+            <field name="name">Keur Madiabel</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep20"></field>
+            <field name="arrondissement_id" ref="arr056"></field>
+        </record>
+        <record model="commune.commune" id="com223">
+            <field name="name">Nioro du Rip</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep20"></field>
+            <field name="arrondissement_id" ref="nioro_ha"></field>
+        </record>
+        <record model="commune.commune" id="com224">
+            <field name="name">Dabaly</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep20"></field>
+            <field name="arrondissement_id" ref="arr055"></field>
+        </record>
+        <record model="commune.commune" id="com225">
+            <field name="name">Darou Salam</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep20"></field>
+            <field name="arrondissement_id" ref="arr055"></field>
+        </record>
+        <record model="commune.commune" id="com226">
+            <field name="name">Gainte Kaye</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep20"></field>
+            <field name="arrondissement_id" ref="arr055"></field>
+        </record>
+        <record model="commune.commune" id="com227">
+            <field name="name">Keur Mandongo</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep20"></field>
+            <field name="arrondissement_id" ref="arr056"></field>
+        </record>
+        <record model="commune.commune" id="com228">
+            <field name="name">Kayemor</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep20"></field>
+            <field name="arrondissement_id" ref="arr057"></field>
+        </record>
+        <record model="commune.commune" id="com229">
+            <field name="name">Keur Maba Diakhou</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep20"></field>
+            <field name="arrondissement_id" ref="arr056"></field>
+        </record>
+        <record model="commune.commune" id="com230">
+            <field name="name">Médina-Sabakh</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep20"></field>
+            <field name="arrondissement_id" ref="arr057"></field>
+        </record>
+        <record model="commune.commune" id="com231">
+            <field name="name">Ndramé Escale</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep20"></field>
+            <field name="arrondissement_id" ref="arr056"></field>
+        </record>
+        <record model="commune.commune" id="com232">
+            <field name="name">Ngayène</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep20"></field>
+            <field name="arrondissement_id" ref="arr057"></field>
+        </record>
+        <record model="commune.commune" id="com233">
+            <field name="name">Paos Koto</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep20"></field>
+            <field name="arrondissement_id" ref="arr055"></field>
+        </record>
+        <record model="commune.commune" id="com234">
+            <field name="name">Porokhane</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep20"></field>
+            <field name="arrondissement_id" ref="arr055"></field>
+        </record>
+        <record model="commune.commune" id="com235">
+            <field name="name">Taïba Niassène</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep20"></field>
+            <field name="arrondissement_id" ref="arr055"></field>
+        </record>
+        <record model="commune.commune" id="com236">
+            <field name="name">Wack Ngouna</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep20"></field>
+            <field name="arrondissement_id" ref="arr056"></field>
+        </record>
+        <record model="commune.commune" id="com237">
+            <field name="name">Fass</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep21"></field>
+            <field name="arrondissement_id" ref="arr059"></field>
+        </record>
+        <record model="commune.commune" id="com238">
+            <field name="name">Guinguinéo</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep21"></field>
+            <field name="arrondissement_id" ref="guinguineo_ha"></field>
+        </record>
+        <record model="commune.commune" id="com239">
+            <field name="name">Mboss</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep21"></field>
+            <field name="arrondissement_id" ref="arr058"></field>
+        </record>
+        <record model="commune.commune" id="com240">
+            <field name="name">Dara Mboss</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep21"></field>
+            <field name="arrondissement_id" ref="arr058"></field>
+        </record>
+        <record model="commune.commune" id="com241">
+            <field name="name">Gagnick</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep21"></field>
+            <field name="arrondissement_id" ref="arr058"></field>
+        </record>
+        <record model="commune.commune" id="com242">
+            <field name="name">Khelcom Birane</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep21"></field>
+            <field name="arrondissement_id" ref="arr059"></field>
+        </record>
+        <record model="commune.commune" id="com243">
+            <field name="name">Mbadakhoune</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep21"></field>
+            <field name="arrondissement_id" ref="arr059"></field>
+        </record>
+        <record model="commune.commune" id="com244">
+            <field name="name">Ndiago</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep21"></field>
+            <field name="arrondissement_id" ref="arr059"></field>
+        </record>
+        <record model="commune.commune" id="com245">
+            <field name="name">Ngathie Naoude</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep21"></field>
+            <field name="arrondissement_id" ref="arr059"></field>
+        </record>
+        <record model="commune.commune" id="com246">
+            <field name="name">Nguelou</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep21"></field>
+            <field name="arrondissement_id" ref="arr058"></field>
+        </record>
+        <record model="commune.commune" id="com247">
+            <field name="name">Ourour</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep21"></field>
+            <field name="arrondissement_id" ref="arr058"></field>
+        </record>
+        <record model="commune.commune" id="com248">
+            <field name="name">Panal Ouolof</field>
+            <field name="region_id" ref="sn06"></field>
+            <field name="departement_id" ref="dep21"></field>
+            <field name="arrondissement_id" ref="arr058"></field>
+        </record>
+        <record model="commune.commune" id="com249">
+            <field name="name">Ndiéyène Sirakh</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep22"></field>
+            <field name="arrondissement_id" ref="arr064"></field>
+        </record>
+        <record model="commune.commune" id="com250">
+            <field name="name">Ngoundiane</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep22"></field>
+            <field name="arrondissement_id" ref="arr064"></field>
+        </record>
+        <record model="commune.commune" id="com251">
+            <field name="name">Kayar</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep22"></field>
+            <field name="arrondissement_id" ref="arr063"></field>
+        </record>
+        <record model="commune.commune" id="com252">
+            <field name="name">Khombole</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep22"></field>
+            <field name="arrondissement_id" ref="thies_ha"></field>
+        </record>
+        <record model="commune.commune" id="com253">
+            <field name="name">Pout</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep22"></field>
+            <field name="arrondissement_id" ref="thies_ha"></field>
+        </record>
+        <record model="commune.commune" id="com254">
+            <field name="name">Diender Guedji</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep22"></field>
+            <field name="arrondissement_id" ref="arr063"></field>
+        </record>
+        <record model="commune.commune" id="com255">
+            <field name="name">Fandène</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep22"></field>
+            <field name="arrondissement_id" ref="arr063"></field>
+        </record>
+        <record model="commune.commune" id="com256">
+            <field name="name">Keur Moussa</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep22"></field>
+            <field name="arrondissement_id" ref="arr063"></field>
+        </record>
+        <record model="commune.commune" id="com257">
+            <field name="name">Notto</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep22"></field>
+            <field name="arrondissement_id" ref="arr062"></field>
+        </record>
+        <record model="commune.commune" id="com258">
+            <field name="name">Tassette</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep22"></field>
+            <field name="arrondissement_id" ref="arr062"></field>
+        </record>
+        <record model="commune.commune" id="com259">
+            <field name="name">Thiénaba</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep22"></field>
+            <field name="arrondissement_id" ref="arr064"></field>
+        </record>
+        <record model="commune.commune" id="com260">
+            <field name="name">Thiès EST</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep22"></field>
+            <field name="arrondissement_id" ref="arr061"></field>
+        </record>
+        <record model="commune.commune" id="com261">
+            <field name="name">Thiès NORD</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep22"></field>
+            <field name="arrondissement_id" ref="arr060"></field>
+        </record>
+        <record model="commune.commune" id="com262">
+            <field name="name">Thiès OUEST</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep22"></field>
+            <field name="arrondissement_id" ref="arr061"></field>
+        </record>
+        <record model="commune.commune" id="com263">
+            <field name="name">Touba Toul</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep22"></field>
+            <field name="arrondissement_id" ref="arr064"></field>
+        </record>
+        <record model="commune.commune" id="com264">
+            <field name="name">Ndiaganiao</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep23"></field>
+            <field name="arrondissement_id" ref="arr066"></field>
+        </record>
+        <record model="commune.commune" id="com265">
+            <field name="name">Nguéniène</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep23"></field>
+            <field name="arrondissement_id" ref="arr067"></field>
+        </record>
+        <record model="commune.commune" id="com266">
+            <field name="name">Ngaparou</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep23"></field>
+            <field name="arrondissement_id" ref="arr065"></field>
+        </record>
+        <record model="commune.commune" id="com267">
+            <field name="name">Nguékokh</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep23"></field>
+            <field name="arrondissement_id" ref="arr065"></field>
+        </record>
+        <record model="commune.commune" id="com268">
+            <field name="name">Joal-Fadiouth</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep23"></field>
+            <field name="arrondissement_id" ref="mbour_ha"></field>
+        </record>
+        <record model="commune.commune" id="com269">
+            <field name="name">Mbour</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep23"></field>
+            <field name="arrondissement_id" ref="mbour_ha"></field>
+        </record>
+        <record model="commune.commune" id="com270">
+            <field name="name">Poponguine</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep23"></field>
+            <field name="arrondissement_id" ref="arr065"></field>
+        </record>
+        <record model="commune.commune" id="com271">
+            <field name="name">Saly Portudal</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep23"></field>
+            <field name="arrondissement_id" ref="arr065"></field>
+        </record>
+        <record model="commune.commune" id="com272">
+            <field name="name">Somone</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep23"></field>
+            <field name="arrondissement_id" ref="arr065"></field>
+        </record>
+        <record model="commune.commune" id="com273">
+            <field name="name">Thiadiaye</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep23"></field>
+            <field name="arrondissement_id" ref="arr067"></field>
+        </record>
+        <record model="commune.commune" id="com274">
+            <field name="name">Diass</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep23"></field>
+            <field name="arrondissement_id" ref="arr065"></field>
+        </record>
+        <record model="commune.commune" id="com275">
+            <field name="name">Fissel</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep23"></field>
+            <field name="arrondissement_id" ref="arr066"></field>
+        </record>
+        <record model="commune.commune" id="com276">
+            <field name="name">Malicounda</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep23"></field>
+            <field name="arrondissement_id" ref="arr065"></field>
+        </record>
+        <record model="commune.commune" id="com277">
+            <field name="name">Sandiara</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep23"></field>
+            <field name="arrondissement_id" ref="arr067"></field>
+        </record>
+        <record model="commune.commune" id="com278">
+            <field name="name">Sessène</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep23"></field>
+            <field name="arrondissement_id" ref="arr067"></field>
+        </record>
+        <record model="commune.commune" id="com279">
+            <field name="name">Sindia</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep23"></field>
+            <field name="arrondissement_id" ref="arr065"></field>
+        </record>
+        <record model="commune.commune" id="com280">
+            <field name="name">Ngandiouf</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep24"></field>
+            <field name="arrondissement_id" ref="arr068"></field>
+        </record>
+        <record model="commune.commune" id="com281">
+            <field name="name">Chérif LÖ</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep24"></field>
+            <field name="arrondissement_id" ref="arr070"></field>
+        </record>
+        <record model="commune.commune" id="com282">
+            <field name="name">Mboro</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep24"></field>
+            <field name="arrondissement_id" ref="arr071"></field>
+        </record>
+        <record model="commune.commune" id="com283">
+            <field name="name">Mékhé</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep24"></field>
+            <field name="arrondissement_id" ref="tivaoune_ha"></field>
+        </record>
+        <record model="commune.commune" id="com284">
+            <field name="name">Tivaoune</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep24"></field>
+            <field name="arrondissement_id" ref="tivaoune_ha"></field>
+        </record>
+        <record model="commune.commune" id="com285">
+            <field name="name">Darou Khoudoss</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep24"></field>
+            <field name="arrondissement_id" ref="arr071"></field>
+        </record>
+        <record model="commune.commune" id="com286">
+            <field name="name">Koul</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep24"></field>
+            <field name="arrondissement_id" ref="arr069"></field>
+        </record>
+        <record model="commune.commune" id="com287">
+            <field name="name">Mbayène</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep24"></field>
+            <field name="arrondissement_id" ref="arr068"></field>
+        </record>
+        <record model="commune.commune" id="com288">
+            <field name="name">Méouane</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep24"></field>
+            <field name="arrondissement_id" ref="arr071"></field>
+        </record>
+        <record model="commune.commune" id="com289">
+            <field name="name">Mérina Dakhar</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep24"></field>
+            <field name="arrondissement_id" ref="arr069"></field>
+        </record>
+        <record model="commune.commune" id="com290">
+            <field name="name">Mont-Rolland</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep24"></field>
+            <field name="arrondissement_id" ref="arr070"></field>
+        </record>
+        <record model="commune.commune" id="com291">
+            <field name="name">Niakhène</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep24"></field>
+            <field name="arrondissement_id" ref="arr068"></field>
+        </record>
+        <record model="commune.commune" id="com292">
+            <field name="name">Notto Gouye Diama</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep24"></field>
+            <field name="arrondissement_id" ref="arr070"></field>
+        </record>
+        <record model="commune.commune" id="com293">
+            <field name="name">Pambal</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep24"></field>
+            <field name="arrondissement_id" ref="arr070"></field>
+        </record>
+        <record model="commune.commune" id="com294">
+            <field name="name">Pékesse</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep24"></field>
+            <field name="arrondissement_id" ref="arr069"></field>
+        </record>
+        <record model="commune.commune" id="com295">
+            <field name="name">Pire Gourèye</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep24"></field>
+            <field name="arrondissement_id" ref="arr070"></field>
+        </record>
+        <record model="commune.commune" id="com296">
+            <field name="name">Taïba Ndiaye</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep24"></field>
+            <field name="arrondissement_id" ref="arr071"></field>
+        </record>
+        <record model="commune.commune" id="com297">
+            <field name="name">Thilmakha</field>
+            <field name="region_id" ref="sn07"></field>
+            <field name="departement_id" ref="dep24"></field>
+            <field name="arrondissement_id" ref="arr068"></field>
+        </record>
+        <record model="commune.commune" id="com298">
+            <field name="name">Bandègne Ouolof</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep25"></field>
+            <field name="arrondissement_id" ref="arr073"></field>
+        </record>
+        <record model="commune.commune" id="com299">
+            <field name="name">Guéoul</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep25"></field>
+            <field name="arrondissement_id" ref="arr073"></field>
+        </record>
+        <record model="commune.commune" id="com300">
+            <field name="name">Kébémer</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep25"></field>
+            <field name="arrondissement_id" ref="kebemer_ha"></field>
+        </record>
+        <record model="commune.commune" id="com301">
+            <field name="name">Darou Marnane</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep25"></field>
+            <field name="arrondissement_id" ref="arr072"></field>
+        </record>
+        <record model="commune.commune" id="com302">
+            <field name="name">Darou Mousty</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep25"></field>
+            <field name="arrondissement_id" ref="arr072"></field>
+        </record>
+        <record model="commune.commune" id="com303">
+            <field name="name">Diokoul Diawrigne</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep25"></field>
+            <field name="arrondissement_id" ref="arr073"></field>
+        </record>
+        <record model="commune.commune" id="com304">
+            <field name="name">Kab GAYE</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep25"></field>
+            <field name="arrondissement_id" ref="arr073"></field>
+        </record>
+        <record model="commune.commune" id="com305">
+            <field name="name">Kanène Ndiob</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep25"></field>
+            <field name="arrondissement_id" ref="arr073bis"></field>
+        </record>
+        <record model="commune.commune" id="com306">
+            <field name="name">Loro</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep25"></field>
+            <field name="arrondissement_id" ref="arr073bis"></field>
+        </record>
+        <record model="commune.commune" id="com307">
+            <field name="name">Mbacké Kadior</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep25"></field>
+            <field name="arrondissement_id" ref="arr072"></field>
+        </record>
+        <record model="commune.commune" id="com308">
+            <field name="name">Mbadiane</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep25"></field>
+            <field name="arrondissement_id" ref="arr072"></field>
+        </record>
+        <record model="commune.commune" id="com309">
+            <field name="name">Ndande</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep25"></field>
+            <field name="arrondissement_id" ref="arr073"></field>
+        </record>
+        <record model="commune.commune" id="com310">
+            <field name="name">Ndoyène</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep25"></field>
+            <field name="arrondissement_id" ref="arr072"></field>
+        </record>
+        <record model="commune.commune" id="com311">
+            <field name="name">Ngourane Ouolof</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep25"></field>
+            <field name="arrondissement_id" ref="arr073bis"></field>
+        </record>
+        <record model="commune.commune" id="com312">
+            <field name="name">Sagatta Gueth</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep25"></field>
+            <field name="arrondissement_id" ref="arr073bis"></field>
+        </record>
+        <record model="commune.commune" id="com313">
+            <field name="name">Sam Yabal</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep25"></field>
+            <field name="arrondissement_id" ref="arr072"></field>
+        </record>
+        <record model="commune.commune" id="com314">
+            <field name="name">Thieppe</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep25"></field>
+            <field name="arrondissement_id" ref="arr073"></field>
+        </record>
+        <record model="commune.commune" id="com315">
+            <field name="name">Thiolom FALL</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep25"></field>
+            <field name="arrondissement_id" ref="arr073bis"></field>
+        </record>
+        <record model="commune.commune" id="com316">
+            <field name="name">Touba Mérina</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep25"></field>
+            <field name="arrondissement_id" ref="arr072"></field>
+        </record>
+        <record model="commune.commune" id="com317">
+            <field name="name">Affé Djioloff</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+            <field name="arrondissement_id" ref="arr074"></field>
+        </record>
+        <record model="commune.commune" id="com318">
+            <field name="name">Barkédji</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+            <field name="arrondissement_id" ref="arr075"></field>
+        </record>
+        <record model="commune.commune" id="com319">
+            <field name="name">Boulal</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+            <field name="arrondissement_id" ref="arr074"></field>
+        </record>
+        <record model="commune.commune" id="com320">
+            <field name="name">Dahra</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+            <field name="arrondissement_id" ref="linguere_ha"></field>
+        </record>
+        <record model="commune.commune" id="com321">
+            <field name="name">Linguère</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+            <field name="arrondissement_id" ref="linguere_ha"></field>
+        </record>
+        <record model="commune.commune" id="com322">
+            <field name="name">Mbeuleukhé</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+            <field name="arrondissement_id" ref="arr077"></field>
+        </record>
+        <record model="commune.commune" id="com323">
+            <field name="name">Déaly</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+            <field name="arrondissement_id" ref="arr074"></field>
+        </record>
+        <record model="commune.commune" id="com324">
+            <field name="name">Dodji</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+            <field name="arrondissement_id" ref="arr076"></field>
+        </record>
+        <record model="commune.commune" id="com325">
+            <field name="name">Gassane</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+            <field name="arrondissement_id" ref="arr075"></field>
+        </record>
+        <record model="commune.commune" id="com326">
+            <field name="name">Kamb</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+            <field name="arrondissement_id" ref="arr077"></field>
+        </record>
+        <record model="commune.commune" id="com327">
+            <field name="name">Labgar</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+            <field name="arrondissement_id" ref="arr076"></field>
+        </record>
+        <record model="commune.commune" id="com328">
+            <field name="name">Mboula</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+            <field name="arrondissement_id" ref="arr077"></field>
+        </record>
+        <record model="commune.commune" id="com329">
+            <field name="name">Ouarkhoh</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+            <field name="arrondissement_id" ref="arr076"></field>
+        </record>
+        <record model="commune.commune" id="com330">
+            <field name="name">Sagatta Djoloff</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+            <field name="arrondissement_id" ref="arr074"></field>
+        </record>
+        <record model="commune.commune" id="com331">
+            <field name="name">Tessekre Forage</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+            <field name="arrondissement_id" ref="arr077"></field>
+        </record>
+        <record model="commune.commune" id="com332">
+            <field name="name">Thiamène Pass</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+            <field name="arrondissement_id" ref="arr074"></field>
+        </record>
+        <record model="commune.commune" id="com333">
+            <field name="name">Thiargny</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+            <field name="arrondissement_id" ref="arr075"></field>
+        </record>
+        <record model="commune.commune" id="com334">
+            <field name="name">Thièl</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+            <field name="arrondissement_id" ref="arr075"></field>
+        </record>
+        <record model="commune.commune" id="com335">
+            <field name="name">Yang Yang</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep26"></field>
+            <field name="arrondissement_id" ref="arr077"></field>
+        </record>
+        <record model="commune.commune" id="com336">
+            <field name="name">Coki</field><field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep27"></field>
+            <field name="arrondissement_id" ref="arr078"></field>
+        </record>
+        <record model="commune.commune" id="com337">
+            <field name="name">Louga</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep27"></field>
+            <field name="arrondissement_id" ref="louga_ha"></field>
+        </record>
+        <record model="commune.commune" id="com338">
+            <field name="name">Ndiagne</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep27"></field>
+            <field name="arrondissement_id" ref="arr078"></field>
+        </record>
+        <record model="commune.commune" id="com339">
+            <field name="name">Gandé</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep27"></field>
+            <field name="arrondissement_id" ref="arr079"></field>
+        </record>
+        <record model="commune.commune" id="com340">
+            <field name="name">Guet Ardo</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep27"></field>
+            <field name="arrondissement_id" ref="arr078"></field>
+        </record>
+        <record model="commune.commune" id="com341">
+            <field name="name">Keur Momar SARR</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep27"></field>
+            <field name="arrondissement_id" ref="arr079"></field>
+        </record>
+        <record model="commune.commune" id="com342">
+            <field name="name">Kelle GUEYE</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep27"></field>
+            <field name="arrondissement_id" ref="arr080"></field>
+        </record>
+        <record model="commune.commune" id="com343">
+            <field name="name">Léona</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep27"></field>
+            <field name="arrondissement_id" ref="arr081"></field>
+        </record>
+        <record model="commune.commune" id="com344">
+            <field name="name">Mbédiène</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep27"></field>
+            <field name="arrondissement_id" ref="arr080"></field>
+        </record>
+        <record model="commune.commune" id="com345">
+            <field name="name">Nguer Malal</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep27"></field>
+            <field name="arrondissement_id" ref="arr079"></field>
+        </record>
+        <record model="commune.commune" id="com346">
+            <field name="name">Ngueune SARR</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep27"></field>
+            <field name="arrondissement_id" ref="arr081"></field>
+        </record>
+        <record model="commune.commune" id="com347">
+            <field name="name">Nguidile</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep27"></field>
+            <field name="arrondissement_id" ref="arr080"></field>
+        </record>
+        <record model="commune.commune" id="com348">
+            <field name="name">Niomré</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep27"></field>
+            <field name="arrondissement_id" ref="arr080"></field>
+        </record>
+        <record model="commune.commune" id="com349">
+            <field name="name">Pété Ouarack</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep27"></field>
+            <field name="arrondissement_id" ref="arr078"></field>
+        </record>
+        <record model="commune.commune" id="com350">
+            <field name="name">Sakal</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep27"></field>
+            <field name="arrondissement_id" ref="arr081"></field>
+        </record>
+        <record model="commune.commune" id="com351">
+            <field name="name">Syer</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep27"></field>
+            <field name="arrondissement_id" ref="arr079"></field>
+        </record>
+        <record model="commune.commune" id="com352">
+            <field name="name">Thiamène Cayor</field>
+            <field name="region_id" ref="sn08"></field>
+            <field name="departement_id" ref="dep27"></field>
+            <field name="arrondissement_id" ref="arr078"></field>
+        </record>
+        <record model="commune.commune" id="com353">
+            <field name="name">Diakhao</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep28"></field>
+            <field name="arrondissement_id" ref="arr083"></field>
+        </record>
+        <record model="commune.commune" id="com354">
+            <field name="name">Diofior</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep28"></field>
+            <field name="arrondissement_id" ref="fatick_ha"></field>
+        </record>        
+        <record model="commune.commune" id="com355">
+            <field name="name">Fatick</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep28"></field>
+            <field name="arrondissement_id" ref="fatick_ha"></field>
+        </record>
+        <record model="commune.commune" id="com356">
+            <field name="name">Diaoulé</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep28"></field>
+            <field name="arrondissement_id" ref="arr083"></field>
+        </record>
+        <record model="commune.commune" id="com357">
+            <field name="name">Diarère</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep28"></field>
+            <field name="arrondissement_id" ref="arr084"></field>
+        </record>
+        <record model="commune.commune" id="com358">
+            <field name="name">Diouroup</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep28"></field>
+            <field name="arrondissement_id" ref="arr084"></field>
+        </record>
+        <record model="commune.commune" id="com359">
+            <field name="name">Djilass</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep28"></field>
+            <field name="arrondissement_id" ref="arr085"></field>
+        </record>
+        <record model="commune.commune" id="com360">
+            <field name="name">Fimela</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep28"></field>
+            <field name="arrondissement_id" ref="arr085"></field>
+        </record>
+        <record model="commune.commune" id="com361">
+            <field name="name">Loul-Sessène</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep28"></field>
+            <field name="arrondissement_id" ref="arr085"></field>
+        </record>
+        <record model="commune.commune" id="com362">
+            <field name="name">Mbélacadiao</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep28"></field>
+            <field name="arrondissement_id" ref="arr083"></field>
+        </record>
+        <record model="commune.commune" id="com363">
+            <field name="name">Ndiob</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep28"></field>
+            <field name="arrondissement_id" ref="arr083"></field>
+        </record>
+        <record model="commune.commune" id="com364">
+            <field name="name">Ngayokhème</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep28"></field>
+            <field name="arrondissement_id" ref="arr082"></field>
+        </record>
+        <record model="commune.commune" id="com365">
+            <field name="name">Niakhar</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep28"></field>
+            <field name="arrondissement_id" ref="arr082"></field>
+        </record>
+        <record model="commune.commune" id="com366">
+            <field name="name">Palmarin Facao</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep28"></field>
+            <field name="arrondissement_id" ref="arr084"></field>
+        </record>
+        <record model="commune.commune" id="com367">
+            <field name="name">Patar</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep28"></field>
+            <field name="arrondissement_id" ref="arr082"></field>
+        </record>
+        <record model="commune.commune" id="com368">
+            <field name="name">Tattaguine</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep28"></field>
+            <field name="arrondissement_id" ref="arr084"></field>
+        </record>
+        <record model="commune.commune" id="com369">
+            <field name="name">Thiaré Ndialgui</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep28"></field>
+            <field name="arrondissement_id" ref="arr083"></field>
+        </record>
+        <record model="commune.commune" id="com370">
+            <field name="name">Bassoul</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep29"></field>
+            <field name="arrondissement_id" ref="arr086"></field>
+        </record>
+        <record model="commune.commune" id="com371">
+            <field name="name">Foundiougne</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep29"></field>
+            <field name="arrondissement_id" ref="foudiougne_ha"></field>
+        </record>
+        <record model="commune.commune" id="com372">
+            <field name="name">Karang Poste</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep29"></field>
+            <field name="arrondissement_id" ref="arr087"></field>
+        </record>
+        <record model="commune.commune" id="com373">
+            <field name="name">Passy</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep29"></field>
+            <field name="arrondissement_id" ref="arr088"></field>
+        </record>
+        <record model="commune.commune" id="com374">
+            <field name="name">Sokone</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep29"></field>
+            <field name="arrondissement_id" ref="foudiougne_ha"></field>
+        </record>
+        <record model="commune.commune" id="com375">
+            <field name="name">Soum</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep29"></field>
+            <field name="arrondissement_id" ref="arr088"></field>
+        </record>
+        <record model="commune.commune" id="com376">
+            <field name="name">Diagane Barka</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep29"></field>
+            <field name="arrondissement_id" ref="arr088"></field>
+        </record>
+        <record model="commune.commune" id="com377">
+            <field name="name">Dionewar</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep29"></field>
+            <field name="arrondissement_id" ref="arr086"></field>
+        </record>
+        <record model="commune.commune" id="com378">
+            <field name="name">Diossong</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep29"></field>
+            <field name="arrondissement_id" ref="arr088"></field>
+        </record>
+        <record model="commune.commune" id="com379">
+            <field name="name">Djilor</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep29"></field>
+            <field name="arrondissement_id" ref="arr088"></field>
+        </record>
+        <record model="commune.commune" id="com380">
+            <field name="name">Djirnda</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep29"></field>
+            <field name="arrondissement_id" ref="arr086"></field>
+        </record>
+        <record model="commune.commune" id="com381">
+            <field name="name">Keur Samba GUEYE</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep29"></field>
+            <field name="arrondissement_id" ref="arr087"></field>
+        </record>
+        <record model="commune.commune" id="com382">
+            <field name="name">Keur Saloum DIANE</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep29"></field>
+            <field name="arrondissement_id" ref="arr087"></field>
+        </record>
+        <record model="commune.commune" id="com383">
+            <field name="name">Mbam</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep29"></field>
+            <field name="arrondissement_id" ref="arr088"></field>
+        </record>
+        <record model="commune.commune" id="com384">
+            <field name="name">Niassène</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep29"></field>
+            <field name="arrondissement_id" ref="arr088"></field>
+        </record>
+        <record model="commune.commune" id="com385">
+            <field name="name">Nioro Alassane TALL</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep29"></field>
+            <field name="arrondissement_id" ref="arr087"></field>
+        </record>
+        <record model="commune.commune" id="com386">
+            <field name="name">Toubacouta</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep29"></field>
+            <field name="arrondissement_id" ref="arr087"></field>
+        </record>
+        <record model="commune.commune" id="com387">
+            <field name="name">Colobane</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep30"></field>
+            <field name="arrondissement_id" ref="arr090"></field>
+        </record>
+        <record model="commune.commune" id="com388">
+            <field name="name">Gossas</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep30"></field>
+            <field name="arrondissement_id" ref="gossas_ha"></field>
+        </record>
+        <record model="commune.commune" id="com389">
+            <field name="name">Mbar</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep30"></field>
+            <field name="arrondissement_id" ref="arr090"></field>
+        </record>
+        <record model="commune.commune" id="com390">
+            <field name="name">Ndiéné Lagane</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep30"></field>
+            <field name="arrondissement_id" ref="arr089"></field>
+        </record>
+        <record model="commune.commune" id="com391">
+            <field name="name">Ouadiour</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep30"></field>
+            <field name="arrondissement_id" ref="arr089"></field>
+        </record>
+        <record model="commune.commune" id="com392">
+            <field name="name">Patar Lia</field>
+            <field name="region_id" ref="sn09"></field>
+            <field name="departement_id" ref="dep30"></field>
+            <field name="arrondissement_id" ref="arr089"></field>
+        </record>
+        <record model="commune.commune" id="com393">
+            <field name="name">Bagadadji</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep31"></field>
+            <field name="arrondissement_id" ref="arr092"></field>
+        </record>
+        <record model="commune.commune" id="com394">
+            <field name="name">Dabo</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep31"></field>
+            <field name="arrondissement_id" ref="arr092"></field>
+        </record>
+        <record model="commune.commune" id="com395">
+            <field name="name">Kolda</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep31"></field>
+            <field name="arrondissement_id" ref="kolda_ha"></field>
+        </record>
+        <record model="commune.commune" id="com396">
+            <field name="name">Salikègne</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep31"></field>
+            <field name="arrondissement_id" ref="arr091"></field>
+        </record>
+        <record model="commune.commune" id="com397">
+            <field name="name">Saré Yoba Diéga</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep31"></field>
+            <field name="arrondissement_id" ref="arr091"></field>
+        </record>
+        <record model="commune.commune" id="com398">
+            <field name="name">Coumbacara</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep31"></field>
+            <field name="arrondissement_id" ref="arr092"></field>
+        </record>
+        <record model="commune.commune" id="com399">
+            <field name="name">Dialambéré</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep31"></field>
+            <field name="arrondissement_id" ref="arr092"></field>
+        </record>
+        <record model="commune.commune" id="com400">
+            <field name="name">Dioulacolon</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep31"></field>
+            <field name="arrondissement_id" ref="arr091"></field>
+        </record>
+        <record model="commune.commune" id="com401">
+            <field name="name">Guiro Yéro Bocar</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep31"></field>
+            <field name="arrondissement_id" ref="arr091"></field>
+        </record>
+        <record model="commune.commune" id="com402">
+            <field name="name">Mampatim</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep31"></field>
+            <field name="arrondissement_id" ref="arr092"></field>
+        </record>
+        <record model="commune.commune" id="com403">
+            <field name="name">Médina El Hadji</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep31"></field>
+            <field name="arrondissement_id" ref="arr091"></field>
+        </record>
+        <record model="commune.commune" id="com404">
+            <field name="name">Médina Chérif</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep31"></field>
+            <field name="arrondissement_id" ref="arr092"></field>
+        </record>
+        <record model="commune.commune" id="com405">
+            <field name="name">Saré Bidji</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep31"></field>
+            <field name="arrondissement_id" ref="arr093"></field>
+        </record>
+        <record model="commune.commune" id="com406">
+            <field name="name">Tankanto Escale</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep31"></field>
+            <field name="arrondissement_id" ref="arr091"></field>
+        </record>
+        <record model="commune.commune" id="com407">
+            <field name="name">Thietty</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep31"></field>
+            <field name="arrondissement_id" ref="arr093"></field>
+        </record>
+        <record model="commune.commune" id="com408">
+            <field name="name">Bonconto</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep32"></field>
+            <field name="arrondissement_id" ref="arr094"></field>
+        </record>
+        <record model="commune.commune" id="com409">
+            <field name="name">Diaoubé - Kabéndou</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep32"></field>
+            <field name="arrondissement_id" ref="arr096"></field>
+        </record>
+        <record model="commune.commune" id="com410">
+            <field name="name">Kounkané</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep32"></field>
+            <field name="arrondissement_id" ref="arr096"></field>
+        </record>
+        <record model="commune.commune" id="com411">
+            <field name="name">Vélingara</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep32"></field>
+            <field name="arrondissement_id" ref="velinguara_ha"></field>
+        </record>
+        <record model="commune.commune" id="com412">
+            <field name="name">Kandia</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep32"></field>
+            <field name="arrondissement_id" ref="arr096"></field>
+        </record>
+        <record model="commune.commune" id="com413">
+            <field name="name">Kandiaye</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep32"></field>
+            <field name="arrondissement_id" ref="arr096"></field>
+        </record>
+        <record model="commune.commune" id="com414">
+            <field name="name">Linkering</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep32"></field>
+            <field name="arrondissement_id" ref="arr094"></field>
+        </record>
+        <record model="commune.commune" id="com415">
+            <field name="name">Médinda Gounass</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep32"></field>
+            <field name="arrondissement_id" ref="arr094"></field>
+        </record>
+        <record model="commune.commune" id="com416">
+            <field name="name">Némataba</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep32"></field>
+            <field name="arrondissement_id" ref="arr096"></field>
+        </record>
+        <record model="commune.commune" id="com417">
+            <field name="name">Ouassadou</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep32"></field>
+            <field name="arrondissement_id" ref="arr095"></field>
+        </record>
+        <record model="commune.commune" id="com418">
+            <field name="name">Pakour</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep32"></field>
+            <field name="arrondissement_id" ref="arr095"></field>
+        </record>
+        <record model="commune.commune" id="com419">
+            <field name="name">Paroumba</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep32"></field>
+            <field name="arrondissement_id" ref="arr095"></field>
+        </record>
+        <record model="commune.commune" id="com420">
+            <field name="name">Saré Coly Sallé</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep32"></field>
+            <field name="arrondissement_id" ref="arr096"></field>
+        </record>
+        <record model="commune.commune" id="com421">
+            <field name="name">Sinthiang Koundara</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep32"></field>
+            <field name="arrondissement_id" ref="arr094"></field>
+        </record>
+        <record model="commune.commune" id="com422">
+            <field name="name">Badion</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep33"></field>
+            <field name="arrondissement_id" ref="arr098"></field>
+        </record>
+        <record model="commune.commune" id="com423">
+            <field name="name">Bignirabé</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep33"></field>
+            <field name="arrondissement_id" ref="arr099"></field>
+        </record>
+        <record model="commune.commune" id="com424">
+            <field name="name">Bourouco</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep33"></field>
+            <field name="arrondissement_id" ref="arr099"></field>
+        </record>
+        <record model="commune.commune" id="com425">
+            <field name="name">Médina Yoro Foulah</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep33"></field>
+            <field name="arrondissement_id" ref="medinayorofoula_ha"></field>
+        </record>
+        <record model="commune.commune" id="com426">
+            <field name="name">Pata</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep33"></field>
+            <field name="arrondissement_id" ref="arr097"></field>
+        </record>
+        <record model="commune.commune" id="com427">
+            <field name="name">Dinguiraye</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep33"></field>
+            <field name="arrondissement_id" ref="arr097"></field>
+        </record>
+        <record model="commune.commune" id="com428">
+            <field name="name">Fafacourou</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep33"></field>
+            <field name="arrondissement_id" ref="arr098"></field>
+        </record>
+        <record model="commune.commune" id="com429">
+            <field name="name">Kéréwane</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep33"></field>
+            <field name="arrondissement_id" ref="arr097"></field>
+        </record>
+        <record model="commune.commune" id="com430">
+            <field name="name">Koulinto</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep33"></field>
+            <field name="arrondissement_id" ref="arr099"></field>
+        </record>
+        <record model="commune.commune" id="com431">
+            <field name="name">Ndorna</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep33"></field>
+            <field name="arrondissement_id" ref="arr099"></field>
+        </record>
+        <record model="commune.commune" id="com432">
+            <field name="name">Niaming</field>
+            <field name="region_id" ref="sn10"></field>
+            <field name="departement_id" ref="dep33"></field>
+            <field name="arrondissement_id" ref="arr097"></field>
+        </record>
+        <record model="commune.commune" id="com433">
+            <field name="name">Agnam-Civol</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep34"></field>
+            <field name="arrondissement_id" ref="arr101"></field>
+        </record>
+        <record model="commune.commune" id="com434">
+            <field name="name">Bokidiawé</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep34"></field>
+            <field name="arrondissement_id" ref="arr100"></field>
+        </record>
+        <record model="commune.commune" id="com435">
+            <field name="name">Matam</field>
+            <field name="departement_id" ref="dep34"></field>
+            <field name="arrondissement_id" ref="matam_ha"></field>
+        </record>
+        <record model="commune.commune" id="com436">
+            <field name="name">Nguidilogne</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep34"></field>
+            <field name="arrondissement_id" ref="arr101"></field>
+        </record>
+        <record model="commune.commune" id="com437">
+            <field name="name">Ourossogui</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep34"></field>
+            <field name="arrondissement_id" ref="matam_ha"></field>
+        </record>
+        <record model="commune.commune" id="com438">
+            <field name="name">Thilogne</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep34"></field>
+            <field name="arrondissement_id" ref="arr101"></field>
+        </record>
+        <record model="commune.commune" id="com439">
+            <field name="name">Dabia</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep34"></field>
+            <field name="arrondissement_id" ref="arr101"></field>
+        </record>
+        <record model="commune.commune" id="com440">
+            <field name="name">Nabadji - Civol</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep34"></field>
+            <field name="arrondissement_id" ref="arr100"></field>
+        </record>
+        <record model="commune.commune" id="com441">
+            <field name="name">Ogo</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep34"></field>
+            <field name="arrondissement_id" ref="arr100"></field>
+        </record>
+        <record model="commune.commune" id="com442">
+            <field name="name">Oréfondé</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep34"></field>
+            <field name="arrondissement_id" ref="arr101"></field>
+        </record>
+        <record model="commune.commune" id="com443">
+            <field name="name">Aouré</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep35"></field>
+            <field name="arrondissement_id" ref="arr103"></field>
+        </record>
+        <record model="commune.commune" id="com444">
+            <field name="name">Bokiladji</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep35"></field>
+            <field name="arrondissement_id" ref="arr103"></field>
+        </record>
+        <record model="commune.commune" id="com445">
+            <field name="name">Dembancane</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep35"></field>
+            <field name="arrondissement_id" ref="arr103"></field>
+        </record>
+        <record model="commune.commune" id="com446">
+            <field name="name">Hamady Hounaré</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep35"></field>
+            <field name="arrondissement_id" ref="arr102"></field>
+        </record>
+        <record model="commune.commune" id="com447">
+            <field name="name">Kanel</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep35"></field>
+            <field name="arrondissement_id" ref="kanel_ha"></field>
+        </record>
+        <record model="commune.commune" id="com448">
+            <field name="name">Odobéré</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep35"></field>
+            <field name="arrondissement_id" ref="arr102"></field>
+        </record>
+        <record model="commune.commune" id="com449">
+            <field name="name">Semmé</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep35"></field>
+            <field name="arrondissement_id" ref="arr103"></field>
+        </record>
+        <record model="commune.commune" id="com450">
+            <field name="name">Sinthiou Bamanbe Banadji</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep35"></field>
+            <field name="arrondissement_id" ref="arr102"></field>
+        </record>
+        <record model="commune.commune" id="com451">
+            <field name="name">Waoundé</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep35"></field>
+            <field name="arrondissement_id" ref="arr103"></field>
+        </record>
+        <record model="commune.commune" id="com452">
+            <field name="name">Ndendory</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep35"></field>
+            <field name="arrondissement_id" ref="arr102"></field>
+        </record>
+        <record model="commune.commune" id="com453">
+            <field name="name">Orkadiéré</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep35"></field>
+            <field name="arrondissement_id" ref="arr103"></field>
+        </record>
+        <record model="commune.commune" id="com454">
+            <field name="name">Wouro Sidy</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep35"></field>
+            <field name="arrondissement_id" ref="arr102"></field>
+        </record>
+        <record model="commune.commune" id="com455">
+            <field name="name">Ranérou</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep36"></field>
+            <field name="arrondissement_id" ref="ranerou_ha"></field>
+        </record>
+        <record model="commune.commune" id="com456">
+            <field name="name">Lougre - Thioly</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep36"></field>
+            <field name="arrondissement_id" ref="arr104"></field>
+        </record>
+        <record model="commune.commune" id="com457">
+            <field name="name">Oudalaye</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep36"></field>
+            <field name="arrondissement_id" ref="arr104"></field>
+        </record>
+        <record model="commune.commune" id="com458">
+            <field name="name">Vélingara</field>
+            <field name="region_id" ref="sn11"></field>
+            <field name="departement_id" ref="dep36"></field>
+            <field name="arrondissement_id" ref="arr104"></field>
+        </record>
+        <record model="commune.commune" id="com459">
+            <field name="name">Boulel</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep37"></field>
+            <field name="arrondissement_id" ref="arr105"></field>
+        </record>
+        <record model="commune.commune" id="com460">
+            <field name="name">Nganda</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep37"></field>
+            <field name="arrondissement_id" ref="arr106"></field>
+        </record>
+        <record model="commune.commune" id="com461">
+            <field name="name">Kaffrine</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep37"></field>
+            <field name="arrondissement_id" ref="kaffrine_ha"></field>
+        </record>
+        <record model="commune.commune" id="com462">
+            <field name="name">Diamagadio</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep37"></field>
+            <field name="arrondissement_id" ref="arr106"></field>
+        </record>
+        <record model="commune.commune" id="com463">
+            <field name="name">Diokoul Mbelbouck</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep37"></field>
+            <field name="arrondissement_id" ref="arr106"></field>
+        </record>
+        <record model="commune.commune" id="com464">
+            <field name="name">Gniby</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep37"></field>
+            <field name="arrondissement_id" ref="arr105"></field>
+        </record>
+        <record model="commune.commune" id="com465">
+            <field name="name">Kahi</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep37"></field>
+            <field name="arrondissement_id" ref="arr105"></field>
+        </record>
+        <record model="commune.commune" id="com466">
+            <field name="name">Kathiote</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep37"></field>
+            <field name="arrondissement_id" ref="arr106"></field>
+        </record>
+        <record model="commune.commune" id="com467">
+            <field name="name">Médinatoul Salam 2</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep37"></field>
+            <field name="arrondissement_id" ref="arr106"></field>
+        </record>
+        <record model="commune.commune" id="com468">
+            <field name="name">Ndiognick</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep38"></field>
+            <field name="arrondissement_id" ref="arr108"></field>
+        </record>
+        <record model="commune.commune" id="com469">
+            <field name="name">Birkilane</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep38"></field>
+            <field name="arrondissement_id" ref="birkilane_ha"></field>
+        </record>
+        <record model="commune.commune" id="com470">
+            <field name="name">Diamal</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep38"></field>
+            <field name="arrondissement_id" ref="arr107"></field>
+        </record>
+        <record model="commune.commune" id="com471">
+            <field name="name">Keur Mbouki</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep38"></field>
+            <field name="arrondissement_id" ref="arr107"></field>
+        </record>
+        <record model="commune.commune" id="com472">
+            <field name="name">Mabo</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep38"></field>
+            <field name="arrondissement_id" ref="arr108"></field>
+        </record>
+        <record model="commune.commune" id="com473">
+            <field name="name">Mbeuleup</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep38"></field>
+            <field name="arrondissement_id" ref="arr108"></field>
+        </record>
+        <record model="commune.commune" id="com474">
+            <field name="name">Ségré Gatta</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep38"></field>
+            <field name="arrondissement_id" ref="arr108"></field>
+        </record>
+        <record model="commune.commune" id="com475">
+            <field name="name">Touba Mbella</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep38"></field>
+            <field name="arrondissement_id" ref="arr107"></field>
+        </record>
+        <record model="commune.commune" id="com476">
+            <field name="name">Ndioum Ngainth</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep39"></field>
+            <field name="arrondissement_id" ref="arr110"></field>
+        </record>
+        <record model="commune.commune" id="com477">
+            <field name="name">Malem-Hodar</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep39"></field>
+            <field name="arrondissement_id" ref="malemhoddar_ha"></field>
+        </record>
+        <record model="commune.commune" id="com478">
+            <field name="name">Darou Minan II</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep39"></field>
+            <field name="arrondissement_id" ref="arr110"></field>
+        </record>
+        <record model="commune.commune" id="com479">
+            <field name="name">Dianke Souf</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep39"></field>
+            <field name="arrondissement_id" ref="arr109"></field>
+        </record>
+        <record model="commune.commune" id="com480">
+            <field name="name">Khelcom</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep39"></field>
+            <field name="arrondissement_id" ref="arr110"></field>
+        </record>
+        <record model="commune.commune" id="com481">
+            <field name="name">Ndiobène Samba LAMO</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep39"></field>
+            <field name="arrondissement_id" ref="arr110"></field>
+        </record>
+        <record model="commune.commune" id="com482">
+            <field name="name">Sagna</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep39"></field>
+            <field name="arrondissement_id" ref="arr109"></field>
+        </record>
+        <record model="commune.commune" id="com483">
+            <field name="name">Koungheul</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep40"></field>
+            <field name="arrondissement_id" ref="koungheul_ha"></field>
+        </record>
+        <record model="commune.commune" id="com484">
+            <field name="name">Fass Thiékène</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep40"></field>
+            <field name="arrondissement_id" ref="arr112"></field>
+        </record>
+        <record model="commune.commune" id="com485">
+            <field name="name">Gainthé Pathé</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep40"></field>
+            <field name="arrondissement_id" ref="arr111"></field>
+        </record>
+        <record model="commune.commune" id="com486">
+            <field name="name">Ida Mouride</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep40"></field>
+            <field name="arrondissement_id" ref="arr112"></field>
+        </record>
+        <record model="commune.commune" id="com487">
+            <field name="name">Lour Escale</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep40"></field>
+            <field name="arrondissement_id" ref="arr113"></field>
+        </record>
+        <record model="commune.commune" id="com488">
+            <field name="name">Maka Yop</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep40"></field>
+            <field name="arrondissement_id" ref="arr111"></field>
+        </record>
+        <record model="commune.commune" id="com489">
+            <field name="name">Missirah Wadène</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep40"></field>
+            <field name="arrondissement_id" ref="arr111"></field>
+        </record>
+        <record model="commune.commune" id="com490">
+            <field name="name">Ribot Escale</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep40"></field>
+            <field name="arrondissement_id" ref="arr113"></field>
+        </record>
+        <record model="commune.commune" id="com491">
+            <field name="name">Saly Escale</field>
+            <field name="region_id" ref="sn12"></field>
+            <field name="departement_id" ref="dep40"></field>
+            <field name="arrondissement_id" ref="arr112"></field>
+        </record>
+        <record model="commune.commune" id="com492">
+            <field name="name">Salémata</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep41"></field>
+            <field name="arrondissement_id" ref="salemata_ha"></field>
+        </record>
+        <record model="commune.commune" id="com493">
+            <field name="name">Dakatéli</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep41"></field>
+            <field name="arrondissement_id" ref="arr115"></field>
+        </record>
+        <record model="commune.commune" id="com494">
+            <field name="name">Dar Salam</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep41"></field>
+            <field name="arrondissement_id" ref="arr114"></field>
+        </record>
+        <record model="commune.commune" id="com495">
+            <field name="name">Ethiolo</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep41"></field>
+            <field name="arrondissement_id" ref="arr114"></field>
+        </record>
+        <record model="commune.commune" id="com496">
+            <field name="name">Kévoye</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep41"></field>
+            <field name="arrondissement_id" ref="arr115"></field>
+        </record>
+        <record model="commune.commune" id="com497">
+            <field name="name">Oubadji</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep41"></field>
+            <field name="arrondissement_id" ref="arr114"></field>
+        </record>
+        <record model="commune.commune" id="com498">
+            <field name="name">Bandafassi</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep42"></field>
+            <field name="arrondissement_id" ref="arr117"></field>
+        </record>
+        <record model="commune.commune" id="com499">
+            <field name="name">Kédougou</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep42"></field>
+            <field name="arrondissement_id" ref="kedougou_ha"></field>
+        </record>
+        <record model="commune.commune" id="com500">
+            <field name="name">Dimboli</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep42"></field>
+            <field name="arrondissement_id" ref="arr116"></field>
+        </record>
+        <record model="commune.commune" id="com501">
+            <field name="name">Dindifélo</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep42"></field>
+            <field name="arrondissement_id" ref="arr117"></field>
+        </record>
+        <record model="commune.commune" id="com502">
+            <field name="name">Fongolimbi</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep42"></field>
+            <field name="arrondissement_id" ref="arr116"></field>
+        </record>
+        <record model="commune.commune" id="com503">
+            <field name="name">Ninéfécha</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep42"></field>
+            <field name="arrondissement_id" ref="arr117"></field>
+        </record>
+        <record model="commune.commune" id="com504">
+            <field name="name">Tomboronkoto</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep42"></field>
+            <field name="arrondissement_id" ref="arr117"></field>
+        </record>
+        <record model="commune.commune" id="com505">
+            <field name="name">Bembou</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep43"></field>
+            <field name="arrondissement_id" ref="arr118"></field>
+        </record>
+        <record model="commune.commune" id="com506">
+            <field name="name">Saraya</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep43"></field>
+            <field name="arrondissement_id" ref="saraya_ha"></field>
+        </record>
+        <record model="commune.commune" id="com507">
+            <field name="name">Khossanto</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep43"></field>
+            <field name="arrondissement_id" ref="arr119"></field>
+        </record>
+        <record model="commune.commune" id="com508">
+            <field name="name">Médina Baffe</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep43"></field>
+            <field name="arrondissement_id" ref="arr118"></field>
+        </record>
+        <record model="commune.commune" id="com509">
+            <field name="name">Missirah Sirimana</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep43"></field>
+            <field name="arrondissement_id" ref="arr119"></field>
+        </record>
+        <record model="commune.commune" id="com510">
+            <field name="name">Sabodala</field>
+            <field name="region_id" ref="sn13"></field>
+            <field name="departement_id" ref="dep43"></field>
+            <field name="arrondissement_id" ref="arr119"></field>
+        </record>
+        <record model="commune.commune" id="com511">
+            <field name="name">Bambali</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep44"></field>
+            <field name="arrondissement_id" ref="arr122"></field>
+        </record>
+        <record model="commune.commune" id="com512">
+            <field name="name">Benet - Bijini</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep44"></field>
+            <field name="arrondissement_id" ref="arr121"></field>
+        </record>
+        <record model="commune.commune" id="com513">
+            <field name="name">Diannah Malary</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep44"></field>
+            <field name="arrondissement_id" ref="arr120"></field>
+        </record>
+        <record model="commune.commune" id="com514">
+            <field name="name">Marsassoum</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep44"></field>
+            <field name="arrondissement_id" ref="sedhiou_ha"></field>
+        </record>
+        <record model="commune.commune" id="com515">
+            <field name="name">Sédhiou</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep44"></field>
+            <field name="arrondissement_id" ref="sedhiou_ha"></field>
+        </record>
+        <record model="commune.commune" id="com516">
+            <field name="name">Diannah BÂ</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep44"></field>
+            <field name="arrondissement_id" ref="arr120"></field>
+        </record>
+        <record model="commune.commune" id="com517">
+            <field name="name">Diendé</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep44"></field>
+            <field name="arrondissement_id" ref="arr120"></field>
+        </record>
+        <record model="commune.commune" id="com518">
+            <field name="name">Djibabouya</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep44"></field>
+            <field name="arrondissement_id" ref="arr121"></field>
+        </record>
+        <record model="commune.commune" id="com519">
+            <field name="name">Djirédji</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep44"></field>
+            <field name="arrondissement_id" ref="arr122"></field>
+        </record>
+        <record model="commune.commune" id="com520">
+            <field name="name">Koussy</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep44"></field>
+            <field name="arrondissement_id" ref="arr120"></field>
+        </record>
+        <record model="commune.commune" id="com521">
+            <field name="name">Oudoucar</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep44"></field>
+            <field name="arrondissement_id" ref="arr120"></field>
+        </record>
+        <record model="commune.commune" id="com522">
+            <field name="name">Sakar</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep44"></field>
+            <field name="arrondissement_id" ref="arr120"></field>
+        </record>
+        <record model="commune.commune" id="com523">
+            <field name="name">Sama Kanta Peulh</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep44"></field>
+            <field name="arrondissement_id" ref="arr120"></field>
+        </record>
+        <record model="commune.commune" id="com524">
+            <field name="name">Sansamba</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep44"></field>
+            <field name="arrondissement_id" ref="arr121"></field>
+        </record>
+        <record model="commune.commune" id="com525">
+            <field name="name">Boghal</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep45"></field>
+            <field name="arrondissement_id" ref="arr123"></field>
+        </record>
+        <record model="commune.commune" id="com526">
+            <field name="name">Bona</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep45"></field>
+            <field name="arrondissement_id" ref="arr125"></field>
+        </record>
+        <record model="commune.commune" id="com527">
+            <field name="name">Bounkiling</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep45"></field>
+            <field name="arrondissement_id" ref="bounkiling_ha"></field>
+        </record>
+        <record model="commune.commune" id="com528">
+            <field name="name">Madina Wandifa</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep45"></field>
+            <field name="arrondissement_id" ref="arr124"></field>
+        </record>
+        <record model="commune.commune" id="com529">
+            <field name="name">Ndiamacouta</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep45"></field>
+            <field name="arrondissement_id" ref="arr123"></field>
+        </record>
+        <record model="commune.commune" id="com530">
+            <field name="name">Diacounda</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep45"></field>
+            <field name="arrondissement_id" ref="arr125"></field>
+        </record>
+        <record model="commune.commune" id="com531">
+            <field name="name">Diambaty</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep45"></field>
+            <field name="arrondissement_id" ref="arr124"></field>
+        </record>
+        <record model="commune.commune" id="com532">
+            <field name="name">Diaroume</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep45"></field>
+            <field name="arrondissement_id" ref="arr124"></field>
+        </record>
+        <record model="commune.commune" id="com533">
+            <field name="name">Djinany</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep45"></field>
+            <field name="arrondissement_id" ref="arr123"></field>
+        </record>
+        <record model="commune.commune" id="com534">
+            <field name="name">Faoune</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep45"></field>
+            <field name="arrondissement_id" ref="arr124"></field>
+        </record>
+        <record model="commune.commune" id="com535">
+            <field name="name">Inor</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep45"></field>
+            <field name="arrondissement_id" ref="arr125"></field>
+        </record>
+        <record model="commune.commune" id="com536">
+            <field name="name">Kandion Mangana</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep45"></field>
+            <field name="arrondissement_id" ref="arr125"></field>
+        </record>
+        <record model="commune.commune" id="com537">
+            <field name="name">Ndiamalathiel</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep45"></field>
+            <field name="arrondissement_id" ref="arr123"></field>
+        </record>
+        <record model="commune.commune" id="com538">
+            <field name="name">Tankon</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep45"></field>
+            <field name="arrondissement_id" ref="arr123"></field>
+        </record>
+        <record model="commune.commune" id="com539">
+            <field name="name">Baghéré</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep46"></field>
+            <field name="arrondissement_id" ref="arr128"></field>
+        </record>
+        <record model="commune.commune" id="com540">
+            <field name="name">Diattacounda</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep46"></field>
+            <field name="arrondissement_id" ref="arr127"></field>
+        </record>
+        <record model="commune.commune" id="com541">
+            <field name="name">Goudomp</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep46"></field>
+            <field name="arrondissement_id" ref="goudomp_ha"></field>
+        </record>
+        <record model="commune.commune" id="com542">
+            <field name="name">Samine</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep46"></field>
+            <field name="arrondissement_id" ref="arr127"></field>
+        </record>
+        <record model="commune.commune" id="com543">
+            <field name="name">Tanaff</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep46"></field>
+            <field name="arrondissement_id" ref="arr128"></field>
+        </record>
+        <record model="commune.commune" id="com544">
+            <field name="name">Diouboudou</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep46"></field>
+            <field name="arrondissement_id" ref="arr128"></field>
+        </record>
+        <record model="commune.commune" id="com545">
+            <field name="name">Djibanar</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep46"></field>
+            <field name="arrondissement_id" ref="arr127"></field>
+        </record>
+        <record model="commune.commune" id="com546">
+            <field name="name">Kaour</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep46"></field>
+            <field name="arrondissement_id" ref="arr127"></field>
+        </record>
+        <record model="commune.commune" id="com547">
+            <field name="name">Karantaba</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep46"></field>
+            <field name="arrondissement_id" ref="arr126"></field>
+        </record>
+        <record model="commune.commune" id="com548">
+            <field name="name">Kolibantang</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep46"></field>
+            <field name="arrondissement_id" ref="arr126"></field>
+        </record>
+        <record model="commune.commune" id="com549">
+            <field name="name">Mangaroungou Santo</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep46"></field>
+            <field name="arrondissement_id" ref="arr127"></field>
+        </record>
+        <record model="commune.commune" id="com550">
+            <field name="name">Niagha</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep46"></field>
+            <field name="arrondissement_id" ref="arr128"></field>
+        </record>
+        <record model="commune.commune" id="com551">
+            <field name="name">Simbadi Balanté</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep46"></field>
+            <field name="arrondissement_id" ref="arr127"></field>
+        </record>
+        <record model="commune.commune" id="com552">
+            <field name="name">Simbandi Brassou</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep46"></field>
+            <field name="arrondissement_id" ref="arr128"></field>
+        </record>
+        <record model="commune.commune" id="com553">
+            <field name="name">Yarang Balanté</field>
+            <field name="region_id" ref="sn14"></field>
+            <field name="departement_id" ref="dep46"></field>
+            <field name="arrondissement_id" ref="arr127"></field>
+        </record>
+    </data>
+</odoo>
