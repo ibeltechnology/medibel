@@ -1,0 +1,2 @@
+id,name,model_id,group_id:id,operation,domain
+access_medical_gender_base.group_user,access_medical_gender_base.group_user,medical.gender,base.group_user,crud,

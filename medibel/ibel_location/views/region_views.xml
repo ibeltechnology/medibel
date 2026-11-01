@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="region_form_view" model="ir.ui.view">
+            <field name="name">region.form.view</field>
+            <field name="model">region.region</field>
+            <field name="arch" type="xml">
+                <form string="Region">
+                    <sheet>
+                        <div class="oe_button_box" name="button_box">
+                            <button name="get_region_id_departement_ids" type="object" class="oe_stat_button" icon="fa-object-group">
+                                <div class="o_stat_info">
+                                    <field name="departement_ids_count" class="o_stat_value"/>
+                                    <span class="o_stat_text">Départements</span>
+                                </div>
+                            </button>
+                            <button name="get_region_id_arrondissement_ids" type="object" class="oe_stat_button" icon="fa-code-fork">
+                                <div class="o_stat_info">
+                                    <field name="arrondissement_ids_count" class="o_stat_value"/>
+                                    <span class="o_stat_text">Arrondissements</span>
+                                </div>
+                            </button>
+                            <button name="get_region_id_commune_ids" type="object" class="oe_stat_button" icon="fa-building">
+                                <div class="o_stat_info">
+                                    <field name="commune_ids_count" class="o_stat_value"/>
+                                    <span class="o_stat_text">Communes</span>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="oe_title">
+                            <div class="oe_edit_only">
+                                <label for="name"/>
+                            </div>
+                            <h1 class="mb32">
+                                <field name="name" class="mb16"/>
+                            </h1>
+                        </div>
+                        <group colspan="4" col="4">
+                            <field name="code"/>
+                            <field name="res_country_id" />
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="region_tree_view" model="ir.ui.view">
+            <field name="name">region.tree.view</field>
+            <field name="model">region.region</field>
+            <field name="arch" type="xml">
+                <list string="Region">
+                    <field name="name"/>
+                    <field name="code"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="action_region" model="ir.actions.act_window">
+            <field name="name">Region</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">region.region</field>
+            <field name="binding_view_types">form</field>
+            <field name="view_mode">list,form</field>
+        </record>
+
+    </data>
+</odoo>

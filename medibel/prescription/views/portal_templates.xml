@@ -1,2 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
 <odoo>
+    <template id="portal_breadcrumbs_prescriptions" name="Prescription Breadcrumbs" inherit_id="portal.portal_breadcrumbs" priority="30">
+        <xpath expr="//ol[hasclass('o_portal_submenu')]" position="inside">
+            <!-- Liste -->
+            <li t-if="page_name == 'prescription'" t-att-class="'breadcrumb-item' + (' active' if not prescription else '')">
+                <a t-if="prescription" href="/my/prescriptions">
+                    My prescriptions
+                </a>
+                <t t-else="">
+                    My prescriptions
+                </t>
+            </li>
+            <!-- Détail -->
+            <li t-if="page_name == 'prescription' and prescription" class="breadcrumb-item active">
+                <span t-field="prescription.name"/>
+            </li>
+        </xpath>
+    </template>
+    
+    <template id="portal_my_prescriptions" name="My Prescriptions">
+        <t t-call="portal.portal_layout" breadcrumbs_searchbar="True">
+        <t t-call="portal.portal_searchbar" breadcrumbs_searchbar="True" title.translate="Prescription"/>
+            <t t-if="not prescriptions">
+                <div class="alert alert-info">
+                    You have no prescriptions.
+                </div>
+            </t>
+            <t t-if="prescriptions" t-call="portal.portal_table">
+                <thead>
+                    <tr>
+                        <th>Reference</th>
+                        <th>Date</th>
+                        <th>Doctor</th>
+                        <th>Medicines</th>
+                        <th class="text-end">Actions</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr t-foreach="prescriptions" t-as="prescription">
+                        <td>
+                            <a t-att-href="prescription.get_portal_url()">
+                                <span t-field="prescription.name"/>
+                            </a>
+                        </td>
+                        <td>
+                            <span t-field="prescription.prescription_date"/>
+                        </td>
+                        <td>
+                            <span t-field="prescription.doctor_id.name"/>
+                        </td>
+                        <td>
+                            <span t-out="len(prescription.prescription_line_ids)"/>
+                        </td>
+                        <td class="text-end">
+                            <a t-att-href="prescription.get_portal_url()" class="btn btn-sm btn-outline-primary">
+                                View
+                            </a>
+                            <a t-att-href="'%s?report_type=pdf&amp;download=true' % prescription.get_portal_url()" class="btn btn-sm btn-primary">
+                                Download
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </t>
+        </t>
+    </template>
+
+    <template id="portal_prescription_page" name="Prescription Details" inherit_id="portal.portal_sidebar" primary="True">
+        <xpath expr="//div[hasclass('o_portal_sidebar')]" position="inside">
+            <div class="row o_portal_prescription_sidebar">
+                <!-- Sidebar title -->
+                <t t-set="title">
+                    <h2 class="mb-0 text-break mx-auto">
+                        <span t-field="prescription.name"/>
+                    </h2>
+                    <div class="small w-100 text-center mt-2">
+                        <i class="oi" data-icon="schedule"/>
+                        <span t-field="prescription.prescription_date"/>
+                    </div>
+                </t>
+                <!-- Sidebar entries -->
+                <t t-set="entries">
+                    <div class="d-flex flex-column gap-4 mt-3">
+                        <!-- Download -->
+                        <div class="d-flex flex-column gap-2">
+                            <div class="o_download_pdf d-flex flex-lg-column flex-xl-row flex-wrap gap-2">
+                                <a class="btn btn-light o_download_btn flex-grow-1" t-att-href="prescription.get_portal_url(report_type='pdf', download=True)" title="Télécharger">
+                                    <i class="oi oi-fw" data-icon="download"/>
+                                    Télécharger
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Patient -->
+                        <div>
+                            <h6>
+                                <small class="text-muted">Patient</small>
+                            </h6>
+                            <div class="fw-semibold">
+                                <span t-field="prescription.patient_id"/>
+                            </div>
+                        </div>
+
+                        <!-- Doctor -->
+
+                        <div t-if="prescription.doctor_id">
+                            <h6>
+                                <small class="text-muted">
+                                    Médecin prescripteur
+                                </small>
+                            </h6>
+                             <t t-call="portal.portal_my_contact"
+                                 _contact_avatar="image_data_uri(prescription.doctor_id.avatar_128)"
+                                 _contact_name="prescription.doctor_id.name"
+                                 _contact_link="True"/> 
+                        </div>
+                    </div>
+                </t>
+                <!-- Native Odoo 20 sidebar -->
+                <t t-call="portal.portal_record_sidebar" classes.f="col-lg-4 col-xxl-3 d-print-none" title="title" entries="entries"/>
+                <!-- Page content -->
+                <div id="prescription_content" class="o_portal_content col-12 col-lg-8 col-xxl-9">
+                    <div class="o_portal_html_view position-relative bg-white shadow overflow-hidden">
+                        <!-- Loader -->
+                        <div class="o_portal_html_loader text-center">
+                            <i class="oi oi-fw oi-spin oi-2x text-black-50" data-icon="autorenew"/>
+                        </div>
+                        <!-- Rapport HTML -->
+
+                        <iframe id="prescription_html" class="position-relative d-block" width="100%" height="100%" frameborder="0" scrolling="no" title="Aperçu de l'ordonnance" t-att-src="prescription.get_portal_url(report_type='html')"/>
+                    </div>
+                    <!-- chatter -->
+                    <div id="invoice_communication" class="mt-4">
+                        <t t-call="portal.message_thread"/>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
 </odoo>

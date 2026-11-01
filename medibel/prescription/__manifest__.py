@@ -13,6 +13,8 @@
         'patients',
         'medicaments_sn',
         'portal',
+        'product',
+        'website',
     ],
     'data': [
         "security/res_groups.xml",
@@ -31,6 +33,8 @@
     'images': ['prescription/static/description/cover.png'],
     'application': True,
     'assets': {
-
+        'web.assets_frontend': [
+            'prescription/static/src/interactions/**/*',
+            ]
     },
 }

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="departement_form_view" model="ir.ui.view">
+            <field name="name">departement.form.view</field>
+            <field name="model">departement.departement</field>
+            <field name="arch" type="xml">
+                <form string="departement">
+                    <sheet>
+                        <div name="button_box" class="oe_button_box" >
+                            <button name="get_region_id_arrondissement_ids" type="object" class="oe_stat_button" icon="fa-code-fork">
+                                <div class="o_stat_info">
+                                    <field name="arrondissement_ids_count" class="o_stat_value"/>
+                                    <span class="o_stat_text">Arrondissements</span>
+                                </div>
+                            </button>
+                            <button name="get_region_id_commune_ids" type="object" class="oe_stat_button" icon="fa-building">
+                                <div class="o_stat_info">
+                                    <field name="commune_ids_count" class="o_stat_value"/>
+                                    <span class="o_stat_text">Communes</span>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="oe_title">
+                            <div class="oe_edit_only">
+                                <label for="name"/>
+                            </div>
+                            <h1 class="mb32">
+                                <field name="name" class="mb16"/>
+                            </h1>
+                        </div>
+                        <group colspan="4" col="4">
+                            <field name="code" invisible="1"/>
+                            <field name="region_id" />
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="departement_tree_view" model="ir.ui.view">
+            <field name="name">departement.tree.view</field>
+            <field name="model">departement.departement</field>
+            <field name="arch" type="xml">
+                <list string="departement">
+                    <field name="name"/>
+                    <field name="code"/>
+                    <field name="region_id"/>
+                </list>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="departement_search_view">
+            <field name="name">departement.departement.search</field>
+            <field name="model">departement.departement</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name"/>
+                    <filter name="by_region" string="Region" context="{'group_by': 'region_id'}"/>                    
+                </search>
+            </field>
+        </record>
+        <record id="action_departement" model="ir.actions.act_window">
+            <field name="name">Departement</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">departement.departement</field>
+            <field name="binding_view_types">form</field>
+            <field name="view_mode">list,form</field>
+        </record>
+
+    </data>
+</odoo>

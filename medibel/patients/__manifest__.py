@@ -8,10 +8,12 @@
     'license': 'LGPL-3',
     'depends': [
         'base',
+        'portal',
         'ibel_gender',
         'partner_personal_profile',
         'medical_pathology',
         'medical_specialty',
+        
     ],
     'data': [
         "security/security.xml",
@@ -24,6 +26,7 @@
         "views/arrondissement_views.xml",
         "views/commune_views.xml",
         "views/res_config_settings_views.xml",
+        "views/portal_templates.xml",
         # Add XML files if needed
     ],
     'images': ['patient/static/description/cover.png'],
